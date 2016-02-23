@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>jQuery Scrollify - Power steering for your scroll wheel</title>
+		<!--[if lt IE 9]>
+		<script src="script/html5shiv.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300"/>
+		<link rel="stylesheet" href="style/main.css" />
+
+	</head>
+	<body>
+		<section class="panel home" data-section-name="home">
+			<div class="inner">
+				<header>
+					<h1>SCROLLIFY</h1>
+					<p class="tagline">Power steering for your scroll wheel</p>
+				</header>
+				<p>A jQuery plugin that assists scrolling and smoothly snaps to sections.</p>
+				<p>Fully configurable and optimised for touch.</p>
+				<p><a href="https://github.com/lukehaas/Scrollify" target="_blank">https://github.com/lukehaas/Scrollify</a></p>
+				<div class="ads-container">
+					<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=projectslukehaasmecssloaders" id="_carbonads_js"></script>
+				</div>
+				<a href="#overview" class="scroll">Scroll for more</a>
+				<a href="http://twitter.com/lukehaas" target="_blank" class="twitter"><img src="images/me.jpeg" width="45" height="45" alt="Twitter pic"><span>Created by @lukehaas</span></a>
+				<a href="http://lukehaas.me/projects" class="back">&laquo; More Projects</a>
+			</div>
+		</section>
+		<section class="panel overview" data-section-name="overview">
+			<div class="inner">
+				<h2>Basic Setup</h2>
+				<p>Scrollify requires <a href="http://jquery.com/" target="_blank">jQuery</a> 1.6+.</p>
+				<pre>
+	&lt;! doctype html&gt;
+	&lt;html&gt;
+		&lt;head&gt;
+			&lt;script&gt;
+				$(function() {
+					$.scrollify({
+						section : "section",
+					});
+				});
+			&lt;/script&gt;
+		&lt;/head&gt;
+		&lt;body&gt;
+			&lt;section&gt;&lt;/section&gt;
+			&lt;section&gt;&lt;/section&gt;
+		&lt;/body&gt;
+	&lt;/html&gt;
+				</pre>
+
+			</div>
+		</section>
+		<section class="panel configuration" data-section-name="configuration">
+			<div class="inner">
+			<h2>Configuration</h2>
+				<pre>
+	$.scrollify({
+		section : "section",
+		sectionName : "section-name",
+		easing: "easeOutExpo",
+		scrollSpeed: 1100,
+		offset : 0,
+		scrollbars: true,
+		standardScrollElements: "",
+		before:function() {},
+		after:function() {},
+		afterResize:function() {},
+		afterRender:function() {}
+	});
+				</pre>
+			</div>
+		</section>
+		<section class="panel options" data-section-name="options">
+			<div class="inner">
+				<h2>Options</h2>
+				<dl>
+					<dt>section</dt>
+					<dd>A selector for the sections.</dd>
+					<dt>sectionName</dt>
+					<dd>Scrollify lets you define a hash value for each section. This makes it possible to permalink to particular sections. This is set as a data attribute on the sections. The name of the data attribute is defined by 'sectionName'.</dd>
+					<dt>easing</dt>
+					<dd>Define the easing method.</dd>
+					<dt>offset</dt>
+					<dd>A distance in pixels to offset each sections position by.</dd>
+					<dt>scrollbars</dt>
+					<dd>A boolean to define whether scroll bars are visible or not.</dd>
+					<dt>standardScrollElements</dt>
+					<dd>A string of selectors for elements that require standard scrolling behaviour.</dd>
+					<dt>before</dt>
+					<dd>A callback that is fired before a section is scrolled to via the move method. Arguments include the index of the section and an array of all section elements.</dd>
+					<dt>after</dt>
+					<dd>A callback that is fired after a new section is scrolled to. Arguments include the index of the section and an array of all section elements.</dd>
+					<dt>afterResize</dt>
+					<dd>A callback that is fired after the window is resized.</dd>
+					<dt>afterRender</dt>
+					<dd>A callback that is fired after Scrollify's initialisation.</dd>
+				</dl>
+			</div>
+		</section>
+		<section class="panel methods" data-section-name="methods">
+			<div class="inner">
+				<h2>Methods</h2>
+				<pre class="single">
+$.scrollify.move("#name");
+				</pre>
+				<p>The move method can be used to scroll to a particular section. This can take the index of the section, or the name of the section preceded by a hash.</p>
+				<pre class="single">
+$.scrollify.instantMove("#name");
+				</pre>
+				<p>The instantMove method can be used to scroll to a particular section without animation. It can be parsed the index of the section, or the name of the section preceded by a hash.</p>
+				<pre class="single">
+$.scrollify.next();
+				</pre>
+				<p>The next method can be used to scroll to a panel that immediately follows the current panel.</p>
+				<pre class="single">
+$.scrollify.previous();
+				</pre>
+				<p>The previous method can be used to scroll to a panel that immediately precedes the current panel.</p>
+				<pre class="single">
+$.scrollify.instantNext();
+				</pre>
+				<p>The instantNext method can be used to scroll to a panel that immediately follows the current panel, without animation.</p>
+				<pre class="single">
+$.scrollify.instantPrevious();
+				</pre>
+				<p>The instantPrevious method can be used to scroll to a panel that immediately precedes the current panel.</p>
+
+			</div>
+		</section>
+		<section class="panel methods-continued" data-section-name="methods-continued">
+			<div class="inner">
+				<h2>Methods Continued</h2>
+				<pre class="single">
+$.scrollify.destroy();
+				</pre>
+				<p>The destroy method removes all Scrollify events and removes set heights from the panels.</p>
+				<pre class="single">
+$.scrollify.update();
+				</pre>
+				<p>The update method recalculates the heights and positions of the panels.</p>
+				<pre class="single">
+$.scrollify.current();
+				</pre>
+				<p>The current method returns the current section as a jQuery object.</p>
+				<pre class="single">
+$.scrollify.disable();
+				</pre>
+				<p>The disable method turns off the scroll snap behaviour so that the page scroll like normal.</p>
+				<pre class="single">
+$.scrollify.enable();
+				</pre>
+				<p>The enable method resumes the scroll snap behaviour after the disable method has been used.</p>
+				<pre class="single">
+$.scrollify.isDisabled();
+				</pre>
+				<p>The isDisabled method returns true if Scrollify is currently disabled, otherwise false.</p>
+
+			</div>
+
+		</section>
+
+		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+		<!--<script src="script/jquery-2.1.1.js"></script>-->
+		<!--<script src="script/jquery-1.11.1.js"></script>-->
+
+		<script src="js/jquery.scrollify.js"></script>
+		<script src="script/main.js"></script>
+\
+	</body>
+</html>
