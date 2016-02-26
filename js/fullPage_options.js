@@ -42,7 +42,7 @@ $(document).ready(function() {
     resize : false,
     paddingTop: '3em',
     paddingBottom: '10px',
-    fixedElements: '#header, .footer',
+    fixedElements: '#header',
     responsiveWidth: 0,
     responsiveHeight: 0
   });
