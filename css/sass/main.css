@@ -69,6 +69,8 @@ h1 {
 
 .video-padding {
   padding-top: 0px !important;
+  padding-bottom: 60px !important;
+  margin-bottom: 15px;
 }
 
 .embed-container {
@@ -102,4 +104,20 @@ h1 {
 
 .button-secondary {
   background-color: #008B8F;
+}
+
+#home_section {
+  background-image: url("../../media/img/home_reef.jpg");
+  color: white;
+  text-align: center;
+}
+
+#home_section ul {
+  list-style-type: none;
+}
+
+#home_section ul li {
+  display: inline-block;
+  border-bottom: 4px solid #DF7760;
+  margin: 0 15px;
 }

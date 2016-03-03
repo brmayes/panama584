@@ -30,6 +30,11 @@
   $grey: #9D9994;
   $light-grey: #E2DFDC;
 
+  @mixin center {
+    display: block;
+    margin: 0 auto;
+  }
+
 /* General */
   body {
     background-color: white;
@@ -85,6 +90,8 @@
 
   .video-padding {
     padding-top: 0px !important;
+    padding-bottom: 60px !important;
+    margin-bottom: 15px;
   }
 
   .embed-container {
@@ -123,4 +130,19 @@
   .button-secondary {
     @extend .button-primary;
     background-color: $teal-base;
+  }
+
+// sections
+  #home_section {
+    background-image: url("../../media/img/home_reef.jpg");
+    color: white;
+    text-align: center;
+    & ul {
+      list-style-type: none;
+      & li {
+        display: inline-block;
+        border-bottom: 4px solid $coral-base;
+        margin: 0 15px;
+      }
+    }
   }
