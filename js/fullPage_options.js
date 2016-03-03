@@ -36,7 +36,7 @@ $(document).ready(function() {
     recordHistory: true,
 
     //Design
-    sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+    sectionsColor: ['#FFFFFF'],
     controlArrows: false,
     verticalCentered: true,
     resize : false,
