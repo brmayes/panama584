@@ -19,9 +19,9 @@
 /* General */
 body {
   background-color: white;
-  font-size: 16pt;
+  font-size: 14pt;
   font-family: "proxima-nova", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   color: #282423;
 }
 
@@ -120,4 +120,24 @@ h1 {
   display: inline-block;
   border-bottom: 4px solid #DF7760;
   margin: 0 15px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+p .last-para {
+  margin-bottom: 50px;
+}
+
+.dropcap {
+  font-size: 90px;
+  display: inline-block;
+  color: #DF7760;
+}
+
+.story-image {
+  float: right;
+  width: 450px;
+  height: auto;
 }

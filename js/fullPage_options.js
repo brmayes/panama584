@@ -26,8 +26,8 @@ $(document).ready(function() {
     loopHorizontal: true,
     continuousVertical: false,
     normalScrollElements: '#element1, .element2',
-    scrollOverflow: false,
-    touchSensitivity: 15,
+    scrollOverflow: true,
+    touchSensitivity: 75,
     normalScrollElementTouchThreshold: 5,
 
     //Accessibility
@@ -40,8 +40,8 @@ $(document).ready(function() {
     controlArrows: false,
     verticalCentered: true,
     resize : false,
-    paddingTop: '3em',
-    paddingBottom: '10px',
+    paddingTop: '1.5em',
+    paddingBottom: '5em',
     fixedElements: '#header',
     responsiveWidth: 0,
     responsiveHeight: 0
