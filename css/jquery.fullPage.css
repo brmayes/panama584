@@ -205,10 +205,12 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: 22px; /*location of hover text*/
-    left: 12px; /*location of hover text*/
+    left: 25px; /*location of hover text*/
     color: #fff;
-    font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    /*font-family: arial, helvetica, sans-serif;*/
+    font-family: "CooperHewitt", sans-serif;
+
     white-space: nowrap;
     max-width: 220px;
     /*overflow: hidden;*/
