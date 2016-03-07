@@ -38,16 +38,28 @@ h1 {
   width: 100%;
   background: #E2DFDC;
   z-index: 9;
-  text-align: center;
+  /*padding-left: 10px;*/
   color: #008B8F;
   bottom: 0px;
   font-family: "CooperHewitt", sans-serif;
+  font-size: 12pt;
 }
 
+#footer .chaptertab {
+  font-family: "CooperHewitt", sans-serif;
+  color: grey;
+  text-align: left;
+}
 #footer .tabs {
   text-transform: uppercase;
   border-left: 1px solid white;
-  padding: 15px 0 3px 0;
+  padding: 14px 10px 0 10px;
+  text-align: center;
+}
+
+#footer .tabs:hover {
+  background-color: #008B8F;
+  color: white;
 }
 
 #footer .tabs.menu-tab {
@@ -140,4 +152,27 @@ p .last-para {
   float: right;
   width: 450px;
   height: auto;
+}
+
+
+/*hamburger menu */
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  top: 0.4em;
+  width: 1.4em;
+  height: 0.15em;
+  background: #008B8F;
+  box-shadow:
+    0 0.4em 0 0 #008B8F,
+    0 0.8em 0 0 #008B8F;
+}
+.box-shadow-menu:beforehover {
+  background: white;
+
 }
