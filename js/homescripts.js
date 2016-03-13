@@ -1,86 +1,85 @@
 $(document).ready(function(){
 
+// play button
    $('#play_button').click(function(){
      $('.container-home').fadeOut();
-     console.log("it worked!");
      $('#trailer_video').fadeIn("slow");
-     console.log("it also worked!");
+     $('#c').hide();
    })
 
    $('.trailer_text').click(function(){
      $('.container-home').fadeOut();
-     console.log("it worked!");
      $('#trailer_video').fadeIn("slow");
-     console.log("it also worked!");
+     $('#c').hide();
    })
 
    $('#trailer_video').click(function(){
      $('#trailer_video').fadeOut("slow");
      $('.container-home').fadeIn();
+     $('#c').fadeIn(2000);
    })
    $('.exit').click(function(){
      $('#trailer_video').fadeOut("slow");
      $('.container-home').fadeIn();
+     $('#c').fadeIn(2000);
    })
 
 // wave hover
-    // $('.home_links').mouseenter(function(){
-    //   $('#c').fadeIn("fast");
-    // })
    $('.home_links').mouseenter(function(){
-     $('#c').animate({top: '75%', opacity: '0.4'}, "slow");
+     $('#c').animate({top: '70%', opacity: '0.3'}, "slow");
    })
    $('.home_links').mouseleave(function(){
-     $('#c').animate({top: '100%', opacity: '0.4'}, "slow");
+     $('#c').animate({top: '100%', opacity: '0.3'}, "slow");
    })
 
+// wave click
    $('.home_links').click(function(){
      $('.home_headline').animate({opacity: "0.0"}, "fast");
      $('#play_trailer').animate({opacity: "0.0"}, "fast");
    })
 
    $(".chapter_one").click(function(){
-     $("#c").animate({top: '-10%', opacity: '1.0', height: '110%'}, {duration: 1000, complete: function(){
+     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
        window.location = "story-template.html";
      }});
      $(".chapter_one").css({color: '#DE7769', 'border-bottom': '0px solid #DE7769'});
-     $(".home_links").fadeOut();
+     $(".home_links").fadeOut(1000);
    });
 
    $(".chapter_two").click(function(){
-     $("#c").animate({top: '-10%', opacity: '1.0', height: '110%'}, {duration: 1000, complete: function(){
+     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
        window.location = "story-template.html";
      }});
      $(".chapter_two").css({color: '#DE7769', 'border-bottom': '0px solid #DE7769'});
-     $(".home_links").fadeOut();
+     $(".home_links").fadeOut(1000);
    });
 
    $(".chapter_three").click(function(){
-     $("#c").animate({top: '-10%', opacity: '1.0', height: '110%'}, {duration: 1000, complete: function(){
+     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
        window.location = "story-template.html";
      }});
      $(".chapter_three").css({color: '#DE7769', 'border-bottom': '0px solid #DE7769'});
-     $(".home_links").fadeOut();
+     $(".home_links").fadeOut(1000);
    });
 
    $(".chapter_four").click(function(){
-     $("#c").animate({top: '-10%', opacity: '1.0', height: '110%'}, {duration: 1000, complete: function(){
+     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
        window.location = "story-template.html";
      }});
      $(".chapter_four").css({color: '#DE7769', 'border-bottom': '0px solid #DE7769'});
-     $(".home_links").fadeOut();
+     $(".home_links").fadeOut(1000);
    });
 
    $(".chapter_five").click(function(){
-     $("#c").animate({top: '-10%', opacity: '1.0', height: '110%'}, {duration: 1000, complete: function(){
+     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
        window.location = "story-template.html";
      }});
      $(".chapter_five").css({color: '#DE7769', 'border-bottom': '0px solid #DE7769'});
-     $(".home_links").fadeOut();
+     $(".home_links").fadeOut(1000);
    });
 });
 
-
+// wave functionality
 var c = document.getElementById('c'),
   ctx = c.getContext('2d'),
   cw = c.width = window.innerWidth,
@@ -99,7 +98,7 @@ var c = document.getElementById('c'),
     },
     thickness: 0,
     strokeColor: 'rgba(255,255,255,1.0)',
-    level: .96,
+    level: .90,
     curved: true
   },
   rand = function(min, max) {

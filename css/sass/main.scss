@@ -92,8 +92,6 @@
   .container-text {
     width: 65%;
     margin: 0 auto;
-    // padding-bottom: 60px !important;
-    // margin-bottom: 15px;
   }
 
   .container-video, .container-graphic {
@@ -146,23 +144,23 @@
   }
 
 // sections
-  #home_section {
-    background-image: url("../../media/img/home_reef.jpg");
-    color: white;
-    text-align: center;
-    & ul {
-      list-style-type: none;
-      & li {
-        display: inline-block;
-        border-bottom: 4px solid $coral-base;
-        margin: 0 15px;
-      }
-    }
-  }
+  // #home_section {
+  //   color: white;
+  //   text-align: center;
+  //   & ul {
+  //     list-style-type: none;
+  //     & li {
+  //       display: inline-block;
+  //       border-bottom: 4px solid $coral-base;
+  //       margin: 0 15px;
+  //     }
+  //   }
+  // }
 
 //paragraph
   p {
     margin-bottom: 25px;
+    letter-spacing: 1px;
     .last-para {
       margin-bottom: 50px;
     }

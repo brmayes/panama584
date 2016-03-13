@@ -26,21 +26,9 @@ body {
 }
 
 h1 {
-  font-family: "CooperHewitt-Light", sans-serif;
-  font-weight: 400;
-  font-size: 60pt;
-  text-transform: uppercase;
-  letter-spacing: 15px;
-}
-
-h2 {
-  font-family: "CooperHewitt-Light", sans-serif;
-  font-weight: 400;
-  font-size: 150pt;
-  text-transform: uppercase;
-  letter-spacing: 15px;
-  margin-top: -20px;
-  margin-bottom: -20px;
+  font-family: "CooperHewitt", sans-serif;
+  font-weight: 700;
+  font-size: 48pt;
 }
 
 /* Bottom Nav (footer) */
@@ -89,8 +77,7 @@ h2 {
 }
 
 .container-video, .container-graphic {
-  width: 85%;
-  margin: 0 auto;
+  width: 75%;
 }
 
 .video-padding {
@@ -132,30 +119,9 @@ h2 {
   background-color: #008B8F;
 }
 
-#home_section {
-  background-image: url("../../media/img/home_ocean.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center -145px;
-  color: white;
-  text-align: center;
-}
-
-#home_section ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#home_section ul li {
-  display: inline-block;
-  /*margin: 0 4%;*/
-  font-family: 'Cooper Hewitt';
-  /*font-size: 22px;*/
-  font-weight: 500;
-}
-
 p {
   margin-bottom: 25px;
+  letter-spacing: 1px;
 }
 
 p .last-para {
