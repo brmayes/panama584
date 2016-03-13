@@ -7,7 +7,7 @@ $(document).ready(function() {
     anchors: ['firstPage', 'secondPage', '3rdPage'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+    navigationTooltips: ['First page', 'Second page', 'Third and last page'],      //have to figure out simplest way to customize this per page
     showActiveTooltip: true,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',

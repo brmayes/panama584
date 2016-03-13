@@ -26,9 +26,21 @@ body {
 }
 
 h1 {
-  font-family: "CooperHewitt", sans-serif;
-  font-weight: 700;
-  font-size: 48pt;
+  font-family: "CooperHewitt-Light", sans-serif;
+  font-weight: 400;
+  font-size: 60pt;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+h2 {
+  font-family: "CooperHewitt-Light", sans-serif;
+  font-weight: 400;
+  font-size: 150pt;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
 /* Bottom Nav (footer) */
@@ -38,18 +50,19 @@ h1 {
   width: 100%;
   background: #E2DFDC;
   z-index: 9;
-  /*padding-left: 10px;*/
+  text-align: center;
   color: #008B8F;
+  font-size: 12pt;
   bottom: 0px;
   font-family: "CooperHewitt", sans-serif;
-  font-size: 12pt;
 }
 
-#footer .chaptertab {
+#footer .chapter-tab {
   font-family: "CooperHewitt", sans-serif;
   color: grey;
   text-align: left;
 }
+
 #footer .tabs {
   text-transform: uppercase;
   border-left: 1px solid white;
@@ -76,7 +89,8 @@ h1 {
 }
 
 .container-video, .container-graphic {
-  width: 75%;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .video-padding {
@@ -119,19 +133,25 @@ h1 {
 }
 
 #home_section {
-  background-image: url("../../media/img/home_reef.jpg");
+  background-image: url("../../media/img/home_ocean.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -145px;
   color: white;
   text-align: center;
 }
 
 #home_section ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 #home_section ul li {
   display: inline-block;
-  border-bottom: 4px solid #DF7760;
-  margin: 0 15px;
+  /*margin: 0 4%;*/
+  font-family: 'Cooper Hewitt';
+  /*font-size: 22px;*/
+  font-weight: 500;
 }
 
 p {
@@ -154,13 +174,12 @@ p .last-para {
   height: auto;
 }
 
-
 /*hamburger menu */
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
-
 }
+
 .box-shadow-menu:before {
   content: "";
   position: absolute;
@@ -168,11 +187,13 @@ p .last-para {
   width: 1.4em;
   height: 0.15em;
   background: #008B8F;
-  box-shadow:
-    0 0.4em 0 0 #008B8F,
-    0 0.8em 0 0 #008B8F;
+  box-shadow: 0 0.4em 0 0 #008B8F, 0 0.8em 0 0 #008B8F;
 }
+
 .box-shadow-menu:beforehover {
   background: white;
+}
 
+iframe {
+  height: 100px;
 }

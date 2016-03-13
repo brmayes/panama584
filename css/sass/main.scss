@@ -59,14 +59,25 @@
     z-index: 9;
     text-align: center;
     color: $teal-base;
-
+    font-size: 12pt;
     bottom: 0px;
     font-family: "CooperHewitt", sans-serif;
+
+    .chapter-tab {
+      font-family: "CooperHewitt", sans-serif;
+      color: grey;
+      text-align: left;
+    }
 
     .tabs {
       text-transform: uppercase;
       border-left: 1px solid white;
-      padding: 15px 0 3px 0;
+      padding: 14px 10px 0 10px;
+      text-align: center;
+      &:hover {
+        background-color: #008B8F;
+        color: white;
+      }
       &.menu-tab {
         padding-left: 10px;
       }
@@ -151,7 +162,7 @@
 
 //paragraph
   p {
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
     .last-para {
       margin-bottom: 50px;
     }
@@ -166,3 +177,29 @@
     width: 450px;
     height: auto;
   }
+
+/*hamburger menu */
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  top: 0.4em;
+  width: 1.4em;
+  height: 0.15em;
+  background: #008B8F;
+  box-shadow:
+    0 0.4em 0 0 #008B8F,
+    0 0.8em 0 0 #008B8F;
+}
+.box-shadow-menu:beforehover {
+  background: white;
+
+}
+
+iframe {
+  height: 100px;
+}

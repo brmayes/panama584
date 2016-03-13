@@ -1,0 +1,183 @@
+/* CUSTOM */
+
+.container-home {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home_headline {
+  text-shadow: 0px 0px 20px rgba(40, 36, 45, 0.5);
+  margin-top: 9%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Cooper Hewitt", sans-serif;
+  font-weight: 400;
+  font-size: 18pt;
+  margin-top: -15px;
+  text-shadow: 0px 0px 20px rgba(40, 36, 45, 0.5);
+  /*font-style: italic;*/
+  /*letter-spacing: 1px;*/
+}
+
+.no_spacing {
+  letter-spacing: 0;
+}
+
+#play_trailer {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+#play_button_container {
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#play_button {
+  width: 80px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 0 90px 0;
+  background-image: url("../assets/icons/play_button.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+a:hover #play_button {
+  background-image: url("../assets/icons/play_button_hover.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+}
+
+.view_trailer {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.trailer_text {
+  font-family: 'Cooper Hewitt';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.trailer_text a {
+  color: white;
+}
+
+.trailer_text a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.time {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.home_links {
+  margin-top: 0px;
+  margin-bottom: 5%;
+}
+
+.chapter_block {
+  width: 15%;
+  display: inline-block;
+}
+
+.chapters {
+  border-bottom: 2px solid rgba(255, 255, 255, .6);
+  padding-bottom: 5px;
+}
+
+.home_ul a li {
+  color: white;
+  font-size: 16pt;
+}
+
+.home_ul a .chapter_one:hover span, .home_ul a .chapter_two:hover span, .home_ul a .chapter_three:hover span, .home_ul a .chapter_four:hover span, .home_ul a .chapter_five:hover span {
+  display: none;
+}
+
+.home_ul a .chapter_one:hover:after, .home_ul a .chapter_two:hover:after, .home_ul a .chapter_three:hover:after, .home_ul a .chapter_four:hover:after, .home_ul a .chapter_five:hover:after {
+  font-size: 13pt;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.home_ul a .chapter_one:hover:after{
+  content: 'Below the Reef';
+}
+
+.home_ul a .chapter_one:active:after, .home_ul a .chapter_two:active:after, .home_ul a .chapter_three:active:after, .home_ul a .chapter_four:active:after, .home_ul a .chapter_five:active:after{
+  color: #DE7769;
+  border-bottom: 2px solid #DE7769;
+}
+
+.home_ul a .chapter_two:hover:after{
+  content: 'Tourism Rising';
+}
+
+.home_ul a .chapter_three:hover:after{
+  content: 'Bananas in Peril';
+}
+
+.home_ul a .chapter_four:hover:after{
+  content: 'Protesters March';
+}
+
+.home_ul a .chapter_five:hover:after{
+  content: 'Science Rules';
+}
+
+#trailer_video {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2% 0;
+}
+
+.exit {
+  float: right;
+  width: 25px;
+  height: 25px;
+  margin: 15px 10px;
+  position: relative;
+  top: -90%;
+  right: 5%;
+}
+
+.exit a {
+  color: black;
+}
+
+.exit a:hover {
+  color: black;
+}
+
+canvas {
+  display: block;
+}
+
+.embed-container iframe {
+  /*position: absolute;*/
+  top: 10%;
+  left: 9%;
+  width: 82%;
+  height: 500px;
+}

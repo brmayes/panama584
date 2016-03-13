@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+
+
+
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/style.css">
+
+
+<!--Resources for information on the instruments: http://www.sfskids.org/classic/templates/instorchframe.asp?pageid=3
+http://www.philharmonia.co.uk/explore/instruments/harp -->
+
+<!--Resource for creating the matching game: http://jsfiddle.net/u0a7m5L6/ -->
+
+<!--Resource for creating the quiz: https://github.com/jewlofthelotus/SlickQuiz-->
+<!--Resource for creating the slider: https://codyhouse.co/gem/pointy-slider/ -->
+
+
+
+
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+
+
+
+
+	<title>What's in an Orchestra?</title>
+</head>
+<body>
+	<div class="cd-slider-wrapper">
+		<ul class="cd-slider">
+			<li class="is-visible">
+
+				<div class="cd-half-block image"></div>
+
+
+				<div class="cd-half-block content">
+
+					<div>
+
+						<h2>What's in an Orchestra?</h2>
+						<p>
+
+							Have you ever wondered what some of those funny-looking instruments in the orchestra are, or what they sound like? Check
+							out the following slideshow to find out!
+						</p>
+
+
+					</div>
+				</div>
+			</li> <!-- .cd-half-block.content -->
+
+			<li>
+				<div class="cd-half-block image"></div>
+				<div onmouseover="document.getElementById('double-bass').play()" onmouseout="document.getElementById('double-bass').pause()" class="holder">
+					<audio id="double-bass" src="double-bass.mp3"></audio>
+
+				</div>
+				<div class="cd-half-block content light-bg">
+					<div>
+						<h2>Double Bass</h2>   <!--Daniel Barbiero-->
+						<p>
+							The double bass is the biggest and lowest-sounding instrument in the string section. Sometimes the double bass gets a solo, but it's
+							more common for it to stay in the background.
+
+						</p>
+						<br>
+						<p>
+							Double bass players spend a lot of time plucking their instrument rather than using their bow. This is called pizzicato.
+					</p>
+					<br>
+					<p style="font-style:italic" >
+						Mouse over the double bass to hear its sound!
+					</p>
+					</div>
+				</div> <!-- .cd-half-block.content -->
+			</li>
+
+			<li>
+				<div class="cd-half-block image"></div>
+				<div onmouseover="document.getElementById('french-horn').play()" onmouseout="document.getElementById('french-horn').pause()" class="holder">
+					<audio id="french-horn" src="french-horn.mp3"></audio>
+
+				</div>
+				<div class="cd-half-block content">
+					<div>
+						<h2>French Horn</h2>
+						<p>
+							The French horn is related to the hunting horns of old. In the orchestra, it usually plays long sustained notes.
+							If unwound, it would be about 17 feet long!
+						</p>
+						<br>
+						<p>
+							People who play the french horn have to use one of their hands to change the sound inside the large opening at the end, called a bell.
+
+
+						</p>
+						<br>
+						<p style="font-style:italic">
+							Mouse over the french horn to hear its sound!
+						</p>
+					</div>
+				</div> <!-- .cd-half-block.content -->
+			</li>
+
+			<li>
+				<div class="cd-half-block image"></div>
+				<div onmouseover="document.getElementById('sax').play()" onmouseout="document.getElementById('sax').pause()" class="holder">
+					<audio id="sax" src="sax.mp3"></audio>
+
+				</div>
+				<div class="cd-half-block content">
+					<div>
+						<h2>Saxophone</h2>
+						<p>
+						 The saxophone is most well-known in jazz music, but it can be used in orchestras too! It has a really harsh sound
+						 which makes it easy to distinguish from the rest of the orchestra.
+					 </p>
+					 <br>
+					 <p>
+						 There are six different types of saxophone, but they are all played using a mouthpiece called a reed.
+					</p>
+					<br>
+					<p style="font-style:italic">
+						Mouse over the saxophone to hear its sound!
+					</p>
+
+					</div>
+				</div> <!-- .cd-half-block.content -->
+			</li>
+
+
+			<li> <!--added this slide to test if I can add more slides-->
+				<div class="cd-half-block image"></div>
+				<div onmouseover="document.getElementById('trumpet').play()" onmouseout="document.getElementById('trumpet').pause()" class="holder">
+					<audio id="trumpet" src="trumpet.mp3"></audio>
+
+				</div>
+				<div class="cd-half-block content">
+					<div>
+						<h2>Trumpet</h2>
+						<p>
+						The trumpet has a very loud and brassy sound, so it is often used to belt out an important melody. It looks kind of like
+						a paperclip, but it would actually be about 6 1/2 feet long unwound!
+
+						</p>
+						<br>
+						<p>
+							The trumpet's valves control the flow of air inside the instrument, creating all the sounds a trumpet can make.
+						</p>
+						<br>
+						<p style="font-style:italic">
+							Mouse over the trumpet to hear its sound!
+						</p>
+
+					</div>
+				</div> <!-- .cd-half-block.content -->
+			</li>
+
+
+			<li>
+				<div class="cd-half-block image"></div>
+				<div onmouseover="document.getElementById('harp').play()" onmouseout="document.getElementById('harp').pause()" class="holder">
+					<audio id="harp" src="harp.mp3"></audio>
+
+				</div>
+				<div class="cd-half-block content">
+					<div>
+						<h2>Harp</h2>
+						<p>
+						The harp isn't very loud,
+							but it can make some very beautiful sounds. It wasn't really used in orchestras until the 1800s.
+						</p>
+						<br>
+						<p>The harps used in orchestras have 47 different strings. They also have seven pedals that can change
+							the sound of those strings. All of that makes tuning the harp a very extensive process!
+						</p>
+						<br>
+						<p style="font-style:italic">
+							Mouse over the harp to hear its sound!
+						</p>
+					</div>
+				</div> <!-- .cd-half-block.content -->
+			</li>
+
+
+</div>
+
+
+</ul> <!-- .cd-slider -->
+	</div> <!-- .cd-slider-wrapper -->
+
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<script>
+
+$(document).ready(function() {
+
+});
+</script>
+
+</body>
+</html>
