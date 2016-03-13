@@ -42,7 +42,9 @@ Slider
 .cd-slider {
   position: relative;
   z-index: 1;
-  height: 100%;
+  height: 90%;
+  /*text-align: center;*/
+  margin: 0 auto;
   overflow: hidden;
 }
 .cd-slider li {
@@ -329,7 +331,7 @@ Slider Navigation
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  bottom: 0px;
+  bottom: 50px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -341,10 +343,10 @@ Slider Navigation
   display: inline-block;
   margin: 0 .25em;
   position: center;
-  padding-left: 30px;
+  padding-left: 15px;
 }
 .cd-slider-navigation li.selected a {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
 .cd-slider-navigation a {
   display: block;
@@ -361,7 +363,7 @@ Slider Navigation
 @media only screen and (min-width: 900px) {
   .cd-slider-navigation {
     padding: 0.5em 1em;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
     /* fixes a bug on Firefox with ul.cd-slider-navigation z-index */
     -webkit-transform: translateZ(2px) translateX(-50%);
     -moz-transform: translateZ(2px) translateX(-50%);

@@ -35,7 +35,7 @@ jQuery(document).ready(function($){
 
 ;
 	function createSliderPagination(container){
-		var imageList = ["menu1.png", "menu2.png"];
+		var imageList = ["menu1.png", "menu2.png", "menu3.png", "menu4.png", "menu5.png", "menu6.png"];
 		var wrapper = $('<ol class="cd-slider-navigation"></ol>');
 		container.children('.cd-slider').find('li').each(function(index){
 			var dotWrapper = (index == 0) ? $('<li class="selected"></li>') : $('<li></li>'),

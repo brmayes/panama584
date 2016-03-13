@@ -121,10 +121,10 @@ a:hover #play_button {
   content: 'Below the Reef';
 }
 
-.home_ul a .chapter_one:active:after, .home_ul a .chapter_two:active:after, .home_ul a .chapter_three:active:after, .home_ul a .chapter_four:active:after, .home_ul a .chapter_five:active:after{
+/*.home_ul a .chapter_one:active:after, .home_ul a .chapter_two:active:after, .home_ul a .chapter_three:active:after, .home_ul a .chapter_four:active:after, .home_ul a .chapter_five:active:after{
   color: #DE7769;
   border-bottom: 2px solid #DE7769;
-}
+}*/
 
 .home_ul a .chapter_two:hover:after{
   content: 'Tourism Rising';
@@ -158,8 +158,8 @@ a:hover #play_button {
   height: 25px;
   margin: 15px 10px;
   position: relative;
-  top: -90%;
-  right: 5%;
+  top: -106.5%;
+  right: 1%;
 }
 
 .exit a {
@@ -172,12 +172,14 @@ a:hover #play_button {
 
 canvas {
   display: block;
+  position: relative;
+  top: 100%;
 }
 
 .embed-container iframe {
   /*position: absolute;*/
-  top: 10%;
-  left: 9%;
-  width: 82%;
-  height: 500px;
+  top: 0%;
+  left: 5%;
+  width: 90%;
+  height: 80%;
 }
