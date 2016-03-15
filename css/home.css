@@ -1,0 +1,268 @@
+/* General */
+body {
+  background-color: white;
+  font-size: 14pt;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  color: #282423;
+}
+
+.video-padding {
+  padding-top: 0px !important;
+  padding-bottom: 60px !important;
+  margin-bottom: 15px;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#home_section {
+  background-image: url("../media/img/home_ocean.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -145px;
+  color: white;
+  text-align: center;
+}
+
+#home_section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#home_section ul li {
+  display: inline-block;
+  font-family: 'CooperHewitt-Medium';
+}
+
+iframe {
+  height: 100px;
+}
+
+/* CUSTOM */
+
+.container-home {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home_headline {
+  text-shadow: 0px 0px 20px rgba(40, 36, 45, 0.5);
+  margin-top: 4%;
+  margin-bottom: 0;
+  text-align: center;
+  width: 55%;
+}
+
+h3 {
+  font-family: "CooperHewitt-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 18pt;
+  text-shadow: 0px 0px 20px rgba(40, 36, 45, 0.5);
+  /*font-style: italic;*/
+  /*letter-spacing: 1px;*/
+}
+
+.no_spacing {
+  letter-spacing: 0;
+}
+
+#play_trailer {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+#play_button_container {
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#play_button {
+  width: 80px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 0 90px 0;
+  background-image: url("../assets/icons/play_button.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+a:hover #play_button {
+  background-image: url("../assets/icons/play_button_hover.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+}
+
+.view_trailer {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.trailer_text {
+  font-family: 'CooperHewitt-Medium';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.trailer_text a {
+  color: white;
+}
+
+.trailer_text a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.time {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.home_links {
+  margin-top: 0px;
+  margin-bottom: 5%;
+  padding: 5px 0;
+}
+
+.chapter_block {
+  width: 15%;
+  display: inline-block;
+}
+
+.chapters {
+  border-bottom: 2px solid rgba(255, 255, 255, .6);
+  padding-bottom: 5px;
+}
+
+.home_ul a li {
+  color: white;
+  font-size: 16pt;
+}
+
+.home_ul a .chapter_one:hover span, .home_ul a .chapter_two:hover span, .home_ul a .chapter_three:hover span, .home_ul a .chapter_four:hover span, .home_ul a .chapter_five:hover span {
+  display: none;
+}
+
+.home_ul a .chapter_one:hover:after, .home_ul a .chapter_two:hover:after, .home_ul a .chapter_three:hover:after, .home_ul a .chapter_four:hover:after, .home_ul a .chapter_five:hover:after {
+  font-size: 13pt;
+  font-family: 'CooperHewitt';
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.home_ul a .chapter_one:hover:after{
+  content: 'Below the Reef';
+}
+
+/*.home_ul a .chapter_one:active:after, .home_ul a .chapter_two:active:after, .home_ul a .chapter_three:active:after, .home_ul a .chapter_four:active:after, .home_ul a .chapter_five:active:after{
+  color: #DE7769;
+  border-bottom: 2px solid #DE7769;
+}*/
+
+.home_ul a .chapter_two:hover:after{
+  content: 'Tourism Rising';
+}
+
+.home_ul a .chapter_three:hover:after{
+  content: 'Bananas in Peril';
+}
+
+.home_ul a .chapter_four:hover:after{
+  content: 'Protesters March';
+}
+
+.home_ul a .chapter_five:hover:after{
+  content: 'Science Rules';
+}
+
+#trailer_video {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2% 0;
+}
+
+.exit {
+  float: right;
+  width: 25px;
+  height: 25px;
+  margin: 15px 10px;
+  position: relative;
+  top: -106.5%;
+  right: 1%;
+}
+
+.exit a {
+  color: black;
+}
+
+.exit a:hover {
+  color: black;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 100%;
+}
+
+.embed-container iframe {
+  /*position: absolute;*/
+  top: 0%;
+  left: 5%;
+  width: 90%;
+  height: 80%;
+}
+
+@-webkit-keyframes story-fade-in {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes story-fade-in {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes story-fade-in {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes story-fade-in {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  -webkit-animation: story-fade-in 2s; /* Safari 4+ */
+  -moz-animation:    story-fade-in 2s; /* Fx 5+ */
+  -o-animation:      story-fade-in 2s; /* Opera 12+ */
+  animation:         story-fade-in 2s; /* IE 10+, Fx 29+ */
+}

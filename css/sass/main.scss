@@ -10,6 +10,17 @@
          url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
 
+  /* Medium */
+  @font-face {
+    font-family: 'CooperHewitt-Medium';
+    src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        //  url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
   /* Light */
   @font-face {
     font-family: 'CooperHewitt-Light';
@@ -63,6 +74,10 @@
     bottom: 0px;
     font-family: "CooperHewitt", sans-serif;
 
+    .box-shadow-menu {
+      margin-top: -9px;
+    }
+
     .chapter-tab {
       font-family: "CooperHewitt", sans-serif;
       color: grey;
@@ -74,7 +89,13 @@
       border-left: 1px solid white;
       padding: 14px 10px 0 10px;
       text-align: center;
-      &:hover {
+      height: 60px;
+      padding-top: 15px;
+
+      p {
+        margin-bottom: 10px;
+      }
+      &.tab-hover:hover {
         background-color: #008B8F;
         color: white;
       }
@@ -166,9 +187,8 @@
     }
   }
   .dropcap {
-    font-size: 90px;
-    display: inline-block;
-    color: $coral-base;
+    width: 50px;
+    height: auto;
   }
   .story-image {
     float: right;
@@ -200,4 +220,5 @@
 
 iframe {
   height: 100px;
+  border: 0;
 }

@@ -7,7 +7,7 @@ $(document).ready(function() {
     anchors: ['firstPage', 'secondPage', '3rdPage'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['First page', 'Second page', 'Third and last page'],      //have to figure out simplest way to customize this per page
+    navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page'],      //have to figure out simplest way to customize this per page
     showActiveTooltip: true,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
@@ -41,7 +41,7 @@ $(document).ready(function() {
     verticalCentered: true,
     resize : false,
     paddingTop: '1.5em',
-    paddingBottom: '5em',
+    paddingBottom: '1.5em',
     fixedElements: '#header',
     responsiveWidth: 0,
     responsiveHeight: 0
