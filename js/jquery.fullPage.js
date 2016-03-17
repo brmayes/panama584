@@ -1,4 +1,4 @@
-/*!
+/*
  * fullPage 2.7.8
  * https://github.com/alvarotrigo/fullPage.js
  * @license MIT licensed
@@ -785,7 +785,7 @@
         * Creates a vertical navigation bar.
         */
         function addVerticalNavigation(){
-            $body.append('<div id="' + SECTION_NAV + '"><ul></ul></div>');
+            $('#cont').append('<div id="' + SECTION_NAV + '"><ul></ul></div>');
             var nav = $(SECTION_NAV_SEL);
 
             nav.addClass(function() {
@@ -798,7 +798,7 @@
                     link = options.anchors[i];
                 }
 
-                var li = '<li><a href="#' + link + '"><span></span></a>';
+                var li = '<li><a href="#' + link + '" class="' + link + '_dot"><span></span></a>';
 
                 // Only add tooltip if needed (defined by user)
                 var tooltip = options.navigationTooltips[i];

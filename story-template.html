@@ -37,8 +37,22 @@
 <body class="fade-in">
 
   <div id="fullpage">
+
+
+
     <!-- Page 1: Video -->
-    <div class="section" id="section0">
+    <div class="section firstPage_dot" id="section0">
+
+      <!-- logo -->
+      <div id="logo">
+        <img src="assets/headlines/changingtides.png" class="img-responsive">
+      </div>
+
+      <!-- switch languages -->
+      <div id="switch_language">
+        View in Spanish
+      </div>
+
       <div class="intro container-video">
         <h1>Video goes here<br />Heads: Cooper Hewitt Bold 48 pt Q</h1>
         <p>An easy and beautiful way to navigate threw the sections</p>
@@ -48,7 +62,7 @@
     </div>
 
     <!-- Page 2: Text -->
-    <div class="section fp-auto-height" id="section1">
+    <div class="section fp-auto-height secondPage_dot" id="section1">
       <div class="intro container-text">
         <p>
           <img alt="C dropcap" class="dropcap" src="assets/dropcap/C.png" />orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi est lacus, auctor sit amet massa eu, eleifend laoreet quam. Vivamus feugiat tellus nec facilisis aliquam. Mauris eros ligula, tempor eu sollicitudin
@@ -78,7 +92,7 @@
     </div>
 
     <!-- Page 3: Video -->
-    <div class="section video-padding" id="section2">
+    <div class="section video-padding thirdPage_dot" id="section2">
       <div class="intro container-video">
         <div class='embed-container'>
           <iframe src='https://player.vimeo.com/video/157306694' allowFullScreen></iframe>
@@ -87,7 +101,7 @@
     </div>
 
     <!-- Page 4: Test -->
-    <div class="section video-padding" id="section3">
+    <div class="section video-padding fourthPage_dot" id="section3">
       <div class="intro container-video">
         <div class='embed-container'>
           <iframe src='slider/index.html' allowFullScreen></iframe>
@@ -106,7 +120,7 @@
     </div> -->
 
     <!-- Page 5: Text -->
-    <div class="section fp-auto-height" id="section4">
+    <div class="section fp-auto-height fifthPage_dot" id="section4">
       <div class="intro container-text">
         <p>
           <span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi est lacus, auctor sit amet massa eu, eleifend laoreet quam. Vivamus feugiat tellus nec facilisis aliquam. Mauris eros ligula, tempor eu sollicitudin
@@ -158,52 +172,50 @@
 
 
   <div id="footer">
-    <div id="footer-container">
+    <div class="footer-container">
       <div class="row">
-        <div class="col-md-1 col-sm-1 tabs menu-tab">
-          <p>
-            <a href="#" class="box-shadow-menu"></a>
-          </p>
+        <div class="col-md-1 col-sm-1 tabs menu-tab menu-click">
+            <div class="ex-in"><a href="#"><img src="assets/icons/hamburger_menu_teal.png" class="img-responsive"></a></div>
+            <div class="ex-in" id="ex-in-hover"><a href="#"><img src="assets/icons/hamburger_menu_white.png" class="img-responsive"></a></div>
         </div>
         <div class="col-md-7 col-sm-7 tabs chaptertab">
           <p>
             <div class="chapter-number">2</div><div class="chapter-name">Below the Reef</div>
           </p>
-          <p class="cont">
-            <!-- <progress id="progress-bar" min="1" max="100" value="0"></progress> -->
+          <p id="cont">
+            <progress id="progress-bar" min="1" max="100" value="0"></progress>
+            <div id="progress_dots"></div>
           </p>
         </div>
         <div class="col-md-1 col-sm-1 tabs tab-hover">
-          <p class="extra-nav">
+          <a href="#"><p class="extra-nav">
             View the Bocas Map
-          </p>
+          </p></a>
         </div>
         <div class="col-md-1 col-sm-1 tabs tab-hover">
-          <p class="extra-nav">
+          <a href="#"><p class="extra-nav">
             Play with<br />Big Red
-          </p>
+          </p></a>
         </div>
         <div class="col-md-1 col-sm-1 tabs tab-hover">
-          <p class="extra-nav">
-            Watch the Full Film
-          </p>
+          <a href="#"><p class="extra-nav">
+            <a href="#">Understand the issue
+          </p></a>
         </div>
         <div class="col-md-1 col-sm-1 tabs about-tab tab-hover">
-          <p class="extra-nav">
+          <a href="#"><p class="extra-nav">
             Read about<br />the team
-          </p>
+          </p></a>
         </div>
       </div>
     </div>
   </div>
 
   <div id="menu" class="hidden-xs hidden-sm">
-    <div id="footer-container">
+    <div class="footer-container">
       <div class="row">
         <div class="col-md-1 col-sm-1 tabs menu-tab">
-          <p>
-            <a href="#menu" class="box-shadow-menu"></a>
-          </p>
+            <div class="ex-out"><a href="#"><img src="assets/icons/x_white.png" class="img-responsive"></a></div>
         </div>
         <div class="home_links">
             <ul class="home_ul">

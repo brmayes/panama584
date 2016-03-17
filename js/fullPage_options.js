@@ -43,13 +43,15 @@ $(document).ready(function() {
     resize : false,
     paddingTop: '1.5em',
     paddingBottom: '3.5em',
-    fixedElements: '#header',
+    fixedElements: '#header, #logo, #switch_language',
     responsiveWidth: 0,
     responsiveHeight: 0,
 
     //events
     afterLoad: function(anchorLink, index){
       var loadedSection = $(this);
+      progressBar(loadedSection);
+      console.log(loadedSection);
       if(index == 5){
                 console.log("Section 5 loaded");
                 $('#previous-chapter').fadeIn(100);

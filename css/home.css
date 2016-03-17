@@ -176,11 +176,6 @@ a:hover #play_button {
   content: 'Below the Reef';
 }
 
-/*.home_ul a .chapter_one:active:after, .home_ul a .chapter_two:active:after, .home_ul a .chapter_three:active:after, .home_ul a .chapter_four:active:after, .home_ul a .chapter_five:active:after{
-  color: #DE7769;
-  border-bottom: 2px solid #DE7769;
-}*/
-
 .home_ul a .chapter_two:hover:after{
   content: 'Tourism Rising';
 }

@@ -179,6 +179,7 @@ html.fp-enabled,
     margin: 0 0 0 0;
     border-radius: 100%;
     background-color: #DE7769;
+    border: 1px solid #DE7769;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
@@ -187,7 +188,7 @@ html.fp-enabled,
     z-index: 1;
     height: 14px;
     width: 14px;
-    border: 1px solid #DE7769;
+    border: 1px solid #9C9994;
     background: #E2E0DD;
     left: 50%;
     top: 50%;

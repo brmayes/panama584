@@ -1,5 +1,28 @@
 /* General */
 
+#logo {
+  width: 120px;
+  top: 25px;
+  left: 1.5%;
+  float: left;
+  position: fixed;
+}
+
+#switch_language {
+  float: right;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  right: 2%;
+  width: 120px;
+  padding: 2px 2px 1px;
+  background-color: #E6E7E8;
+  font-size: .7em;
+  line-height: 1.8em;
+  color: #008B8F;
+  border-radius: 0 0 4px 4px;
+}
+
 .extra-nav {
   font-size: .75em;
   font-family: 'CooperHewitt-Medium';
@@ -36,9 +59,22 @@
   margin-right: 10px;
 }
 
-#footer-container {
+.chapter-name {
+  float: left;
+}
+
+.footer-container {
   padding-right: 2%;
-  padding-left: 2%;
+  padding-left: 0%;
+}
+
+.tab-hover a {
+  color: #008B8F;
+}
+
+.tab-hover:hover, .tab-hover a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /*chapter buttons*/
@@ -115,7 +151,9 @@
   font-size: 12pt;
   bottom: 0px;
   font-family: "CooperHewitt", sans-serif;
-  display: none;
+  height: 60px;
+  bottom: -60px;
+  /*display: none;*/
 }
 
 #menu ul {
@@ -132,65 +170,129 @@
     font-family: 'CooperHewitt-Medium';
 }
 
+#menu .tabs {
+  border-right: 1px solid white;
+  padding-top: 20px;
+  height: 60px;
+}
+
+.home_links {
+  padding-top: 20px;
+}
+
 .home_ul a li {
     color: white;
     font-size: 16pt;
 }
 
+.chapter_block {
+  width: 15%;
+  display: inline-block;
+}
+
+.ex-out {
+  width: 30%;
+  margin-left: 35px;
+  display: none;
+}
+
+.ex-in {
+  width: 55%;
+  margin-left: 37px;
+}
+
+#ex-in-hover {
+  display: none;
+  position: relative;
+  top: -35.5px;
+}
+
+.home_ul a .chapter_one:hover span, .home_ul a .chapter_two:hover span, .home_ul a .chapter_three:hover span, .home_ul a .chapter_four:hover span, .home_ul a .chapter_five:hover span {
+  display: none;
+}
+
+.home_ul a .chapter_one:hover:after, .home_ul a .chapter_two:hover:after, .home_ul a .chapter_three:hover:after, .home_ul a .chapter_four:hover:after, .home_ul a .chapter_five:hover:after {
+  font-size: 13pt;
+  font-family: 'CooperHewitt';
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.home_ul a .chapter_one:hover:after{
+  content: 'Below the Reef';
+}
+
+.home_ul a .chapter_two:hover:after{
+  content: 'Tourism Rising';
+}
+
+.home_ul a .chapter_three:hover:after{
+  content: 'Bananas in Peril';
+}
+
+.home_ul a .chapter_four:hover:after{
+  content: 'Protesters March';
+}
+
+.home_ul a .chapter_five:hover:after{
+  content: 'Science Rules';
+}
+
+/*#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  position: relative;
+}*/
+
+
 /*progress bar*/
-/*.cont{
+#cont{
   height: 100%;
-  width: 255px;
-  left: -7px;
+  width: 400px;
+  left: 110px;
+  top: -6px;
   padding: 0;
   margin: 0 auto;
   position: relative;
+  display: inline-block;
 }
 
 #progress-bar{
+  appearance: none;
   border: 0;
   width: 255px;
   color: #E2E0DD;
   height: 2px;
   margin: 0 auto;
+  z-index: 20;
 }
-.first, .second, .third, .fourth, .fifth {
-  height: 14px;
-  width: 14px;
-  border-radius: 100%;
-  border: 0px;
-  position: absolute;
-  left:0;
-  top: 8px;
-  cursor: pointer;
-  transition: all 0.4s ease-in-out;
-  z-index: 5;
+
+#progress-dots {
+  position: relative;
+  left: -150px;
 }
-.second{
-  left: 63.75px;
+
+#fp-nav {
+  position: relative;
+  display: inline-block;
 }
-.third{
-  left: 127.5px;
+
+#fp-nav.right {
+  right: 65px;
 }
-.fourth{
-  left: 191.25px;
-}
-.fifth{
-  left: 255px;
-}
+
 #progress-bar::-webkit-progress-value{ /* Changes line color */
-  /*background: #DE7769;
+  background: #DE7769;
   transition: all 0.4s ease-in-out;
 }
 #progress-bar::-webkit-progress-bar{ /* Changes background color */
-  /*background: #9C9994;
+  background: #9C9994;
 }
-.border-change{
-  border: 0;
+
+.coral-border {
+  border: 1px solid #DE7769;
   transition: all 0.4s ease-in-out;
 }
-.border-change-two{
-  border-color:#DE7769;
-  background-color: #E2E0DD;
-  transition: all 0.4s ease-in-out;
+
+/*#fp-nav ul li a, .fp-slidesNav ul li a {
+  display: inline-block;;
 }*/
