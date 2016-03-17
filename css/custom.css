@@ -1,5 +1,47 @@
 /* General */
 
+.extra-nav {
+  font-size: .75em;
+  font-family: 'CooperHewitt-Medium';
+  letter-spacing: .5px;
+}
+
+#footer .menu-tab {
+  border-left: none;
+  padding-right: 40px;
+}
+
+#footer .chaptertab {
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 10px;
+  color: #9C9994;
+  text-transform: none;
+  font-family: 'CooperHewitt';
+  font-size: 16pt;
+  display: inline-block;
+}
+
+.chapter-number {
+  border: 1.5px solid #DE7769;
+  color: #DE7769;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: -4px;
+  margin-right: 10px;
+}
+
+#footer-container {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+/*chapter buttons*/
 #previous-chapter {
   width: 200px;
   position: absolute;
@@ -56,3 +98,99 @@
   background-color: #E2E0DD;
   color: #008B8F;
 }
+
+#fp-nav li a {
+  padding: 8px 0;
+}
+
+/*menu*/
+#menu {
+  position: fixed;
+  display: block;
+  width: 100%;
+  background: #008B8F;
+  z-index: 10;
+  text-align: center;
+  color: #fff;
+  font-size: 12pt;
+  bottom: 0px;
+  font-family: "CooperHewitt", sans-serif;
+  display: none;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#menu li {
+  display: list-item;
+}
+
+#menu ul li {
+    display: inline-block;
+    font-family: 'CooperHewitt-Medium';
+}
+
+.home_ul a li {
+    color: white;
+    font-size: 16pt;
+}
+
+/*progress bar*/
+/*.cont{
+  height: 100%;
+  width: 255px;
+  left: -7px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+#progress-bar{
+  border: 0;
+  width: 255px;
+  color: #E2E0DD;
+  height: 2px;
+  margin: 0 auto;
+}
+.first, .second, .third, .fourth, .fifth {
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
+  border: 0px;
+  position: absolute;
+  left:0;
+  top: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  z-index: 5;
+}
+.second{
+  left: 63.75px;
+}
+.third{
+  left: 127.5px;
+}
+.fourth{
+  left: 191.25px;
+}
+.fifth{
+  left: 255px;
+}
+#progress-bar::-webkit-progress-value{ /* Changes line color */
+  /*background: #DE7769;
+  transition: all 0.4s ease-in-out;
+}
+#progress-bar::-webkit-progress-bar{ /* Changes background color */
+  /*background: #9C9994;
+}
+.border-change{
+  border: 0;
+  transition: all 0.4s ease-in-out;
+}
+.border-change-two{
+  border-color:#DE7769;
+  background-color: #E2E0DD;
+  transition: all 0.4s ease-in-out;
+}*/

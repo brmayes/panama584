@@ -12,7 +12,6 @@
 
   <!-- Fullpage.js Styles -->
   <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-  <link rel="stylesheet" type="text/css" href="css/custom.css" />
 
   <!-- Fonts -->
   <script src="https://use.typekit.net/yvc1tde.js"></script>
@@ -24,6 +23,7 @@
     } catch (e) {}
   </script>
   <link rel="stylesheet" type="text/css" href="css/sass/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -86,15 +86,24 @@
       </div>
     </div>
 
-    <!-- Page 4: Slider -->
-    <div class="section" id="section3">
-      <!-- <div class="section fp-auto-height" id="section1"> -->
-      <div class="slide" id="slide2">
-        <div class="embed-container">
-          <iframe class="backflip" src="slider/index.html"></iframe>
+    <!-- Page 4: Test -->
+    <div class="section video-padding" id="section3">
+      <div class="intro container-video">
+        <div class='embed-container'>
+          <iframe src='slider/index.html' allowFullScreen></iframe>
         </div>
       </div>
     </div>
+
+    <!-- Page 4: Slider -->
+    <!-- <div class="section video-padding" id="section3">
+       <div class="section fp-auto-height" id="section1"> -->
+      <!-- <div class="slide" id="slide2">
+        <div class="embed-container">
+          <iframe src="slider/index.html" style= "max-height: 200px "></iframe>
+        </div>
+      </div>
+    </div> -->
 
     <!-- Page 5: Text -->
     <div class="section fp-auto-height" id="section4">
@@ -149,37 +158,82 @@
 
 
   <div id="footer">
-    <div class="row">
-      <div class="col-md-1 col-sm-1 tabs menu-tab">
-        <p>
-          <a href="#menu" class="box-shadow-menu"></a>
-        </p>
+    <div id="footer-container">
+      <div class="row">
+        <div class="col-md-1 col-sm-1 tabs menu-tab">
+          <p>
+            <a href="#" class="box-shadow-menu"></a>
+          </p>
+        </div>
+        <div class="col-md-7 col-sm-7 tabs chaptertab">
+          <p>
+            <div class="chapter-number">2</div><div class="chapter-name">Below the Reef</div>
+          </p>
+          <p class="cont">
+            <!-- <progress id="progress-bar" min="1" max="100" value="0"></progress> -->
+          </p>
+        </div>
+        <div class="col-md-1 col-sm-1 tabs tab-hover">
+          <p class="extra-nav">
+            View the Bocas Map
+          </p>
+        </div>
+        <div class="col-md-1 col-sm-1 tabs tab-hover">
+          <p class="extra-nav">
+            Play with<br />Big Red
+          </p>
+        </div>
+        <div class="col-md-1 col-sm-1 tabs tab-hover">
+          <p class="extra-nav">
+            Watch the Full Film
+          </p>
+        </div>
+        <div class="col-md-1 col-sm-1 tabs about-tab tab-hover">
+          <p class="extra-nav">
+            Read about<br />the team
+          </p>
+        </div>
       </div>
-      <div class="col-md-3 col-sm-3 tabs chaptertab">
-        <p>
-          Chapter 2: Below the Reef
-        </p>
-      </div>
-      <div class="col-md-4 col-sm-4 tabs">
-        <p>
-          <!--nothing-->
-          <br>
-        </p>
-      </div>
-      <div class="col-md-1 col-sm-1 tabs tab-hover">
-        <p>
-          Map
-        </p>
-      </div>
-      <div class="col-md-2 col-sm-2 tabs tab-hover">
-        <p>
-          Documentary
-        </p>
-      </div>
-      <div class="col-md-1 col-sm-1 tabs about-tab tab-hover">
-        <p>
-          About
-        </p>
+    </div>
+  </div>
+
+  <div id="menu" class="hidden-xs hidden-sm">
+    <div id="footer-container">
+      <div class="row">
+        <div class="col-md-1 col-sm-1 tabs menu-tab">
+          <p>
+            <a href="#menu" class="box-shadow-menu"></a>
+          </p>
+        </div>
+        <div class="home_links">
+            <ul class="home_ul">
+              <div class="chapter_block">
+                <a href="#"><li class="chapter_one">
+                  <span class="chapters">Chapter 1</span>
+                </li></a>
+              </div>
+              <div class="chapter_block">
+                <a href="#"><li class="chapter_two">
+                  <span class="chapters">Chapter 2</span>
+                </li></a>
+              </div>
+              <div class="chapter_block">
+                <a href="#"><li class="chapter_three">
+                  <span class="chapters">Chapter 3</span>
+                </li></a>
+              </div>
+              <div class="chapter_block">
+                <a href="#"><li class="chapter_four">
+                  <span class="chapters">Chapter 4</span>
+                </li></a>
+              </div>
+              <div class="chapter_block">
+                <a href="#"><li class="chapter_five">
+                  <span class="chapters">Chapter 5</span>
+                </li></a>
+              </div>
+            </ul>
+          </div>
       </div>
     </div>
   </div>

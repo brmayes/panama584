@@ -4,11 +4,11 @@ $(document).ready(function() {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
-    anchors: ['firstPage', 'secondPage', '3rdPage'],
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page'],      //have to figure out simplest way to customize this per page
-    showActiveTooltip: true,
+    showActiveTooltip: false,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
 
@@ -33,7 +33,8 @@ $(document).ready(function() {
     //Accessibility
     keyboardScrolling: true,
     animateAnchor: true,
-    recordHistory: true,
+    recordHistory: false,
+    responsiveWidth: 768,
 
     //Design
     sectionsColor: ['#FFFFFF'],
@@ -41,9 +42,34 @@ $(document).ready(function() {
     verticalCentered: true,
     resize : false,
     paddingTop: '1.5em',
-    paddingBottom: '1.5em',
+    paddingBottom: '3.5em',
     fixedElements: '#header',
     responsiveWidth: 0,
-    responsiveHeight: 0
+    responsiveHeight: 0,
+
+    //events
+    afterLoad: function(anchorLink, index){
+      var loadedSection = $(this);
+      if(index == 5){
+                console.log("Section 5 loaded");
+                $('#previous-chapter').fadeIn(100);
+                $('#previous-chapter').animate({left: "0"}, 500);
+                $('#next-chapter').fadeIn(100);
+                $('#next-chapter').animate({right: "0"}, 500);
+            }
+
+    },
+    onLeave: function(index, nextIndex, direction){
+            var leavingSection = $(this);
+
+            //after leaving section 5
+            if(index == 5 && direction == 'up'){
+                console.log("Leaving section 5!");
+                $('#previous-chapter').animate({left: "-200px"}, 500);
+                $('#previous-chapter').fadeOut(100);
+                $('#next-chapter').animate({right: "-200px"}, 500);
+                $('#next-chapter').fadeOut(100);
+            }
+        },
   });
 });
