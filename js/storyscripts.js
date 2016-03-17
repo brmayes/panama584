@@ -63,20 +63,34 @@ var progressBar = function(theItem) {
   console.log(theItem);
   if ($(theItem).hasClass('firstPage_dot')){
     $('#progress-bar').val('0');
+    $('.secondPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.thirdPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   }else if ($(theItem).hasClass('secondPage_dot')){
     $('#progress-bar').val('25');
     console.log("second works");
-    $('#fp-nav ul li a.active span').css({border: '1px solid #DE7769'});
+    $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.thirdPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
     console.log("second page");
    }else if ($(theItem).hasClass('thirdPage_dot')){
     $('#progress-bar').val('50');
-    $('#fp-nav ul li a.active span').css({border: '1px solid #DE7769'});
+    $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   }else if ($(theItem).hasClass('fourthPage_dot')){
     $('#progress-bar').val('75');
-    $('#fp-nav ul li a.active span').css({border: '1px solid #DE7769'});
+    $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
   } else if ($(theItem).hasClass('fifthPage_dot')){
     $('#progress-bar').val('100');
-    $('#fp-nav ul li a.active span').css({border: '1px solid #DE7769'});
+    $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
    }
  };
 
@@ -85,10 +99,6 @@ $(document).ready(function(){
     progressBar(this);
     console.log(this);
   });
-
-  // $('div').onLoad(){
-  //   progressBar(this);
-  // };
 });// complete click
 
 

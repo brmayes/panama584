@@ -23,6 +23,20 @@
   border-radius: 0 0 4px 4px;
 }
 
+#switch_language a {
+  color: #008B8F;
+}
+
+#switch_language a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#switch_language:hover {
+  background-color: #008B8F;
+  color: white;
+}
+
 .extra-nav {
   font-size: .75em;
   font-family: 'CooperHewitt-Medium';

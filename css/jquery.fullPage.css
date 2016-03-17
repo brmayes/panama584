@@ -206,10 +206,11 @@ html.fp-enabled,
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
-    /*top: 22px; /*location of hover text*/*/
-    /*left: 25px; /*location of hover text*/*/
+    /*top: 22px; /*location of hover text*/
+    /*left: 250px; /*location of hover text*/
     color: #fff;
     font-size: 9px;
+    letter-spacing: 0;
     /*font-family: arial, helvetica, sans-serif;*/
     font-family: "ProximaNova", sans-serif;
     font-weight: 700;
@@ -223,6 +224,18 @@ html.fp-enabled,
     width: 0;
     cursor: pointer;
 }
+#fp-nav ul li .fp-tooltip:after {
+  content:'';
+  width:0;
+  height:0;
+  position:absolute;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #DE7769 transparent transparent transparent;
+  left: 16px;
+  top:15px;
+  z-index: 50;
+}
 #fp-nav ul li:hover .fp-tooltip,
 #fp-nav.fp-show-active a.active + .fp-tooltip {
     -webkit-transition: opacity 0.2s ease-in;
@@ -231,18 +244,19 @@ html.fp-enabled,
     opacity: 1;
     color: white;
     padding: 2px;
-    top: -9px;
+    top: -12px;
+    left: 32px;
+    text-align: center;
 }
 #fp-nav.fp-show-active a.active + .fp-tooltip{
   /*display: none;*/
 }
-#fp-nav ul li .fp-tooltip.right {
-    /*right: 20px;
-    color: black;*/
-}
-#fp-nav ul li .fp-tooltip.left {
-    left: 20px;
-}
+/*#fp-nav ul li .fp-tooltip.right {
+    right: 20px;
+}*/
+/*#fp-nav ul li .fp-tooltip.left {
+    left: 10px;
+}*/
 .fp-auto-height.fp-section,
 .fp-auto-height .fp-slide,
 .fp-auto-height .fp-tableCell{
