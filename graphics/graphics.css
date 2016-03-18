@@ -1,0 +1,48 @@
+/* Fonts */
+/* Bold */
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.woff") format("woff"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.ttf") format("truetype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+/* Medium */
+@font-face {
+  font-family: 'CooperHewitt-Medium';
+  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff") format("woff"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.ttf") format("truetype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+/* Light */
+@font-face {
+  font-family: 'CooperHewitt-Light';
+  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.woff") format("woff"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.ttf") format("truetype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+/* Put this in your HTML if you need to iframe your graphic on to the page */
+/*
+<script src="https://use.typekit.net/yvc1tde.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+*/
+body {
+  font-family: "Proxima Nova", sans-serif !important;
+  font-size: 12pt;
+  color: #282423;
+  background-color: white;
+}
+
+body p {
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "CooperHewitt", sans-serif !important;
+  font-weight: 700;
+}

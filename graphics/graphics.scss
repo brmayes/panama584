@@ -1,0 +1,62 @@
+// General
+
+/* Fonts */
+/* Bold */
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      //  url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Medium */
+@font-face {
+  font-family: 'CooperHewitt-Medium';
+  src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      //  url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Light */
+@font-face {
+  font-family: 'CooperHewitt-Light';
+  src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.eot'); /* IE9 Compat Modes */
+  src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      //  url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* Put this in your HTML if you need to iframe your graphic on to the page */
+/*
+<script src="https://use.typekit.net/yvc1tde.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+*/
+$teal-base: #008B8F;
+$coral-base: #DF7760;
+$black: #282423;
+$grey: #9D9994;
+$light-grey: #E2DFDC;
+
+body {
+  font-family: "Proxima Nova", sans-serif !important;
+  font-size: 12pt;
+  color: $black;
+  background-color: white;
+
+  p {
+    letter-spacing: 1px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  // text-transform: uppercase;
+  font-family: "CooperHewitt", sans-serif !important;
+  font-weight: 700;
+}

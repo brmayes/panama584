@@ -117,7 +117,7 @@
 
   .container-video, .container-graphic {
     @extend .container-text;
-    width: 75%;
+    width: 70%;
   }
 
   .video-padding {
@@ -140,6 +140,10 @@
     left: 0;
     width: 100%;
     height: 100%;
+  }
+
+  .embed-container iframe {
+    min-height: 700px;
   }
 
 // buttons
@@ -165,18 +169,10 @@
   }
 
 // sections
-  // #home_section {
-  //   color: white;
-  //   text-align: center;
-  //   & ul {
-  //     list-style-type: none;
-  //     & li {
-  //       display: inline-block;
-  //       border-bottom: 4px solid $coral-base;
-  //       margin: 0 15px;
-  //     }
-  //   }
-  // }
+  .container-graphic {
+    @extend body;
+    font-size: 12pt;
+  }
 
 //paragraph
   p {
@@ -187,8 +183,12 @@
     }
   }
   .dropcap {
-    width: 50px;
+    width: 75px;
     height: auto;
+    display: inline-block;
+    float: left;
+    padding-right: 8px;
+    padding-left: 3px;
   }
   .story-image {
     float: right;
@@ -202,6 +202,7 @@
   padding-left: 1.25em;
 
 }
+
 .box-shadow-menu:before {
   content: "";
   position: absolute;
@@ -221,4 +222,111 @@
 iframe {
   height: 100px;
   border: 0;
+}
+
+.tabs-hover {
+  color: $teal-base;
+  a {
+    color: #008B8F;
+  }
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@mixin chapter_nav {
+  width: 200px;
+  position: absolute;
+  top: 38%;
+  padding: 15px;
+  background-color: $teal-base;
+  color: white;
+  display: none;
+}
+
+#previous-chapter {
+  @include chapter_nav;
+  left: -200px;
+}
+
+#next-chapter {
+  @include chapter_nav;
+  right: -200px;
+}
+
+#logo {
+  width: 120px;
+  top: 25px;
+  left: 1.5%;
+  float: left;
+  position: fixed;
+}
+
+#switch_language {
+  float: right;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  right: 2%;
+  width: 120px;
+  padding: 2px 2px 1px;
+  background-color: #E6E7E8;
+  font-size: .7em;
+  line-height: 1.8em;
+  color: $teal-base;
+  border-radius: 0 0 4px 4px;
+
+  a {
+    color: $teal-base;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &:hover {
+    background-color: $teal-base;
+    color: white;
+  }
+}
+
+#footer {
+  .menu-tab {
+    border-left: none;
+    padding-right: 40px;
+  }
+
+  .chaptertab {
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 10px;
+    color: #9C9994;
+    text-transform: none;
+    font-family: 'CooperHewitt';
+    font-size: 16pt;
+    display: inline-block;
+  }
+}
+
+.arthead {
+  @include center;
+  width: 55%;
+}
+
+.article_subhead {
+  font-family: "CooperHewitt-Light", sans-serif;
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.article_credits {
+  text-align: center;
+  line-height: 0px;
+
+  .article_by {
+    font-weight: 700;
+  }
 }

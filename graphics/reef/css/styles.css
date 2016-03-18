@@ -1,0 +1,79 @@
+/*FOR SVG1*/
+.reef1cls-933 {
+  fill: #df7760;
+  opacity: 0.4;
+}
+
+.reef1cls-933:hover {
+  fill: #df7760;
+  opacity: 1;
+}
+
+.reef1cls-933:active {
+  fill: #df7760;
+  opacity: 1;
+}
+
+/*FOR SVG2*/
+.cls-611 {
+  fill: #df7760;
+  opacity: 0.4;
+}
+
+.cls-611:hover {
+  fill: #df7760;
+  opacity: 1;
+}
+
+.cls-611:active {
+  fill: #df7760;
+  opacity: 1;
+}
+
+.contentDiv {
+  margin: 0 auto;
+  display: block;
+}
+
+/*FOR HTML*/
+.cbp-content {
+	width: 60% !important;
+  margin: 0 auto !important;
+  display: block;
+  float: none !important;
+  margin-top: 15px !important;
+}
+
+.feature-img {
+	width: 100%;
+}
+
+.row {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+.slideTitle {
+	margin-bottom: 15px !important;
+}
+
+.cbp-contentslider li > div {
+  position: relative !important;
+}
+
+@media screen and (max-width: 67.75em) {
+  .cbp-contentslider nav a span {
+    display: block !important;
+  }
+  .cbp-content {
+  	width: 100% !important;
+  }
+}
+
+.intro {
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #008B8F !important;
+}

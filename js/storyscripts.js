@@ -70,6 +70,7 @@ var progressBar = function(theItem) {
     $('#progress-bar').val('25');
     console.log("second works");
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #9C9994'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
     console.log("second page");

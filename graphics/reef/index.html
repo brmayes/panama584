@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <title>Dissecting the Reef</title>
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link href="css/styles.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="../graphics.css" />
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div id="cbp-contentslider" class="cbp-contentslider">
+        <ul>
+          <li id="slide1">
+            <div class="intro">
+              <h3 class="slideTitle">Big Red</h3>
+              <p>
+                Introduction:
+                mixtape trust fund wolf williamsburg migas aesthetic cornhole viral single-origin coffee street art.
+                Thundercats chartreuse squid affogato salvia. Kitsch plaid distillery intelligentsia kombucha. Pug ethical
+                locavore craft beer crucifix jean shorts intelligentsia lo-fi, messenger bag fanny pack aesthetic. Bicycle
+                rights portland marfa pickled salvia, asymmetrical chillwave ennui DIY iPhone thundercats distillery
+                direct trade mustache. Sartorial small batch whatever, locavore authentic franzen vegan mlkshk freegan.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="main-content">
+                  <img class="svg" id="coral_ct_scan" src="assets/coral_ct_scan.svg" />
+                  <!-- <object type="image/svg+xml"
+                  data="assets/coral_ct_scan.svg"> Your browser does not support
+                  SVGs </object> -->
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="cbp-content">
+                  <div class="contentDiv" id="info">
+                    <h4>Dissecting the Coral</h4>
+                    <p>
+                      Instructions: Brunch raw denim twee, DIY squid letterpress irony gastropub sustainable scenester
+                      mumblecore keytar helvetica. 3 wolf moon umami typewriter polaroid ramps microdosing. Schlitz
+                      fanny pack lomo small batch, organic tacos lo-fi taxidermy distillery truffaut literally sartorial
+                      dreamcatcher gentrify. Readymade swag cray.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="slide2">
+            <div class="intro">
+              <h3 class="slideTitle">Big Red's Cousin</h3>
+              <p>
+                Introduction: 
+                mixtape trust fund wolf williamsburg migas aesthetic cornhole viral single-origin coffee street art.
+                Thundercats chartreuse squid affogato salvia. Kitsch plaid distillery intelligentsia kombucha. Pug ethical
+                locavore craft beer crucifix jean shorts intelligentsia lo-fi, messenger bag fanny pack aesthetic. Bicycle
+                rights portland marfa pickled salvia, asymmetrical chillwave ennui DIY iPhone thundercats distillery
+                direct trade mustache. Sartorial small batch whatever, locavore authentic franzen vegan mlkshk freegan.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="main-content">
+                  <img class="svg" id="coral_ct_scan2" src="assets/coral_ct_scan2.svg" />
+                  <!-- <object type="image/svg+xml" data="assets/coral_ct_scan2.svg">
+                    Your browser does not support SVGs
+                  </object> -->
+                </div>
+              </div>
+						</div>
+						<div class="row">
+              <div class="col-md-12">
+                <div class="cbp-content">
+                  <div class="contentDiv" id="info2">
+                    <h4>Dissecting the Coral</h4>
+                    <p>
+                      Instructions: Brunch raw denim twee, DIY squid letterpress irony gastropub sustainable scenester mumblecore keytar helvetica. 3 wolf moon umami typewriter polaroid ramps microdosing. Schlitz fanny pack lomo small batch, organic tacos lo-fi taxidermy distillery
+                      truffaut literally sartorial dreamcatcher gentrify. Readymade swag cray.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <nav>
+          <a href="#slide1"><span>Coral Sample 1</span></a>
+          <a href="#slide2"><span>Coral Sample 2</span></a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.cbpContentSlider.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(function() {
+      /*
+      - how to call the plugin:
+      $( selector ).cbpContentSlider( [options] );
+      - options:
+      {
+      	// default transition speed (ms)
+      	speed : 500,
+      	// default transition easing
+      	easing : 'ease-in-out',
+      	// current item's index
+      	current : 0
+      }
+      - destroy:
+      $( selector ).cbpContentSlider( 'destroy' );
+      */
+
+      $('#cbp-contentslider').cbpContentSlider();
+      console.log("slider loaded");
+    });
+  </script>
+</body>
+
+</html>
