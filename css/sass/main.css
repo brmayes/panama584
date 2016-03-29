@@ -26,9 +26,9 @@
 }
 
 /* General */
-body, .container-graphic {
+body {
   background-color: white;
-  font-size: 12pt;
+  font-size: 14pt;
   font-family: "proxima-nova", sans-serif;
   font-weight: 400;
   color: #282423;
@@ -96,7 +96,7 @@ h1 {
 }
 
 .container-video, .container-graphic {
-  width: 70%;
+  width: 75%;
 }
 
 .video-padding {
@@ -121,10 +121,6 @@ h1 {
   height: 100%;
 }
 
-.embed-container iframe {
-  min-height: 700px;
-}
-
 .button-primary, .button-secondary {
   width: 100px;
   height: 30px;
@@ -142,10 +138,6 @@ h1 {
   background-color: #008B8F;
 }
 
-.container-graphic {
-  font-size: 12pt;
-}
-
 p {
   margin-bottom: 25px;
   letter-spacing: 1px;
@@ -156,12 +148,8 @@ p .last-para {
 }
 
 .dropcap {
-  width: 75px;
+  width: 50px;
   height: auto;
-  display: inline-block;
-  float: left;
-  padding-right: 8px;
-  padding-left: 3px;
 }
 
 .story-image {
@@ -193,114 +181,4 @@ p .last-para {
 iframe {
   height: 100px;
   border: 0;
-}
-
-.tabs-hover {
-  color: #008B8F;
-}
-
-.tabs-hover a {
-  color: #008B8F;
-}
-
-.tabs-hover:hover {
-  color: white;
-  text-decoration: none;
-}
-
-#previous-chapter {
-  width: 200px;
-  position: absolute;
-  top: 38%;
-  padding: 15px;
-  background-color: #008B8F;
-  color: white;
-  display: none;
-  left: -200px;
-}
-
-#next-chapter {
-  width: 200px;
-  position: absolute;
-  top: 38%;
-  padding: 15px;
-  background-color: #008B8F;
-  color: white;
-  display: none;
-  right: -200px;
-}
-
-#logo {
-  width: 120px;
-  top: 25px;
-  left: 1.5%;
-  float: left;
-  position: fixed;
-}
-
-#switch_language {
-  float: right;
-  position: fixed;
-  text-align: center;
-  top: 0px;
-  right: 2%;
-  width: 120px;
-  padding: 2px 2px 1px;
-  background-color: #E6E7E8;
-  font-size: .7em;
-  line-height: 1.8em;
-  color: #008B8F;
-  border-radius: 0 0 4px 4px;
-}
-
-#switch_language a {
-  color: #008B8F;
-}
-
-#switch_language a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-#switch_language:hover {
-  background-color: #008B8F;
-  color: white;
-}
-
-#footer .menu-tab {
-  border-left: none;
-  padding-right: 40px;
-}
-
-#footer .chaptertab {
-  text-align: left;
-  padding-left: 70px;
-  padding-top: 10px;
-  color: #9C9994;
-  text-transform: none;
-  font-family: 'CooperHewitt';
-  font-size: 16pt;
-  display: inline-block;
-}
-
-.arthead {
-  display: block;
-  margin: 0 auto;
-  width: 55%;
-}
-
-.article_subhead {
-  font-family: "CooperHewitt-Light", sans-serif;
-  font-size: 24pt;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.article_credits {
-  text-align: center;
-  line-height: 0px;
-}
-
-.article_credits .article_by {
-  font-weight: 700;
 }

@@ -1,9 +1,62 @@
 /* General */
 
+#logo {
+  width: 120px;
+  top: 25px;
+  left: 1.5%;
+  float: left;
+  position: fixed;
+}
+
+#switch_language {
+  float: right;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  right: 2%;
+  width: 120px;
+  padding: 2px 2px 1px;
+  background-color: #E6E7E8;
+  font-size: .7em;
+  line-height: 1.8em;
+  color: #008B8F;
+  border-radius: 0 0 4px 4px;
+}
+
+#switch_language a {
+  color: #008B8F;
+}
+
+#switch_language a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#switch_language:hover {
+  background-color: #008B8F;
+  color: white;
+}
+
 .extra-nav {
   font-size: .75em;
   font-family: 'CooperHewitt-Medium';
   letter-spacing: .5px;
+}
+
+#footer .menu-tab {
+  border-left: none;
+  padding-right: 40px;
+}
+
+#footer .chaptertab {
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 10px;
+  color: #9C9994;
+  text-transform: none;
+  font-family: 'CooperHewitt';
+  font-size: 16pt;
+  display: inline-block;
 }
 
 .chapter-number {
@@ -27,6 +80,38 @@
 .footer-container {
   padding-right: 2%;
   padding-left: 0%;
+}
+
+.tab-hover a {
+  color: #008B8F;
+}
+
+.tab-hover:hover, .tab-hover a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/*chapter buttons*/
+#previous-chapter {
+  width: 190px;
+  position: absolute;
+  left: -200px;
+  top: 38%;
+  padding: 15px 10px;
+  background-color: #008B8F;
+  color: white;
+  display: none;
+}
+
+#next-chapter {
+  width: 190px;
+  position: absolute;
+  right: -200px;
+  top: 38%;
+  padding: 15px 10px;
+  background-color: #008B8F;
+  color: white;
+  display: none;
 }
 
 .chapter-label {
@@ -103,6 +188,14 @@
   border-right: 1px solid white;
   padding-top: 20px;
   height: 60px;
+}
+
+.tab-active {
+  background-color: #DF7760;
+}
+
+.tab-active a {
+  color: white;
 }
 
 .home_links {
@@ -225,3 +318,31 @@
 /*#fp-nav ul li a, .fp-slidesNav ul li a {
   display: inline-block;;
 }*/
+
+-webkit-keyframes story-fade-in {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes story-fade-in {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes story-fade-in {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes story-fade-in {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  -webkit-animation: story-fade-in 2s; /* Safari 4+ */
+  -moz-animation:    story-fade-in 2s; /* Fx 5+ */
+  -o-animation:      story-fade-in 2s; /* Opera 12+ */
+  animation:         story-fade-in 2s; /* IE 10+, Fx 29+ */
+}

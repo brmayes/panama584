@@ -32,7 +32,7 @@
   <!-- Style sheets -->
   <link rel="stylesheet" type="text/css" href="css/sass/main.css" />
   <link rel="stylesheet" type="text/css" href="css/home.css" />
-  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/custom.css" /> -->
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -43,115 +43,78 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-vide-bg="media/video/cin.mp4" data-vide-options="loop: true, muted: true, position: center center">
 
   <div id="fullpage">
     <!-- Page 1: Video -->
     <div class="section" id="home_section">
       <canvas id="c"></canvas>
       <div class="intro container-home">
-        <img alt="changing tides" src="assets/headlines/changingtides_white_subhead.png" class="home_headline" />
+        <div class="home_headline">
+          Under<span class="blue">curren<span class="no_spacing">t</span></span>
+        </div>
 
-        <!-- <h3>The evolving environment in Bocas del Toro, Panam<span class="no_spacing">a</span></h3> -->
+        <h3>The province of Bocas del Toro, Panama, is a paragon of issues facing<br />our world. Environmental sustainability, human rights and economic stability<br />combine in a complex mix of elements that culminate in Bocas.</h3>
 
         <div id="play_trailer">
 
           <div id="play_button_container">
-            <a href="#" class="play_hover">
-              <div id="play_button">
-              </div>
-            </a>
+              <button class="btn btn-default" id="read_more">Read More</button>
+              <button class="btn btn-default" id="trailer_button">View Trailer</button>
           </div>
 
-          <div class="view_trailer">
+          <!-- <div class="view_trailer">
             <div class="trailer_text"><a href="#">View trailer</a></div>
             <div class="time"><i class="fa fa-clock-o"></i> 3:00</div>
-          </div>
+          </div> -->
 
         </div>
-
-        <!-- <div class="home_links">
-          <ul class="home_ul">
-            <li class="chapter_one">
-              <div class="chapter_block">
-                <a href="#">
-                  <span class="chapters">Chapter 1</span>
-                </a>
-              </div>
-            </li>
-            <li class="chapter_two">
-              <div class="chapter_block">
-                <a href="#">
-                  <span class="chapters">Chapter 2</span>
-                </a>
-              </div>
-            </li>
-            <li class="chapter_three">
-              <div class="chapter_block">
-                <a href="#">
-                  <span class="chapters">Chapter 3</span>
-                </a>
-              </div>
-            </li>
-            <li class="chapter_four">
-              <div class="chapter_block">
-                <a href="#">
-                  <span class="chapters">Chapter 4</span>
-                </a>
-              </div>
-            </li>
-            <li class="chapter_five">
-              <div class="chapter_block">
-                <a href="#">
-                  <span class="chapters">Chapter 5</span>
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div> -->
 
 
         <div class="home_links">
-            <ul class="home_ul">
-              <div class="chapter_block">
-                <a href="#"><li class="chapter_one">
+            <div class="row">
+              <div class="col-sm-1 col-md-1 hidden-xs">
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <a href="#" class="chapter_one">
                   <span class="chapters">Chapter 1</span>
-                </li></a>
+                </a>
               </div>
-              <div class="chapter_block">
-                <a href="#"><li class="chapter_two">
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <a href="#" class="chapter_two">
                   <span class="chapters">Chapter 2</span>
-                </li></a>
+                </a>
               </div>
-              <div class="chapter_block">
-                <a href="#"><li class="chapter_three">
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <a href="#" class="chapter_three">
                   <span class="chapters">Chapter 3</span>
-                </li></a>
+                </a>
               </div>
-              <div class="chapter_block">
-                <a href="#"><li class="chapter_four">
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <a href="#" class="chapter_four">
                   <span class="chapters">Chapter 4</span>
-                </li></a>
+                </a>
               </div>
-              <div class="chapter_block">
-                <a href="#"><li class="chapter_five">
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <a href="#" class="chapter_five">
                   <span class="chapters">Chapter 5</span>
-                </li></a>
+                </a>
               </div>
-            </ul>
-          </div>
-      </div>
+            </div>
 
-      <div id="trailer_video" style="display:none">
-        <div class='embed-container'>
-          <iframe src='https://player.vimeo.com/video/157306694' allowFullScreen></iframe>
-        </div>
-        <div class="exit">
-          <a href="#"><img alt="play button" src="assets/icons/x_white.png" class="img-responsive" /></a>
-        </div>
+
       </div>
 
 
+    </div>
+
+    <div id="trailer_video" style="display:none">
+      <div class='embed-container'>
+        <iframe src='https://player.vimeo.com/video/157306694' allowFullScreen></iframe>
+      </div>
+      <div class="exit">
+        <a href="#"><img alt="play button" src="assets/icons/x_white.png" class="img-responsive" /></a>
+      </div>
     </div>
   </div>
 
@@ -170,6 +133,7 @@
   <script type="text/javascript" src="js/examples.js"></script>
   <script type="text/javascript" src="js/fullPage_options_home.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.vide.js"></script>
   <script type="text/javascript" src="js/homescripts.js"></script>
 
 </body>

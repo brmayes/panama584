@@ -30,12 +30,10 @@ body {
 }
 
 #home_section {
-  background-image: url("../media/img/home_ocean.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center -145px;
-  color: white;
+  background: transparent;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 #home_section ul {
@@ -59,23 +57,33 @@ iframe {
   top: 0px;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .home_headline {
-  text-shadow: 0px 0px 20px rgba(40, 36, 45, 0.5);
-  margin-top: 4%;
-  margin-bottom: 0;
+  text-shadow: 0px 0px 15px rgba(39, 71, 110, 0.3);
+  margin-top: 6%;
+  margin-bottom: -2%;
   text-align: center;
-  width: 55%;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'CooperHewitt-Light', sans-serif;
+  font-size: 6.5em;
+  letter-spacing: 15px;
+  opacity: 1.0;
 }
 
 h3 {
-  font-family: "CooperHewitt-Medium", sans-serif;
+  font-family: "Cooper Hewitt", sans-serif;
   font-weight: 400;
-  font-size: 18pt;
-  text-shadow: 0px 0px 20px rgba(40, 36, 45, 0.5);
-  /*font-style: italic;*/
-  /*letter-spacing: 1px;*/
+  font-size: 15pt;
+  line-height: 24pt;
+  letter-spacing: 0.5px;
+  color: white;
+  /*text-shadow: 0px 0px 5px rgba(39, 71, 110, 0.6);*/
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .no_spacing {
@@ -88,28 +96,28 @@ h3 {
 }
 
 #play_button_container {
-  width: 80px;
+  width: 320px;
   margin-right: auto;
   margin-left: auto;
 }
 
-#play_button {
-  width: 80px;
-  height: 80px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 0 90px 0;
-  background-image: url("../assets/icons/play_button.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+.btn-default {
+  border-radius: 0;
+  border: 1px solid #008B8F;
+  background: none;
+  color: #008B8F;
+  text-transform: uppercase;
+  font-family: 'CooperHewitt-Medium', sans-serif;
+  font-size: 16px;
+  padding-top: 10px;
+  margin: 0 10px;
+  width: 130px;
 }
 
-a:hover #play_button {
-  background-image: url("../assets/icons/play_button_hover.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 80px;
-  height: 80px;
+.btn-default:hover {
+  border: 1px solid #008B8F;
+  background-color: #008B8F;
+  color: white;
 }
 
 .view_trailer {
@@ -140,9 +148,9 @@ a:hover #play_button {
 }
 
 .home_links {
-  margin-top: 0px;
-  margin-bottom: 5%;
-  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 10%;
 }
 
 .chapter_block {
@@ -155,16 +163,16 @@ a:hover #play_button {
   padding-bottom: 5px;
 }
 
-.home_ul a li {
+.home_links a {
   color: white;
   font-size: 16pt;
 }
 
-.home_ul a .chapter_one:hover span, .home_ul a .chapter_two:hover span, .home_ul a .chapter_three:hover span, .home_ul a .chapter_four:hover span, .home_ul a .chapter_five:hover span {
+.home_links a.chapter_one:hover span, .home_links a.chapter_two:hover span, .home_links a.chapter_three:hover span, .home_links a.chapter_four:hover span, .home_links a.chapter_five:hover span {
   display: none;
 }
 
-.home_ul a .chapter_one:hover:after, .home_ul a .chapter_two:hover:after, .home_ul a .chapter_three:hover:after, .home_ul a .chapter_four:hover:after, .home_ul a .chapter_five:hover:after {
+.home_links a.chapter_one:hover:after, .home_links a.chapter_two:hover:after, .home_links a.chapter_three:hover:after, .home_links a.chapter_four:hover:after, .home_links a.chapter_five:hover:after {
   font-size: 13pt;
   font-family: 'CooperHewitt';
   text-decoration: none;
@@ -172,24 +180,28 @@ a:hover #play_button {
   padding-bottom: 5px;
 }
 
-.home_ul a .chapter_one:hover:after{
+.home_links a.chapter_one:hover:after{
   content: 'Below the Reef';
 }
 
-.home_ul a .chapter_two:hover:after{
-  content: 'Tourism Rising';
+.home_links a.chapter_two:hover:after{
+  content: "Fisherman's Island";
 }
 
-.home_ul a .chapter_three:hover:after{
+.home_links a.chapter_three:hover:after{
   content: 'Bananas in Peril';
 }
 
-.home_ul a .chapter_four:hover:after{
-  content: 'Protesters March';
+.home_links a.chapter_four:hover:after{
+  content: "Ana's Store";
 }
 
-.home_ul a .chapter_five:hover:after{
-  content: 'Science Rules';
+.home_links a.chapter_five:hover:after{
+  content: 'Eco Tourism';
+}
+
+a:hover, a:focus {
+    text-decoration: none;
 }
 
 #trailer_video {
@@ -208,7 +220,7 @@ a:hover #play_button {
   height: 25px;
   margin: 15px 10px;
   position: relative;
-  top: -106.5%;
+  top: -130.5%;
   right: 1%;
 }
 
@@ -260,4 +272,28 @@ canvas {
   -moz-animation:    story-fade-in 2s; /* Fx 5+ */
   -o-animation:      story-fade-in 2s; /* Opera 12+ */
   animation:         story-fade-in 2s; /* IE 10+, Fx 29+ */
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1439px) {
+  .home_headline {
+    margin-top: 15%
+  }
+  .home_links {
+    padding-top: 145px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .home_headline {
+    margin-top: 18%;
+  }
+  .home_links {
+    padding-top: 165px;
+  }
+}
+
+.blue {
+  color: #008B8F;
+  opacity: 0.7;
+  text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
 }

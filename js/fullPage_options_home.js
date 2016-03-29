@@ -36,9 +36,9 @@ $(document).ready(function() {
     recordHistory: true,
 
     //Design
-    sectionsColor: ['#FFFFFF'],
+    sectionsColor: false,
     controlArrows: false,
-    verticalCentered: true,
+    verticalCentered: false,
     resize : false,
     paddingTop: '0em',
     paddingBottom: '0m',
