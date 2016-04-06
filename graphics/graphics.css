@@ -11,18 +11,18 @@
 /* Medium */
 @font-face {
   font-family: 'CooperHewitt-Medium';
-  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot");
+  src: url("../../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff") format("woff"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.ttf") format("truetype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.svg#svgFontName") format("svg");
+  src: url("../../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff") format("woff"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.ttf") format("truetype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.svg#svgFontName") format("svg");
   /* Legacy iOS */
 }
 
 /* Light */
 @font-face {
   font-family: 'CooperHewitt-Light';
-  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.eot");
+  src: url("../../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.eot");
   /* IE9 Compat Modes */
-  src: url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.woff") format("woff"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.ttf") format("truetype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.svg#svgFontName") format("svg");
+  src: url("../../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.woff") format("woff"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.ttf") format("truetype"), url("../../assets/fonts/Cooper-Hewitt/CooperHewitt-Light.svg#svgFontName") format("svg");
   /* Legacy iOS */
 }
 
@@ -43,6 +43,6 @@ body p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "CooperHewitt", sans-serif !important;
+  font-family: "CooperHewitt-Light", sans-serif !important;
   font-weight: 700;
 }

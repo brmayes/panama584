@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blueprint: Responsive Content Slider</title>
+		<meta name="description" content="Blueprint: Responsive Content Slider" />
+		<meta name="keywords" content="responsive, content, slider, jquery, css3, fluid, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/graphics.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+	 <!-- Bootstrap Core CSS -->
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <script src="https://use.typekit.net/yvc1tde.js"></script>
+	 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	</head>
+	<body>
+		<div class="container">
+			<!-- <header class="clearfix">
+				<span>Blueprint</span>
+				<h1> Elastic Content Slider</h1>
+				<nav><a href="http://tympanus.net/codrops/?p=13651" class="icon-drop" data-info="back to the Codrops article">back to the Codrops article</a></nav>
+			</header>	 -->
+			<div class="main">
+				<div id="cbp-contentslider" class="cbp-contentslider row">
+					<ul>
+						<li id="slide1">
+							<!-- <h3 class="icon-wolf">Wolf</h3> -->
+							<div class="slide row">
+
+								<div class="col-md-5">
+									<img src="images/tranquillo.JPG" class="main">
+								</div>
+								<div class="cont col-md-7 ">
+									<h3> Tourism in Panama </h3>
+									<p>The tourism industry is an influential contibutor to the Panamanian economy. In 2015, the industry accounted for a 12.6% share of the country's GDP. This sector has the ability to transform the environmental and social landscape of the country. Increasing tourists arrivals and their shifting preferences are a potential catalyst for industry change. </p>
+
+
+								</div>
+
+							</div>
+						</li>
+						<li id="slide2">
+							<!-- <h3 class="icon-rabbit">Rabbit</h3> -->
+							<div class="slide row">
+								<div class="col-md-8">
+									<div id="chart1" style="width:100%; height:350px;"></div>
+								</div>
+
+								<div class="cont col-md-4">
+									<p>This graph displays the number of international inbound tourists, or overnight visitors to Panama, from 1996-2011. These tourists are defined by The World Bank as “visitors who travel to a country other than that in which they have their usual residence, but outside their usual environment for less than 12 months.” The amount of international inbound tourists to Panama has grown significantly since 1996.</p>
+
+								</div>
+							</div>
+						</li>
+						<li id="slide3">
+							<!-- <h3 class="icon-aligator">Aligator</h3> -->
+							<div class= "row">
+								<div class=" col-md-8">
+									<div id="chart2" style="width:100%; height:300px;"></div>
+								</div>
+								<div class=" col-md-4">
+									<p class="content">Growth in the number of inbound tourists has contributed to a rise in the tourism industry's direct and total contributions to Panama's GDP. These variables are calcuted as follows: </p><br>
+									<p><span class="bold">Direct contribution of Travel and Tourism to GDP:</span><br> internal tourism consumption + purchases by tourism providers, including imported goods;<br>internal tourism consumption = visitor exports + domestic expenditure</p><br>
+
+									<p><span class= "bold">Total contribution of Travel and Tourism to GDP:</span> <br> direct contribution + domestic supply chain + capital investment + government collective spending + imported goods from indirect spending + induced</p>
+								</div>
+							</div>
+						</li>
+						<li id="slide4">
+							<!-- <h3 class="icon-turtle">Turtle</h3> -->
+							<div class= "slide row">
+								<div class="col-md-8">
+									<div id="chart4" style="width:100%; height:350px;"></div>
+								</div>
+								<div class="cont col-md-4">
+									<p>Although Panama's national and tourist populations are low compared to the other countries listed, the income gained from each tourist is one of the highest amongst other conutries with more developed tourism industries.</p>
+								</div>
+							</div>
+						</li>
+						<li id="slide5">
+							<!-- <h3 class="icon-platypus">Platypus</h3> -->
+							<div class= "slide row">
+								<div class="col-md-6"><img src="images/SustainableTourism.png"></div>
+								<div class="cont col-md-6">
+									<h3>Demand Shift Toward Responsible Travel</h3>
+									<p>Recent market studies have shown sustained consumer interest for travel options that are environmentally conscious and culuturally aware. This kind of travel falls under the category of ecotourism: Responsible travel to natural areas that conserves the environment and improves the welfare of local people. </p>
+									<p>According to a 2012 survey, the ‘green’ travel trend is gaining momentum among TripAdvisor members, as 71% said they plan to make more eco-friendly choices in the next 12 months compared to 65% that did so in the past 12 months.</p>
+									<p>93% of Conde Nast Traveler readers surveyed in 2011 said that travel companies should be responsible for protecting the environment, and 58% said their hotel choice is influenced by the support the hotel gives to the local community.</p>
+									<p>More than 90% of U.S. travelers surveyed by the online travel publisher TravelZoo in 2010 said that they would choose a ‘green,’ environmentally conscious hotel if the price and amenities were comparable to those at a non-sustainable, non-green hotel.</p>
+									<p>The CMIGreen Traveler Study Report 2010 asked responsible travelers how the global how the global economic crisis had affected their travel plans: 54% reported taking a “greener” vacation within the last 12 months, “43% of survey respondents say they would be willing to pay up to 5% more to decrease their ‘ecological footprint’ on their next trip; almost as many say they would pay more than that.”</p><br>
+									<p class="source">Source: Crest RTI Trend Stats</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<nav>
+						<a href="#slide1" class=""><span>Intro</span></a>
+						<a href="#slide2" class=""><span>Tourism</span></a>
+						<a href="#slide3" class=""><span>Effect</span></a>
+						<a href="#slide4" class=""><span>Gains</span></a>
+						<a href="#slide5" class=""><span>Shift</span></a>
+						<!-- <a href="#slide1" class="icon-wolf rc-active"><span>Intro</span></a>
+						<a href="#slide2" class="icon-rabbit"><span>Tourism</span></a>
+						<a href="#slide3" class="icon-aligator"><span>Effect</span></a>
+						<a href="#slide4" class="icon-turtle"><span>Sustainability</span></a>
+						<a href="#slide5" class="icon-platypus"><span>Benefit</span></a> -->
+					</nav>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+		<script src="js/jquery-2.2.1.min.js"></script>
+		<script src="js/jquery.cbpContentSlider.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<script src="http://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/highcharts-more.js"></script>
+		<script src="js/script.js"></script>
+		<script src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdn.datatables.net/responsive/2.0.2/js/dataTables.responsive.min.js"></script>
+		<!-- <script src="https://code.highcharts.com/modules/exporting.js"></script> -->
+
+		<script src="js/secondary.js"></script>
+		<script src="js/third.js"></script>
+		<script src="js/fourth.js"></script>
+
+		<script>
+			$(function() {
+				$( '#cbp-contentslider' ).cbpContentSlider();
+			});
+		</script>
+
+	</body>
+</html>

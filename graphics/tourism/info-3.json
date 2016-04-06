@@ -1,0 +1,62 @@
+{
+  "years": {
+    "year": [
+      {
+        "name": "2008",
+        "Direct_contribution_to_GDP": "1498.5",
+        "Total_contribution_to_GDP": "3653.8",
+        "Direct_contribution_to_employment": "75.2",
+        "Total_contribution_to_employment": "182.5"
+      },
+      {
+        "name": "2009",
+        "Direct_contribution_to_GDP": "1487.2",
+        "Total_contribution_to_GDP": "3748.4",
+        "Direct_contribution_to_employment": "70.1",
+        "Total_contribution_to_employment": "176.9"
+      },
+      {
+        "name": "2010",
+        "Direct_contribution_to_GDP": "1415.3",
+        "Total_contribution_to_GDP": "3463.2",
+        "Direct_contribution_to_employment": "65",
+        "Total_contribution_to_employment": "158.4"
+      },
+      {
+        "name": "2011",
+        "Direct_contribution_to_GDP": "1793.9",
+        "Total_contribution_to_GDP": "4256.1",
+        "Direct_contribution_to_employment": "77.6",
+        "Total_contribution_to_employment": "183.4"
+      },
+      {
+        "name": "2012",
+        "Direct_contribution_to_GDP": "2209.6",
+        "Total_contribution_to_GDP": "5244.7",
+        "Direct_contribution_to_employment": "94.1",
+        "Total_contribution_to_employment": "220.3"
+      },
+      {
+        "name": "2013",
+        "Direct_contribution_to_GDP": "2467.9",
+        "Total_contribution_to_GDP": "5829.4",
+        "Direct_contribution_to_employment": "102.7",
+        "Total_contribution_to_employment": "234"
+      },
+      {
+        "name": "2014E",
+        "Direct_contribution_to_GDP": "2600.6",
+        "Total_contribution_to_GDP": "6241.5",
+        "Direct_contribution_to_employment": "105.5",
+        "Total_contribution_to_employment": "240.1"
+      },
+      {
+        "name": "2024F",
+        "Direct_contribution_to_GDP": "4658.1",
+        "Total_contribution_to_GDP": "11384",
+        "Direct_contribution_to_employment": "139.1",
+        "Total_contribution_to_employment": "314.7"
+      }
+    ]
+  }
+}

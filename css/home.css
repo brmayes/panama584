@@ -7,6 +7,32 @@ body {
   color: #282423;
 }
 
+#switch_language {
+  float: right;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  right: 2%;
+  width: 150px;
+  padding: 5px 2px 5px;
+  background-color: #E6E7E8;
+  font-size: 8pt;
+  line-height: 10pt;
+  color: #008B8F;
+  border-radius: 0 0 4px 4px;
+  z-index: 100;
+}
+
+#switch_language:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#switch_language:hover {
+  background-color: #008B8F;
+  color: white;
+}
+
 .video-padding {
   padding-top: 0px !important;
   padding-bottom: 60px !important;
@@ -111,7 +137,7 @@ h3 {
   font-size: 16px;
   padding-top: 10px;
   margin: 0 10px;
-  width: 130px;
+  width: 180px;
 }
 
 .btn-default:hover {
@@ -150,7 +176,7 @@ h3 {
 .home_links {
   position: fixed;
   width: 100%;
-  bottom: 10%;
+  bottom: 5%;
 }
 
 .chapter_block {
@@ -159,32 +185,52 @@ h3 {
 }
 
 .chapters {
-  border-bottom: 2px solid rgba(255, 255, 255, .6);
+  border-bottom: 2px solid rgba(255, 255, 255, .7);
   padding-bottom: 5px;
 }
 
 .home_links a {
   color: white;
   font-size: 16pt;
+  font-family: 'CooperHewitt-Medium';
 }
 
-.home_links a.chapter_one:hover span, .home_links a.chapter_two:hover span, .home_links a.chapter_three:hover span, .home_links a.chapter_four:hover span, .home_links a.chapter_five:hover span {
+/*.home_links a.chapter_one:hover span, .home_links a.chapter_two:hover span, .home_links a.chapter_three:hover span, .home_links a.chapter_four:hover span, .home_links a.chapter_five:hover span {
   display: none;
+}*/
+
+#onehover, #twohover, #threehover, #fourhover, #fivehover {
+  visibility: hidden;
 }
 
-.home_links a.chapter_one:hover:after, .home_links a.chapter_two:hover:after, .home_links a.chapter_three:hover:after, .home_links a.chapter_four:hover:after, .home_links a.chapter_five:hover:after {
+.home_links a.chapter_one:hover + #onehover, .home_links a.chapter_two:hover + #twohover, .home_links a.chapter_three:hover + #threehover, .home_links a.chapter_four:hover + #fourhover, .home_links a.chapter_five:hover + #fivehover {
+  visibility: visible;
+}
+
+#onehover, #twohover, #threehover, #fourhover, #fivehover {
+  font-size: 13pt;
+  font-family: 'CooperHewitt';
+  text-decoration: none;
+  /*position: absolute;*/
+  padding-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+/*.home_links a.chapter_one:hover:after, .home_links a.chapter_two:hover:after, .home_links a.chapter_three:hover:after, .home_links a.chapter_four:hover:after, .home_links a.chapter_five:hover:after {
   font-size: 13pt;
   font-family: 'CooperHewitt';
   text-decoration: none;
   border-bottom: 2px solid white;
   padding-bottom: 5px;
-}
+}*/
 
-.home_links a.chapter_one:hover:after{
+/*.home_links a.chapter_one:hover:after{
   content: 'Below the Reef';
-}
+}*/
 
-.home_links a.chapter_two:hover:after{
+/*.home_links a.chapter_two:hover:after{
   content: "Fisherman's Island";
 }
 
@@ -198,7 +244,7 @@ h3 {
 
 .home_links a.chapter_five:hover:after{
   content: 'Eco Tourism';
-}
+}*/
 
 a:hover, a:focus {
     text-decoration: none;

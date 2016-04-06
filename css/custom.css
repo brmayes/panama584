@@ -14,20 +14,17 @@
   text-align: center;
   top: 0px;
   right: 2%;
-  width: 120px;
-  padding: 2px 2px 1px;
+  width: 150px;
+  padding: 5px 2px 5px;
   background-color: #E6E7E8;
-  font-size: .7em;
-  line-height: 1.8em;
+  font-size: 8pt;
+  line-height: 10pt;
   color: #008B8F;
   border-radius: 0 0 4px 4px;
+  z-index: 100;
 }
 
-#switch_language a {
-  color: #008B8F;
-}
-
-#switch_language a:hover {
+#switch_language:hover {
   color: white;
   text-decoration: none;
 }
@@ -194,7 +191,7 @@
   background-color: #DF7760;
 }
 
-.tab-active a {
+.tab-active {
   color: white;
 }
 
@@ -313,6 +310,14 @@
 .coral-border {
   border: 1px solid #DE7769;
   transition: all 0.4s ease-in-out;
+}
+
+.img-menu {
+  width: 31px;
+}
+
+.img-ex {
+  width: 23px;
 }
 
 /*#fp-nav ul li a, .fp-slidesNav ul li a {

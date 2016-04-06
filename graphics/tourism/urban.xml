@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<years>
+  <row name="1990">
+    <females>1996</females>
+    <males>362000</males>
+  </row>
+
+  <row name="1994">
+    <females>42.1</females>
+    <males>16.7</males>
+  </row>
+
+  <row name="1997">
+    <females>38.0</females>
+    <males>11.5</males>
+  </row>
+
+  <row name="1999">
+    <females>35.7</females>
+    <males>11.6</males>
+  </row>
+
+
+  <row name="2002">
+    <females>33.7</females>
+    <males>27.2</males>
+  </row>
+
+  <row name="2005">
+    <females>31.4</females>
+    <males>8.9</males>
+  </row>
+
+  <row name="2008">
+    <females>27.2</females>
+    <males>6.1</males>
+  </row>
+
+  <row name="2010">
+    <females>27.0</females>
+    <males>6.9</males>
+  </row>
+
+</years>

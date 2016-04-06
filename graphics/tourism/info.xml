@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Regions>
+    <Region name="Bocas del Toro">
+    <OutputMultiplier>1.04</OutputMultiplier>
+    <ValueAddedMultiplier>2.9</ValueAddedMultiplier>
+    <AllHouseholds>1.63</AllHouseholds>
+    <IncomeShareOfHouseholds>56.1%</IncomeShareOfHouseholds>
+    <UrbanPoor>7.1%</UrbanPoor>
+    <UrbanNonPoor>6.3%</UrbanNonPoor>
+    <RuralPoor>8.2%</RuralPoor>
+    <RuralNonPoor>7.9%</RuralNonPoor>
+    <UrbanPoor>12.1%</UrbanPoor>
+    <UrbanNonPoor>38.7%</UrbanNonPoor>
+    <RuralPoor>30.8%</RuralPoor>
+
+    <Region name="National">
+    <OutputMultiplier>1.03</OutputMultiplier>
+    <ValueAddedMultiplier>2.87</ValueAddedMultiplier>
+    <AllHouseholds>1.62</AllHouseholds>
+    <IncomeShareOfHouseholds>56.4%</IncomeShareOfHouseholds>
+    <UrbanPoor>n/a</UrbanPoor>
+    <UrbanNonPoor>n/a</UrbanNonPoor>
+    <RuralPoor>n/a</RuralPoor>
+    <RuralNonPoor>n/a</RuralNonPoor>
+    <UrbanPoor>5.3%</UrbanPoor>
+    <UrbanNonPoor>62.7%</UrbanNonPoor>
+    <RuralPoor>14.4%</RuralPoor>
+
+
+</Regions>
