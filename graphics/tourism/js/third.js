@@ -1,11 +1,3 @@
-Highcharts.setOptions({
-    chart: {
-        style: {
-            fontFamily: 'Proxima Nova'
-        }
-    }
-});
-
 var Level = [];
 var TotalAssests = [];
 var roa = [];

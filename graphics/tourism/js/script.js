@@ -1,10 +1,3 @@
-Highcharts.setOptions({
-    chart: {
-        style: {
-            fontFamily: 'Proxima Nova'
-        }
-    }
-});
 
 var year = [];
 var DirectContributionToGDP = [];

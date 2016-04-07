@@ -4,10 +4,10 @@ $(document).ready(function() {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
-    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page'],      //have to figure out simplest way to customize this per page
+    navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page', 'Sixth page', 'Seventh page'],      //have to figure out simplest way to customize this per page
     showActiveTooltip: false,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
@@ -52,8 +52,7 @@ $(document).ready(function() {
       var loadedSection = $(this);
       progressBar(loadedSection);
       console.log(loadedSection);
-      if(index == 3){
-                console.log("Section 5 loaded");
+      if(index == 5){
                 $('#next-chapter').fadeIn(100);
                 $('#next-chapter').animate({right: "0"}, 500);
             }
@@ -63,8 +62,7 @@ $(document).ready(function() {
             var leavingSection = $(this);
 
             //after leaving section 5
-            if(index == 3 && direction == 'up'){
-                console.log("Leaving section 5!");
+            if(index == 5 && direction == 'up'){
                 $('#next-chapter').animate({right: "-200px"}, 500);
                 $('#next-chapter').fadeOut(100);
             }

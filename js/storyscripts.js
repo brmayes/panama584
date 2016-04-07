@@ -67,32 +67,42 @@ var progressBar = function(theItem) {
     $('.thirdPage_dot span').css({border: '1px solid #9C9994'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   }else if ($(theItem).hasClass('secondPage_dot')){
-    $('#progress-bar').val('25');
-    console.log("second works");
+    $('#progress-bar').val('16.6');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #9C9994'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
-    console.log("second page");
    }else if ($(theItem).hasClass('thirdPage_dot')){
-    $('#progress-bar').val('50');
+    $('#progress-bar').val('33.3');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   }else if ($(theItem).hasClass('fourthPage_dot')){
-    $('#progress-bar').val('75');
+    $('#progress-bar').val('50');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
   } else if ($(theItem).hasClass('fifthPage_dot')){
+    $('#progress-bar').val('66.5');
+    $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+  } else if ($(theItem).hasClass('sixthPage_dot')){
+    $('#progress-bar').val('83.1');
+    $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+  } else if ($(theItem).hasClass('seventhPage_dot')){
     $('#progress-bar').val('100');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
-   }
+  }
  };
 
 $(document).ready(function(){

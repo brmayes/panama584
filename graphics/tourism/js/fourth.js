@@ -1,11 +1,3 @@
-Highcharts.setOptions({
-    chart: {
-        style: {
-            fontFamily: 'Proxima Nova'
-        }
-    }
-});
-
 var tourists = [];
 var spending = [];
 var country = [];
@@ -17,11 +9,21 @@ var arrayToPush = [];
 
 
 
+
 $(document).ready(function() {
-  console.log("doc ready");
-
-
-
+  // for (var i = 0; i < 8; i++) {
+  //   country.push('name' + i);
+  //   tourists.push(10 * Math.random());
+  //   spending.push(10 * Math.random());
+  //   population.push(10 * Math.random());
+  //
+  //   arrayToPush = [tourists[i], spending[i], population[i], country[i]];
+  //   bubbleInfo.push(arrayToPush);
+  // }
+  // console.log("doc ready");
+  //
+  //
+  //
   $.ajax({
     url: 'info-5.xml',
     type: 'GET',
@@ -38,11 +40,16 @@ $(document).ready(function() {
       population.push(parseFloat($(this).find("population").text()));
       // countryName.push($(this).attr("name"));
 
-      arrayToPush = [parseFloat($(this).find("tourists").text()), parseFloat($(this).find("population").text()), parseFloat($(this).find("spending").text()), $(this).attr("name")];
+      arrayToPush = [parseFloat($(this).find("tourists").text()),
+      parseFloat($(this).find("population").text()), parseFloat($(this).find("spending").text()),
+      $(this).attr("name")];
+
       bubbleInfo.push(arrayToPush);
 
 
-    });
+     });
+
+  //  };
     console.log(bubbleInfo);
     // console.log(spending);
     // console.log(processedData);
@@ -51,7 +58,8 @@ $(document).ready(function() {
 
   buildchart4();
 
-  };
+};
+
 
   function buildchart4(xml) {
     $('#chart4').highcharts({
@@ -139,6 +147,7 @@ $(document).ready(function() {
 
         plotOptions: {
             series: {
+              keys: ['x', 'y', 'z', 'name'],
               states: {
                   hover: {
                       halo: {
@@ -171,4 +180,4 @@ $(document).ready(function() {
 
 
 
-});
+ });

@@ -247,7 +247,7 @@
 }
 
 .home_ul a .chapter_three:hover:after{
-  content: 'Tourism';
+  content: 'Raising Up Wild';
 }
 
 .home_ul a .chapter_four:hover:after{
@@ -266,7 +266,7 @@
 /*progress bar*/
 #cont{
   height: 100%;
-  width: 400px;
+  width: 375px;
   left: 110px;
   top: -6px;
   padding: 0;
@@ -350,4 +350,8 @@
   -moz-animation:    story-fade-in 2s; /* Fx 5+ */
   -o-animation:      story-fade-in 2s; /* Opera 12+ */
   animation:         story-fade-in 2s; /* IE 10+, Fx 29+ */
+}
+.story-images {
+  width: 45%;
+  float: right;
 }

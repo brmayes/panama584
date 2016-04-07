@@ -63,7 +63,7 @@ $(document).ready(function(){
 
    $(".chapter_two").click(function(){
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "reef.html";
+       window.location = "sea-for-generations.html";
      }});
      $(".chapter_two").css({color: '#008B8F'});
      $("#twohover").css({color: '#008B8F'});
@@ -72,7 +72,7 @@ $(document).ready(function(){
 
    $(".chapter_three").click(function(){
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "tourism.html";
+       window.location = "raising-up-wild.html";
      }});
      $(".chapter_three").css({color: '#008B8F'});
      $("#threehover").css({color: '#008B8F'});
