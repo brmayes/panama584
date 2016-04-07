@@ -239,23 +239,23 @@
 }
 
 .home_ul a .chapter_one:hover:after{
-  content: 'Below the Reef';
+  content: 'La Centinela';
 }
 
 .home_ul a .chapter_two:hover:after{
-  content: 'Tourism Rising';
+  content: 'A Sea for Generations';
 }
 
 .home_ul a .chapter_three:hover:after{
-  content: 'Bananas in Peril';
+  content: 'Tourism';
 }
 
 .home_ul a .chapter_four:hover:after{
-  content: 'Protesters March';
+  content: 'Built with Bananas';
 }
 
 .home_ul a .chapter_five:hover:after{
-  content: 'Science Rules';
+  content: 'La Reina';
 }
 
 /*#fp-nav ul li a span, .fp-slidesNav ul li a span {

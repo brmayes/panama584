@@ -1,0 +1,86 @@
+<krpano version="1.18" bgcolor="0x000000">
+
+	<!-- the videoplayer interface skin -->
+	<include url="skin/videointerface.xml" />
+
+	<!-- include the videoplayer plugin and load the video (use a low res video for iOS) -->
+  <!-- Chrome does not support videos encoded with H264!!! Use webm and mp4 to support Chrome, Firefox and Edge. (As of 3/31/2016) -->
+	<plugin name="video"
+
+	        url.html5="plugins/videoplayer.js"
+
+	        videourl="diving.mp4|diving.webm"
+
+	        pausedonstart="true"
+	        loop="false"
+	        enabled="false"
+	        zorder="0"
+	        align="center" ox="0" oy="0"
+
+	        width.no-panovideosupport="100%"
+	        height.no-panovideosupport="prop"
+
+	        onloaded="videointerface_setup_interface(get(name)); setup_video_controls();"
+	        onvideoready="videointerface_videoready();"
+          onvideocomplete="next_video()"
+	        />
+
+
+	<!-- custom control setup - add items for selecting videos with a different resolution/quality -->
+	<action name="setup_video_controls">
+		<!-- add  items to the control menu of the videointerface skin -->
+		videointerface_addmenuitem(configmenu, vqtitle, 'Select Chapter', true, videointerface_toggle_configmenu() );
+    videointerface_addmenuitem(configmenu, q1, 'Diving',  false, change_video_file(q1, 'diving.webm|diving.mp4'); );
+		videointerface_addmenuitem(configmenu, q2, 'Stream',  false, change_video_file_flat(q2, 'stream.webm|stream.mp4'); );
+
+
+		<!-- select/mark the current video (see the initial videourl attribute) -->
+		if(device.ios,
+			videointerface_selectmenuitem(configmenu, q1);
+		  ,
+			videointerface_selectmenuitem(configmenu, q2);
+      );
+	</action>
+
+
+	<!-- change the video file, but try keeping the same playback position get(plugin[video].time -->
+  <action name="change_video_file">
+		plugin[video].playvideo('%CURRENTXML%/%2', null, get(plugin[video].ispaused), 0);
+    videointerface_fisheye_view();
+		videointerface_deselectmenuitem(configmenu, q1);
+		videointerface_deselectmenuitem(configmenu, q2);
+		videointerface_selectmenuitem(configmenu, %1);
+	</action>
+
+  <action name="change_video_file_flat">
+    videointerface_flat_view();
+    plugin[video].playvideo('%CURRENTXML%/%2', null, get(plugin[video]), 0);
+    videointerface_deselectmenuitem(configmenu, q1);
+    videointerface_deselectmenuitem(configmenu, q2);
+    videointerface_selectmenuitem(configmenu, %1);
+  </action>
+  <action name="next_video">
+    var i = 0;
+    videos=['stream.mp4|stream.webm']
+    for(var j in videos){
+    if(i == videos.length){
+      change_video_file_flat(q2, videos[i]);
+        i = i+1;
+    }else{
+    plugin[video].stop();
+    };
+
+    }
+  </action>
+
+
+	<!-- the panoramic video image -->
+	<image devices="panovideosupport">
+		<sphere url="plugin:video" />
+	</image>
+
+
+	<!-- set the default view - a light fisheye projection -->
+	<view hlookat="0" vlookat="0" fovtype="DFOV" fov="130" fovmin="75" fovmax="150" fisheye="0.35" />
+
+</krpano>

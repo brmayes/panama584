@@ -33,7 +33,7 @@ $(document).ready(function(){
      $('h3').animate({opacity: "0.0"}, "fast");
      $('#play_trailer').animate({opacity: "0.0"}, "fast");
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "story-template.html";
+       window.location = "la-centinela.html";
      }});
    })
 
@@ -54,7 +54,7 @@ $(document).ready(function(){
 
    $(".chapter_one").click(function(){
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "story-template.html";
+       window.location = "la-centinela.html";
      }});
      $(".chapter_one").css({color: '#008B8F'});
      $("#onehover").css({color: '#008B8F'});
@@ -63,7 +63,7 @@ $(document).ready(function(){
 
    $(".chapter_two").click(function(){
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "story-template.html";
+       window.location = "reef.html";
      }});
      $(".chapter_two").css({color: '#008B8F'});
      $("#twohover").css({color: '#008B8F'});
@@ -72,7 +72,7 @@ $(document).ready(function(){
 
    $(".chapter_three").click(function(){
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "story-template.html";
+       window.location = "tourism.html";
      }});
      $(".chapter_three").css({color: '#008B8F'});
      $("#threehover").css({color: '#008B8F'});
@@ -81,7 +81,7 @@ $(document).ready(function(){
 
    $(".chapter_four").click(function(){
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "story-template.html";
+       window.location = "built-with-bananas.html";
      }});
      $(".chapter_four").css({color: '#008B8F'});
      $("#fourhover").css({color: '#008B8F'});
@@ -90,7 +90,7 @@ $(document).ready(function(){
 
    $(".chapter_five").click(function(){
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "story-template.html";
+       window.location = "la-reina.html";
      }});
      $(".chapter_five").css({color: '#008B8F'});
      $("#fivehover").css({color: '#008B8F'});
