@@ -51,7 +51,6 @@ $(document).ready(function() {
     afterLoad: function(anchorLink, index){
       var loadedSection = $(this);
       progressBar(loadedSection);
-      console.log(loadedSection);
       if(index == 7){
                 $('#previous-chapter').fadeIn(100);
                 $('#previous-chapter').animate({left: "0"}, 500);
