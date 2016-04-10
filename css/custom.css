@@ -392,10 +392,6 @@
   #footer .menu-tab {
     padding-right: 0 !important;
   }
-
-  .chapter-number {
-    padding: 0 !important;
-  }
 }
 
 @media (max-width: 767px) {

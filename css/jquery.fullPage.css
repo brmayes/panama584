@@ -99,7 +99,7 @@ html.fp-enabled,
     position: fixed;
     z-index: 100;
     /*margin-top: -32px;*/
-    bottom: 33px;
+    bottom: 25px;
     padding-right: 50px;
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
