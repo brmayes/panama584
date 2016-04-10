@@ -1,11 +1,32 @@
 /*ABOUT PAGE*/
-.bio-name {
+.bio-body, .bio-name {
   text-align: center;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+
+.bio-role {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 10pt;
+}
+
+.bio-twitter {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .bio-headshot {
   width: 100%;
   height: auto;
+}
+
+.bio-body {
+  margin-bottom: 10px;
+}
+
+.bio-website, .bio-website a:hover, .bio-website a {
+  color: white;
 }
 
 .bio-pic {
@@ -20,7 +41,7 @@
   background: rgba(0, 139, 143, 0.7);
   bottom: 0;
   color: white;
-  font-size: 1em;
+  font-size: 12px;
   left: 0;
   opacity: 0;
   overflow: hidden;
@@ -75,34 +96,3 @@
 }
 
 .bio-pic__body h2 { margin-top: 0; }
-
-.bio-pic__body p { margin-bottom: 1.5em; }
-
-/*.bio-margin {
-    margin-top: 10px;
-}
-
-.description {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: black;
-    font-size: 17px;
-    text-align: center;
-    /*opacity: 0.8;
-}
-
-.description-content {
-    font-family: 'Cooper Hewitt';
-    font-size: .89em;
-    line-height: 16px;
-    padding-bottom: 0;
-    color: white;
-}
-
-.image-align img {
-  width: 100%;
-  display: block;
-  margin: auto auto;
-}*/

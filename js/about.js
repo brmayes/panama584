@@ -11,9 +11,9 @@ jQuery(document).ready(function() {
 
   function buildTeam(team) {
 
-
     $.each(team,function(i,teamMember){
       var i = 1;
+      var firstname = teamMember.first.replace(/\s/g, '');
 
       if (i % 3 == 0) {
         bio += '<div class="row">';
@@ -21,21 +21,24 @@ jQuery(document).ready(function() {
 
       bio += '<div class="col-md-4">';
         bio += '<div class="bio-pic">'; //start of overlay
-          bio += '<img class="bio-headshot bio-pic__image" src="assets/about/headshots/' + teamMember.headshot + '" alt="teamImg" />';
-          bio += '<div class="bio-pic__body">';
-            bio += '<p class="bio-name">' + teamMember.bio + '</p>';
 
-            if (teamMember.twitter !== '') {
+          bio += '<img class="bio-headshot bio-pic__image" src="assets/about/portraits/' + firstname.toLowerCase() + '_' + teamMember.last.toLowerCase() + '.JPG" alt="teamImg" />';
+          bio += '<div class="bio-pic__body">';
+            bio += '<p class="bio-body">' + teamMember.bio + '</p>';
+
+            if (teamMember.twitter !== 0) {
+              // console.log teamMember.twitter
               bio += '<p class="bio-twitter">@' + teamMember.twitter + '</p>';
             }
 
-            if (teamMember.website !== '') {
-              bio += '<p class="bio-website"><a target="_blank" href="http://www.' + teamMember.website + '">"' + teamMember.website + '</a></p>';
+            if (teamMember.website !== 0) {
+              bio += '<p class="bio-website"><a target="_blank" href="http://www.' + teamMember.website + '">' + teamMember.website + '</a></p>';
             }
 
           bio += '</div>'; //end of body of content
         bio += '</div>'; //end of overlay
-        bio += '<p class="bio-name">' + teamMember.name + '</p>';
+        bio += '<p class="bio-name">' + teamMember.first + ' ' + teamMember.last + '</p>';
+        bio += '<p class="bio-role">' + teamMember.role + '</p>';
       bio += '</div>';
 
 

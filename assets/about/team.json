@@ -1,18 +1,65 @@
 [
-  {"name":"Brittany Mayes","bio":"This is the first bio.","website":"brmayes.com","twitter":"BritRenee_","headshot":"287.jpg"},
-  {"name":"Justina Vasquez","bio":"Justina Vasquez is a writer on the project and a junior at UNC-Chapel Hill majoring in business journalism with an ~unofficial~ minor in data journalism & visualization. She enjoys being part of innovation in the media industry and prefers jazz music and Greys Anatomy to many other pastimes.","website":"justinavasquez.me","twitter":"helloimjustina","headshot":"287.jpg"},
-  {"name":"Alexis Barnes","bio":"Alexis Barnes, aka the 360 Stitch Master, is a junior, studying multimedia journalism, media production, and history. Alexis is a developer for the Old Man At Sea story and works with post-production of the 360 videos. At any time she can be spotted sitting at a computer listening to music.  ","website":"brmayes.com","twitter":"BritRenee_","headshot":"287.jpg"},
-  {"name":"Anne Marie Hagerty","bio":"Anne Marie Hagerty is a Broadcast Journalism major with a History and Music minor at the UNC-Chapel Hill and works as an Assignment Editor for NBC-affiliate, WRAL-TV News, on the weekends. Anne Marie is pursuing a career as an international political news reporter with a focus on humanitarian issues. Anne Marie likes to play anything by Chopin on the piano, pretend she is good at running, indulge with coffee ice cream and watch New Girl in her free time.","website":"justinavasquez.me","twitter":"helloimjustina","headshot":"287.jpg"},
-  {"name":"Brittany Mayes","bio":"This is Brittany's bio.","website":"brmayes.com","twitter":"BritRenee_","headshot":"287.jpg"},
-  {"name":"Justina Vasquez","bio":"This is Tini's bio.","website":"justinavasquez.me","twitter":"helloimjustina","headshot":"287.jpg"},
-  {"name":"Brittany Mayes","bio":"This is Brittany's bio.","website":"brmayes.com","twitter":"BritRenee_","headshot":"287.jpg"},
-  {"name":"Justina Vasquez","bio":"This is Tini's bio.","website":"justinavasquez.me","twitter":"helloimjustina","headshot":"287.jpg"},
-  {"name":"Brittany Mayes","bio":"This is Brittany's bio.","website":"brmayes.com","twitter":"BritRenee_","headshot":"287.jpg"},
-  {"name":"Justina Vasquez","bio":"This is Tini's bio.","website":"justinavasquez.me","twitter":"helloimjustina","headshot":"287.jpg"},
-  {"name":"Brittany Mayes","bio":"This is Brittany's bio.","website":"brmayes.com","twitter":"BritRenee_","headshot":"287.jpg"},
-  {"name":"Justina Vasquez","bio":"This is Tini's bio.","website":"justinavasquez.me","twitter":"helloimjustina","headshot":"287.jpg"},
-  {"name":"Brittany Mayes","bio":"This is Brittany's bio.","website":"brmayes.com","twitter":"BritRenee_","headshot":"287.jpg"},
-  {"name":"Justina Vasquez","bio":"This is Tini's bio.","website":"justinavasquez.me","twitter":"helloimjustina","headshot":"287.jpg"},
-  {"name":"Brittany Mayes","bio":"This is Brittany's bio.","website":"brmayes.com","twitter":"BritRenee_","headshot":"287.jpg"},
-  {"name":"Justina Vasquez","bio":"This is Tini's bio.","website":"justinavasquez.me","twitter":"helloimjustina","headshot":"287.jpg"}
+  {
+    "Timestamp": "4/9/2016 19:12:37",
+    "first": "Alexis",
+    "last": "Barnes",
+    "role": "Developer",
+    "bio": "Alexis Barnes, aka the 360 Stitch Master, is a junior, studying multimedia journalism, media production, and history. Alexis is a developer for the Old Man At Sea story and works with post-production of the 360 videos. At any time she can be spotted sitting at a computer listening to music.",
+    "twitter": "LexiNicole06",
+    "website": "alexisbarnes.com"
+  },
+  {
+    "Timestamp": "4/9/2016 22:38:44",
+    "first": "Justina",
+    "last": "Vasquez",
+    "role": "Reporter",
+    "bio": "Justina is a writer on the project and a junior at UNC-Chapel Hill majoring in business journalism with an ~unofficial~ minor in data journalism & visualization. She enjoys being part of innovation in the media industry and prefers jazz music and \"Grey's Anatomy\" to many other pastimes.",
+    "twitter": "helloimjustina",
+    "website": "justinavasquez.me"
+  },
+  {
+    "Timestamp": "4/10/2016 0:06:29",
+    "first": "Anne Marie",
+    "last": "Hagerty",
+    "role": "Reporter",
+    "bio": "Anne Marie is a broadcast journalism major with a history and music minor at UNC-Chapel Hill and works as an assignment editor for NBC-affiliate, WRAL-TV News. She is pursuing a career as an international political news reporter with a focus on humanitarian issues. Anne Marie likes to play anything by Chopin on the piano, pretend she is good at running, indulge with coffee ice cream and watch New Girl.",
+    "twitter": 0,
+    "website": 0
+  },
+  {
+    "Timestamp": "4/10/2016 9:46:36",
+    "first": "Paris",
+    "last": "Alston",
+    "role": "Videographer",
+    "bio": "A senior majoring in broadcast journalism and global studies, Paris aspires to help people of all groups tell stories via citizen journalism. She has used writing and videography to tell stories in North Carolina, Philadelphia, Morocco and Southeast Asia. Paris loves storytelling that focuses on race, culture, and lived experience.",
+    "twitter": "bonjourparis_",
+    "website": "parisalston.wordpress.com"
+  },
+  {
+    "Timestamp": "4/10/2016 12:26:03",
+    "first": "Aleah",
+    "last": "Howell",
+    "role": "Designer",
+    "bio": "Aleah is a first-year masters student in visual journalism from Willow Spring, NC. She is interested in how new media creates an intersection between journalism and activism.",
+    "twitter": "AleahHowell12",
+    "website": "aleahhowell.com"
+  },
+  {
+    "Timestamp": "4/10/2016 13:55:31",
+    "first": "Caroline",
+    "last": "McKinley",
+    "role": "Developer",
+    "bio": "Caroline is a Multimedia major and Studio Art minor who loves to create. She appreciates life's beauty and hopes use her skills to share that beauty with the world.",
+    "twitter": "carolmckinleyy",
+    "website": "9ine5ive.com"
+  },
+  {
+    "Timestamp": "4/10/2016 15:53:37",
+    "first": "Michelle",
+    "last": "Lotker",
+    "role": "Videographer",
+    "bio": "Michelle is a visual storyteller with photo, video and graphic story telling chops. She loves listening to people's stories, learning new things and discovering the unexpected and uses her camera as an excuse to be nosy...in a good way.",
+    "twitter": "MichelleLotker",
+    "website": "michellelotker.com"
+  }
 ]
