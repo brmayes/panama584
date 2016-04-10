@@ -9,7 +9,7 @@
 
 	        url.html5="plugins/videoplayer.js"
 
-	        videourl="diving.mp4|diving.webm"
+	        videourl="videos/diving.mp4|videos/diving.webm"
 
 	        pausedonstart="true"
 	        loop="false"

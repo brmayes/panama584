@@ -33,7 +33,7 @@ $(document).ready(function(){
      $('h3').animate({opacity: "0.0"}, "fast");
      $('#play_trailer').animate({opacity: "0.0"}, "fast");
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "la-centinela.html";
+       window.location = "el-centinela.html";
      }});
    })
 

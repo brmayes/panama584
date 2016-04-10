@@ -216,35 +216,8 @@ h3 {
   margin-right: auto;
   margin-left: auto;
   color: white;
+  letter-spacing: 1px;
 }
-
-/*.home_links a.chapter_one:hover:after, .home_links a.chapter_two:hover:after, .home_links a.chapter_three:hover:after, .home_links a.chapter_four:hover:after, .home_links a.chapter_five:hover:after {
-  font-size: 13pt;
-  font-family: 'CooperHewitt';
-  text-decoration: none;
-  border-bottom: 2px solid white;
-  padding-bottom: 5px;
-}*/
-
-/*.home_links a.chapter_one:hover:after{
-  content: 'Below the Reef';
-}*/
-
-/*.home_links a.chapter_two:hover:after{
-  content: "Fisherman's Island";
-}
-
-.home_links a.chapter_three:hover:after{
-  content: 'Bananas in Peril';
-}
-
-.home_links a.chapter_four:hover:after{
-  content: "Ana's Store";
-}
-
-.home_links a.chapter_five:hover:after{
-  content: 'Eco Tourism';
-}*/
 
 a:hover, a:focus {
     text-decoration: none;

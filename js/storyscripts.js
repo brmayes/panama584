@@ -60,55 +60,74 @@
 
 // progress bar
 var progressBar = function(theItem) {
-  console.log(theItem);
   if ($(theItem).hasClass('firstPage_dot')){
     $('#progress-bar').val('0');
     $('.secondPage_dot span').css({border: '1px solid #9C9994'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #9C9994'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.fifthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.sixthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.seventhPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   }else if ($(theItem).hasClass('secondPage_dot')){
     $('#progress-bar').val('16.6');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #9C9994'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.fifthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.sixthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.seventhPage_dot span').css({border: '1px solid #9C9994'},  'fast');
    }else if ($(theItem).hasClass('thirdPage_dot')){
     $('#progress-bar').val('33.3');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.fifthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.sixthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.seventhPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   }else if ($(theItem).hasClass('fourthPage_dot')){
     $('#progress-bar').val('50');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fifthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.sixthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.seventhPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   } else if ($(theItem).hasClass('fifthPage_dot')){
     $('#progress-bar').val('66.5');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fifthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.sixthPage_dot span').css({border: '1px solid #9C9994'},  'fast');
+    $('.seventhPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   } else if ($(theItem).hasClass('sixthPage_dot')){
     $('#progress-bar').val('83.1');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fifthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.sixthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.seventhPage_dot span').css({border: '1px solid #9C9994'},  'fast');
   } else if ($(theItem).hasClass('seventhPage_dot')){
     $('#progress-bar').val('100');
     $('.firstPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.secondPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.thirdPage_dot span').css({border: '1px solid #DE7769'},  'fast');
     $('.fourthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.fifthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.sixthPage_dot span').css({border: '1px solid #DE7769'},  'fast');
+    $('.seventhPage_dot span').css({border: '1px solid #DE7769'},  'fast');
   }
  };
 
 $(document).ready(function(){
   $('a').click(function(){
     progressBar(this);
-    console.log(this);
   });
 });// complete click
 

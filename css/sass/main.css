@@ -70,7 +70,7 @@ h1 {
   padding: 14px 10px 0 10px;
   text-align: center;
   height: 60px;
-  padding-top: 15px;
+  padding-top: 12px;
 }
 
 #footer .tabs p {
@@ -107,7 +107,7 @@ h1 {
 
 .embed-container {
   position: relative;
-  padding-bottom: 66.25%;
+  padding-bottom: 68.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
@@ -298,7 +298,6 @@ iframe {
 
 .article_credits {
   text-align: center;
-  margin-bottom: 0;
 }
 
 .article_credits .article_by {

@@ -8,6 +8,11 @@
   position: fixed;
 }
 
+.logo-sm {
+  width: 30%;
+  margin-left: 15px;
+}
+
 #switch_language {
   float: right;
   position: fixed;
@@ -47,8 +52,8 @@
 
 #footer .chaptertab {
   text-align: left;
-  padding-left: 70px;
-  padding-top: 10px;
+  padding-left: 55px;
+  padding-top: 6px;
   color: #9C9994;
   text-transform: none;
   font-family: 'CooperHewitt';
@@ -239,11 +244,11 @@
 }
 
 .home_ul a .chapter_one:hover:after{
-  content: 'La Centinela';
+  content: 'El Centinela';
 }
 
 .home_ul a .chapter_two:hover:after{
-  content: 'A Sea for Generations';
+  content: 'A Sea for My Children';
 }
 
 .home_ul a .chapter_three:hover:after{
@@ -296,7 +301,7 @@
 }
 
 #fp-nav.right {
-  right: 65px;
+  right: 60px;
 }
 
 #progress-bar::-webkit-progress-value{ /* Changes line color */
@@ -354,4 +359,60 @@
 .story-images {
   width: 45%;
   float: right;
+}
+
+/* SCROLL ARROW */
+.arrow, .arrow-down {
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.bounce {
+  -moz-animation: bounce 3s 1 6s;
+  -webkit-animation: bounce 3s 1 6s;
+  animation: bounce 3s 1 6s;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 767px) {
+  #footer .menu-tab {
+    padding-right: 0 !important;
+  }
+
+  .chapter-number {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #footer .tabs {
+    border-left: none !important;
+  }
+
+  .arrow-mobile {
+    padding-top: 0;
+    margin-left: 15px;
+  }
+
+  #next-chapter, #previous-chapter {
+    width: 80px;
+  }
+}
+
+.arrow-mobile {
+  width: 50px;
 }

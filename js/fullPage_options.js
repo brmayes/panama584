@@ -7,7 +7,7 @@ $(document).ready(function() {
     anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['First page', 'Second page', 'Third page', 'Fourth page', 'Fifth page', 'Sixth page', 'Seventh page'],      //have to figure out simplest way to customize this per page
+    navigationTooltips: ['Introduction', 'Documentary', 'Part One', '360&deg; Video', 'Part 2', 'Interactive', 'Part 3'],      //have to figure out simplest way to customize this per page
     showActiveTooltip: false,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
