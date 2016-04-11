@@ -1,47 +1,25 @@
 /*FOR SVG1*/
-.reef1cls-933 {
+#low_density, #erosion, #high_density, #polyp_paths {
   fill: #df7760;
   opacity: 0.4;
 }
 
-.reef1cls-933:hover {
+#low_density:hover, #erosion:hover, #high_density:hover, #polyp_paths:hover {
   fill: #df7760;
   opacity: 1;
 }
 
-.reef1cls-933:active {
+#low_density:active, #erosion:active, #high_density:active, #polyp_paths:active {
   fill: #df7760;
   opacity: 1;
 }
 
-/*FOR SVG2*/
-.cls-611 {
-  fill: #df7760;
-  opacity: 0.4;
-}
-
-.cls-611:hover {
-  fill: #df7760;
-  opacity: 1;
-}
-
-.cls-611:active {
-  fill: #df7760;
-  opacity: 1;
-}
 
 .contentDiv {
   margin: 0 auto;
   display: block;
-}
-
-/*FOR HTML*/
-.cbp-content {
-	width: 60% !important;
-  margin: 0 auto !important;
-  display: block;
-  float: none !important;
-  margin-top: 15px !important;
+  width: 60%;
+  padding-top: 15px;
 }
 
 .feature-img {
@@ -57,21 +35,8 @@
 	margin-bottom: 15px !important;
 }
 
-.cbp-contentslider li > div {
-  position: relative !important;
-}
-
-@media screen and (max-width: 67.75em) {
-  .cbp-contentslider nav a span {
-    display: block !important;
-  }
-  .cbp-content {
-  	width: 100% !important;
-  }
-}
-
 .intro {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 h3 {

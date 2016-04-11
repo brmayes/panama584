@@ -51,6 +51,7 @@
     this.wrapper = document.querySelector(this.options.wrapper);
     this.mask = document.querySelector(this.options.maskId);
     this.menu = document.querySelector('#c-menu--' + this.options.type);
+    this.closeBtn_lg = this.menu.querySelector('.c-menu__close__lg');
     this.closeBtn = this.menu.querySelector('.c-menu__close');
     this.menuOpeners = document.querySelectorAll(this.options.menuOpenerClass);
     this._initEvents();
@@ -62,6 +63,11 @@
   Menu.prototype._initEvents = function() {
     // Event for clicks on the close button inside the menu.
     this.closeBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      this.close();
+    }.bind(this));
+
+    this.closeBtn_lg.addEventListener('click', function(e) {
       e.preventDefault();
       this.close();
     }.bind(this));

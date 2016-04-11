@@ -39,6 +39,10 @@
   color: white;
 }
 
+.arthead {
+  margin-bottom: 25px;
+}
+
 .extra-nav {
   font-size: .75em;
   font-family: 'CooperHewitt-Medium';
@@ -59,6 +63,10 @@
   font-family: 'CooperHewitt';
   font-size: 16pt;
   display: inline-block;
+}
+
+.chapter-info {
+  margin-top: 10px;
 }
 
 .chapter-number {
@@ -412,3 +420,8 @@
 .arrow-mobile {
   width: 50px;
 }
+
+.iframe-wrapper         {height:100%;margin:0 auto;background:#CCC; overflow: hidden}
+.h_iframe        {position:relative;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}

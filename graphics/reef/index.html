@@ -3,127 +3,49 @@
 
 <head>
   <title>Dissecting the Reef</title>
-  <link rel="stylesheet" type="text/css" href="css/default.css" />
   <link href="css/styles.css" type="text/css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="css/component.css" />
-  <link rel="stylesheet" type="text/css" href="../graphics.css" />
+  <link rel="stylesheet" type="text/css" href="css/graphics.css" />
   <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-  <script src="js/modernizr.custom.js"></script>
   <script src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <body>
   <div class="container">
-    <div class="main">
-      <div id="cbp-contentslider" class="cbp-contentslider">
-        <ul>
-          <li id="slide1">
-            <div class="intro">
-              <h3 class="slideTitle">Big Red</h3>
-              <p>
-                Introduction:
-                mixtape trust fund wolf williamsburg migas aesthetic cornhole viral single-origin coffee street art.
-                Thundercats chartreuse squid affogato salvia. Kitsch plaid distillery intelligentsia kombucha. Pug ethical
-                locavore craft beer crucifix jean shorts intelligentsia lo-fi, messenger bag fanny pack aesthetic. Bicycle
-                rights portland marfa pickled salvia, asymmetrical chillwave ennui DIY iPhone thundercats distillery
-                direct trade mustache. Sartorial small batch whatever, locavore authentic franzen vegan mlkshk freegan.
-              </p>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="main-content">
-                  <img class="svg" id="coral_ct_scan" src="assets/coral_ct_scan.svg" />
-                  <!-- <object type="image/svg+xml"
-                  data="assets/coral_ct_scan.svg"> Your browser does not support
-                  SVGs </object> -->
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="cbp-content">
-                  <div class="contentDiv" id="info">
-                    <h4>Dissecting the Coral</h4>
-                    <p>
-                      Instructions: Brunch raw denim twee, DIY squid letterpress irony gastropub sustainable scenester
-                      mumblecore keytar helvetica. 3 wolf moon umami typewriter polaroid ramps microdosing. Schlitz
-                      fanny pack lomo small batch, organic tacos lo-fi taxidermy distillery truffaut literally sartorial
-                      dreamcatcher gentrify. Readymade swag cray.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li id="slide2">
-            <div class="intro">
-              <h3 class="slideTitle">Big Red's Cousin</h3>
-              <p>
-                Introduction: 
-                mixtape trust fund wolf williamsburg migas aesthetic cornhole viral single-origin coffee street art.
-                Thundercats chartreuse squid affogato salvia. Kitsch plaid distillery intelligentsia kombucha. Pug ethical
-                locavore craft beer crucifix jean shorts intelligentsia lo-fi, messenger bag fanny pack aesthetic. Bicycle
-                rights portland marfa pickled salvia, asymmetrical chillwave ennui DIY iPhone thundercats distillery
-                direct trade mustache. Sartorial small batch whatever, locavore authentic franzen vegan mlkshk freegan.
-              </p>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="main-content">
-                  <img class="svg" id="coral_ct_scan2" src="assets/coral_ct_scan2.svg" />
-                  <!-- <object type="image/svg+xml" data="assets/coral_ct_scan2.svg">
-                    Your browser does not support SVGs
-                  </object> -->
-                </div>
-              </div>
-						</div>
-						<div class="row">
-              <div class="col-md-12">
-                <div class="cbp-content">
-                  <div class="contentDiv" id="info2">
-                    <h4>Dissecting the Coral</h4>
-                    <p>
-                      Instructions: Brunch raw denim twee, DIY squid letterpress irony gastropub sustainable scenester mumblecore keytar helvetica. 3 wolf moon umami typewriter polaroid ramps microdosing. Schlitz fanny pack lomo small batch, organic tacos lo-fi taxidermy distillery
-                      truffaut literally sartorial dreamcatcher gentrify. Readymade swag cray.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <nav>
-          <a href="#slide1"><span>Coral Sample 1</span></a>
-          <a href="#slide2"><span>Coral Sample 2</span></a>
-        </nav>
+    <div class="intro">
+      <h3 class="slideTitle">Massive Starlet Coral (Big Red)</h3>
+      <p>
+        On site in Bocas del Toro, Panama, Karl Castillo&apos;s research lab collects coral cores, samples of
+        corals shaped like cylinders that the researchers transport back to their lab at the University of North
+        Carolina at Chapel Hill. Each core is a timeline dating back years in a coral&apos;s life and health history.
+        Layer by layer, the researchers measure the density of each coral&apos;s skeleton and how that changed over
+        time, allowing them to determine whether the coral&apos;s environment
+        was suitable for growth that year.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="main-content">
+          <img class="svg" id="coral_ct_scan" src="assets/starlet_coral.svg" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="contentDiv" id="info">
+          <h4>Dissecting the Coral</h4>
+          <p>
+            Instructions: An isotope proxy is a sample of a coral layer marine ecologists use to determine temperature
+            and other environmental factors that affect coral growth rates. Based on industry standard equations, researchers
+            can determine the temperature, precipitation level, pollution level, and freshness or saltiness of the water
+            around that coral for each rainy and dry season of each year of a coral&apos;s life. Explore the coral sample.
+          </p>
+        </div>
       </div>
     </div>
   </div>
-  <script src="js/jquery.cbpContentSlider.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script>
-    $(function() {
-      /*
-      - how to call the plugin:
-      $( selector ).cbpContentSlider( [options] );
-      - options:
-      {
-      	// default transition speed (ms)
-      	speed : 500,
-      	// default transition easing
-      	easing : 'ease-in-out',
-      	// current item's index
-      	current : 0
-      }
-      - destroy:
-      $( selector ).cbpContentSlider( 'destroy' );
-      */
 
-      $('#cbp-contentslider').cbpContentSlider();
-      console.log("slider loaded");
-    });
-  </script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
