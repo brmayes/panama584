@@ -103,7 +103,7 @@ h3 {
   font-family: "Cooper Hewitt", sans-serif;
   font-weight: 400;
   font-size: 15pt;
-  line-height: 24pt;
+  line-height: 22pt;
   letter-spacing: 0.5px;
   color: white;
   /*text-shadow: 0px 0px 5px rgba(39, 71, 110, 0.6);*/
@@ -184,39 +184,48 @@ h3 {
   display: inline-block;
 }
 
-.chapters {
-  border-bottom: 2px solid rgba(255, 255, 255, .7);
-  padding-bottom: 5px;
-}
-
 .home_links a {
   color: white;
-  font-size: 16pt;
+  font-size: 14pt;
   font-family: 'CooperHewitt-Medium';
+  padding-bottom: 25px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  /*display: inline-block;*/
+}
+
+.home_links a:hover .homehovers {
+  border-top: 4px solid rgba(0, 139, 143, 1.0);
+  padding-top: 8px;
 }
 
 /*.home_links a.chapter_one:hover span, .home_links a.chapter_two:hover span, .home_links a.chapter_three:hover span, .home_links a.chapter_four:hover span, .home_links a.chapter_five:hover span {
   display: none;
 }*/
 
-#onehover, #twohover, #threehover, #fourhover, #fivehover {
+/*#onehover, #twohover, #threehover, #fourhover, #fivehover {
   visibility: hidden;
-}
+}*/
 
-.home_links a.chapter_one:hover + #onehover, .home_links a.chapter_two:hover + #twohover, .home_links a.chapter_three:hover + #threehover, .home_links a.chapter_four:hover + #fourhover, .home_links a.chapter_five:hover + #fivehover {
+/*.home_links a.chapter_one:hover + #onehover, .home_links a.chapter_two:hover + #twohover, .home_links a.chapter_three:hover + #threehover, .home_links a.chapter_four:hover + #fourhover, .home_links a.chapter_five:hover + #fivehover {
   visibility: visible;
-}
+}*/
 
-#onehover, #twohover, #threehover, #fourhover, #fivehover {
-  font-size: 13pt;
-  font-family: 'CooperHewitt';
+
+.homehovers {
+  font-size: 12pt;
+  font-family: 'CooperHewitt-Medium';
   text-decoration: none;
   /*position: absolute;*/
   padding-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
   color: white;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
+  text-transform: none;
+  border: none;
+  border-top: 2px solid rgba(255, 255, 255, .6);
 }
 
 a:hover, a:focus {
@@ -293,7 +302,7 @@ canvas {
   animation:         story-fade-in 2s; /* IE 10+, Fx 29+ */
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1439px) {
+@media screen and (min-width: 1290px) and (max-width: 1439px) {
   .home_headline {
     margin-top: 15%
   }

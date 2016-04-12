@@ -148,7 +148,7 @@ h1 {
 
 p {
   margin-bottom: 25px;
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 
 p .last-para {

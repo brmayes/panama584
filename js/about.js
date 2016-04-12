@@ -23,22 +23,40 @@ jQuery(document).ready(function() {
         bio += '<div class="bio-pic">'; //start of overlay
 
           bio += '<img class="bio-headshot bio-pic__image" src="assets/about/portraits/' + firstname.toLowerCase() + '_' + teamMember.last.toLowerCase() + '.JPG" alt="teamImg" />';
-          bio += '<div class="bio-pic__body">';
-            bio += '<p class="bio-body">' + teamMember.bio + '</p>';
+          bio += '<div class="bio-pic__body hidden-xs">';
+          bio += '<p class="bio-body">' + teamMember.bio + '</p>';
 
             if (teamMember.twitter !== 0) {
-              // console.log teamMember.twitter
-              bio += '<p class="bio-twitter">@' + teamMember.twitter + '</p>';
+              bio += '<p class="bio-twitter">Twitter: <a href="http://www.twitter.com/' + teamMember.twitter + '" target="_blank">@' + teamMember.twitter + '</a></p>';
+            }
+
+            if (teamMember.instagram !== 0) {
+              bio += '<p class="bio-instagram">Instagram: <a href="http://www.instagram.com/' + teamMember.instagram + '" target="_blank">@' + teamMember.instagram +  '</a></p>';
             }
 
             if (teamMember.website !== 0) {
               bio += '<p class="bio-website"><a target="_blank" href="http://www.' + teamMember.website + '">' + teamMember.website + '</a></p>';
             }
 
-          bio += '</div>'; //end of body of content
+        bio += '</div>'; //end of body of content
         bio += '</div>'; //end of overlay
+        bio += '<div class="hidden-xs">';
         bio += '<p class="bio-name">' + teamMember.first + ' ' + teamMember.last + '</p>';
         bio += '<p class="bio-role">' + teamMember.role + '</p>';
+        bio += '</div>'; //end of desktop
+        bio += '<div class="bio-mobile visible-xs center-text">';
+        bio += '<p class="bio-name">' + teamMember.first + ' ' + teamMember.last + ', ' + teamMember.role + '</p>';
+        bio += '<p class="bio-role-mobile"><a href="http://www.' + teamMember.website + '" target="_blank">Website</a>' + ' | ';
+
+          if (teamMember.twitter !== 0) {
+            bio += '<p class="bio-role-mobile"><a href="http://www.twitter.com/' + teamMember.twitter + '" target="_blank">@' + teamMember.twitter + '</a></p>';
+          }
+
+          if (teamMember.instagram !== 0){
+            bio += '<p class="bio-role-mobile"><a href="http://www.instagram.com/' + teamMember.instagram + '" target="_blank"> @' + teamMember.instagram + '</a></p>';
+          }
+
+        bio += '</div>'; //end of mobile bio info
       bio += '</div>';
 
 
