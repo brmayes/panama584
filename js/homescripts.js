@@ -24,14 +24,15 @@ $(document).ready(function(){
   //    $('#c').fadeIn(2000);
   //  })
 
-// read more button
+// // read more button
    $('#trailer_button').mouseenter(function(){
      $('#c').animate({opacity: '0.3'}, "slow");
    })
    $('#trailer_button').click(function(){
-     $('.home_headline').animate({opacity: "0.0"}, "fast");
+     $('.home_logo').animate({opacity: "0.0"}, "fast");
      $('h3').animate({opacity: "0.0"}, "fast");
      $('#play_trailer').animate({opacity: "0.0"}, "fast");
+     $('.home_links').animate({opacity: "0.0"}, "fast");
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
        window.location = "el-centinela.html";
      }});
@@ -45,57 +46,39 @@ $(document).ready(function(){
      $('#c').animate({top: '100%', opacity: '0.3'}, "slow");
    })
 
-// wave click
-   $('.home_links').click(function(){
-     $('.home_headline').animate({opacity: "0.0"}, "fast");
-     $('h3').animate({opacity: "0.0"}, "fast");
-     $('#play_trailer').animate({opacity: "0.0"}, "fast");
-   })
+// wave click and hover
 
-   $(".chapter_one").click(function(){
-     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "la-centinela.html";
-     }});
-     $(".chapter_one").css({color: '#008B8F'});
-     $("#onehover").css({color: '#008B8F'});
-     $(".home_links").fadeOut(1000);
-   });
+   var waveClick = function(chapterLink){
+     $(chapterLink).click(function(){
+       $('.home_logo').animate({opacity: "0.0"}, "fast");
+       $('h3').animate({opacity: "0.0"}, "fast");
+       $('#play_trailer').animate({opacity: "0.0"}, "fast");
+     })
+   };
 
-   $(".chapter_two").click(function(){
-     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "sea-for-generations.html";
-     }});
-     $(".chapter_two").css({color: '#008B8F'});
-     $("#twohover").css({color: '#008B8F'});
-     $(".home_links").fadeOut(1000);
-   });
+   var waveHover = function(chapterLink, chapterUrl, chapterHover){
+     $(chapterLink).click(function(){
+       $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
+         window.location = (chapterUrl);
+       }});
+       $(chapterLink).css({color: '#008B8F'});
+       $(chapterHover).css({color: '#008B8F'});
+       $(".home_links").fadeOut(1000);
+     })
+   }
 
-   $(".chapter_three").click(function(){
-     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "raising-up-wild.html";
-     }});
-     $(".chapter_three").css({color: '#008B8F'});
-     $("#threehover").css({color: '#008B8F'});
-     $(".home_links").fadeOut(1000);
-   });
+   waveClick('.chapter_one');
+   waveClick('.chapter_two');
+   waveClick('.chapter_three');
+   waveClick('.chapter_four');
+   waveClick('.chapter_five');
 
-   $(".chapter_four").click(function(){
-     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "built-with-bananas.html";
-     }});
-     $(".chapter_four").css({color: '#008B8F'});
-     $("#fourhover").css({color: '#008B8F'});
-     $(".home_links").fadeOut(1000);
-   });
+   waveHover('.chapter_one', 'el-centinela.html', '#onehover');
+   waveHover('.chapter_two', 'sea-for-generations.html', '#twohover');
+   waveHover('.chapter_three', 'raising-up-wild.html', '#threehover');
+   waveHover('.chapter_four', 'built-with-bananas.html', '#fourhover');
+   waveHover('.chapter_five', 'la-reina.html', '#fivehover');
 
-   $(".chapter_five").click(function(){
-     $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "la-reina.html";
-     }});
-     $(".chapter_five").css({color: '#008B8F'});
-     $("#fivehover").css({color: '#008B8F'});
-     $(".home_links").fadeOut(1000);
-   });
 });
 
 // wave functionality

@@ -1,76 +1,49 @@
 /*ABOUT PAGE*/
-.bio-website a {
-  color: #fff;
-  position: absolute;
-
-}
-
-.bio-website a:hover {
-  text-decoration: underline;
-}
-
-.bio-twitter a {
-  color: #fff;
-}
-
-.bio-twitter a:hover {
-  text-decoration: underline;
-}
-
-.bio-instagram a {
-  color: #fff;
-}
-
-.bio-instagram a:hover {
-  text-decoration: underline;
-}
-
 .bio-body, .bio-name {
   text-align: center;
   padding-top: 5px;
   margin-bottom: 0px;
 }
 
-.bio-role, .bio-role-mobile {
+
+.bio-role {
   margin-bottom: 15px;
   text-align: center;
-  font-size: 10.5pt;
+  font-size: 10pt;
 }
 
-.bio-role-mobile {
-  display: inline;
+/*----DIVS ON TOP OF OVERLAY---*/
+.bio {
+  height: 80%;
+  margin: -15px 0 0 0;
 }
 
-.bio-role-mobile a {
-  color: #008B8F;
+.social {
+  height: 10%;
 }
 
-.bio-role-mobile a:hover {
-  text-decoration: none;
-}
-
-.bio-mobile {
-  margin: 5px 0 10px 0;
-}
-
-.center-text {
-  text-align: center;
-}
 
 .bio-twitter {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  font-size: 10.5pt;
+  margin: 0 0 0 90px;
+  font-size: 8pt;
   position: absolute;
-  z-index: 100;
-  margin: 0 0 0 100px;
 }
 
 .bio-instagram {
-  font-size: 10.5pt;
+  font-size: 8pt;
+  position: absolute;
+}
+
+.bio-instagram a {
+  color: #fff;
   position: absolute;
   z-index: 100;
-  margin: 5px 0 0 90px;
+}
+
+.bio-twitter a {
+  color: #fff;
+  position: absolute;
+  z-index: 100;
 }
 
 .bio-headshot {
@@ -79,15 +52,16 @@
 }
 
 .bio-body {
-  margin-bottom: 10px;
-  font-size: 10.5pt;
+  margin-bottom: 8px;
+  font-size: 8.5pt;
 }
 
 .bio-website, .bio-website a:hover, .bio-website a {
   color: white;
-  font-size: 10.5pt;
-  z-index: 99;
-  margin: 20px 150px 0 0;
+  font-size: 8pt;
+  position: absolute;
+  z-index: 100;
+  margin: 5px 0 0 30px;
 }
 
 .bio-pic {
@@ -158,37 +132,13 @@
 
 .bio-pic__body h2 { margin-top: 0; }
 
+
 /*---MEDIA QUERY---*/
-@media only screen and (max-width: 1616px) {
-  .bio-twitter {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-size: 7pt;
-    position: absolute;
-    z-index: 100;
-    margin: 0 0 0 100px;
-  }
+@media screen and (max-width: 1214px) {
+.bio-body, .bio-instagram, .bio-twitter, .bio-website {
+  font-size: 7pt;
+  padding: 0;
 
-  .bio-instagram {
-    font-size: 7pt;
-    position: absolute;
-    z-index: 100;
-    margin: 5px 0 0 90px;
-  }
-
-  .bio-body {
-    margin-bottom: 8px;
-    font-size: 7pt;
-  }
-
-  .bio-website, .bio-website a:hover, .bio-website a {
-    color: white;
-    font-size: 7pt;
-    z-index: 99;
-    margin: 20px 150px 0 0;
-  }
 }
-
-@media only screen and (max-width: 400px) {
 
 }

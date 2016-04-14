@@ -136,6 +136,15 @@ span.bold{
 	text-decoration: none;
 }
 
+
+/*.cbp-contentslider nav a.rc-active {
+	background-color: #008B8F;
+	color: #fff;
+	text-decoration: none;
+}*/
+
+
+
 /* Iconfont for navigation and headings */
 .cbp-contentslider [class^="icon-"]:before,
 .cbp-contentslider [class*=" icon-"]:before {
