@@ -1,30 +1,5 @@
 $(document).ready(function(){
-
-// play button
-  //  $('#trailer_button').click(function(){
-  //    $('.container-home').fadeOut();
-  //    $('#trailer_video').fadeIn("slow");
-  //    $('#c').hide();
-  //  })
-   //
-  //  $('.trailer_text').click(function(){
-  //    $('.container-home').fadeOut();
-  //    $('#trailer_video').fadeIn("slow");
-  //    $('#c').hide();
-  //  })
-   //
-  //  $('#trailer_video').click(function(){
-  //    $('#trailer_video').fadeOut("slow");
-  //    $('.container-home').fadeIn();
-  //    $('#c').fadeIn(2000);
-  //  })
-  //  $('.exit').click(function(){
-  //    $('#trailer_video').fadeOut("slow");
-  //    $('.container-home').fadeIn();
-  //    $('#c').fadeIn(2000);
-  //  })
-
-// // read more button
+// read more button
    $('#trailer_button').mouseenter(function(){
      $('#c').animate({opacity: '0.3'}, "slow");
    })
@@ -34,7 +9,7 @@ $(document).ready(function(){
      $('#play_trailer').animate({opacity: "0.0"}, "fast");
      $('.home_links').animate({opacity: "0.0"}, "fast");
      $("#c").animate({top: '-30%', opacity: '1.0', height: '130%'}, {duration: 1000, complete: function(){
-       window.location = "el-centinela.html";
+       window.location = "the-watchman.html";
      }});
    })
 
@@ -73,11 +48,11 @@ $(document).ready(function(){
    waveClick('.chapter_four');
    waveClick('.chapter_five');
 
-   waveHover('.chapter_one', 'el-centinela.html', '#onehover');
-   waveHover('.chapter_two', 'sea-for-generations.html', '#twohover');
+   waveHover('.chapter_one', 'the-watchman.html', '#onehover');
+   waveHover('.chapter_two', 'sea-for-my-children.html', '#twohover');
    waveHover('.chapter_three', 'raising-up-wild.html', '#threehover');
    waveHover('.chapter_four', 'built-with-bananas.html', '#fourhover');
-   waveHover('.chapter_five', 'la-reina.html', '#fivehover');
+   waveHover('.chapter_five', 'the-queen.html', '#fivehover');
 
 });
 

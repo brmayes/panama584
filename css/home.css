@@ -385,6 +385,22 @@ canvas {
   }
 }
 
+.home_para {
+  width: 65%;
+}
+
+@media (max-width: 767px) {
+  .home_para {
+    width: 80%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .xs-buttons {
+    display: inline !important;
+  }
+}
+
 /*.blue {
   color: #008B8F;
   opacity: 0.7;
