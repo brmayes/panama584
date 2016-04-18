@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Queen</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script src="js/embed.js" type="text/javascript"></script>
+
+  <!-- Fullpage.js Styles -->
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+
+  <!-- Fonts -->
+  <script src="https://use.typekit.net/yvc1tde.js"></script>
+  <script> try { Typekit.load({ async: true }); } catch (e) {} </script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="css/sass/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <link rel="stylesheet" href="css/story-menu-style.css">
+
+  <!-- 360 files -->
+  <script src="360/embedpano.js"></script>
+
+</head>
+
+<body class="fade-in">
+
+  <div id="o-wrapper" class="o-wrapper">
+    <div id="fullpage">
+
+      <!-- Page 1: Arthead -->
+      <div class="section firstPage_dot" id="section0">
+
+        <!-- logo -->
+        <div id="logo">
+          <a href="index.html">
+            <img alt="logo" src="assets/headlines/undercurrent_logo.png" class="img-responsive hidden-xs">
+            <img alt="logo" src="assets/headlines/logo.png" class="img-responsive visible-xs logo-sm">
+          </a>
+        </div>
+
+        <!-- switch languages -->
+        <a href="#" id="switch_language">
+          <span class="hidden-xs">Experimenta en Espa&ntilde;ol</span>
+          <span class="visible-xs">ES/EN</span>
+        </a>
+
+        <!-- arthead slide -->
+        <div class="intro container-arthead">
+          <div class="row">
+            <div class="col-md-12">
+              <img alt="arthead" src="assets/arthead/queen.png" class="arthead img-responsive ruw-arthead">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="article_subhead">
+                 Bocas del Drago’s Star Beach is picturesque and serene — white sandy beaches, leafy palm trees,
+                 crystal blue water. This is where Ana’s Restaurant is nestled and caters to tourists in floppy sun
+                 hats soaking in the tropical panorama. But the utopian aura of Star Beach that attracts so many is
+                 a tenuous semblance of its troubled reality...
+              </p>
+              <p class="article_credits"><strong>Written by:</strong> Anne Marie Haggerty</p>
+              <p class="article_credits"><strong>Photos and Video by:</strong> Sophia Nahli Allison and Anna Clare Spelman</p>
+              <p class="article_credits"><strong>Graphic by:</strong> Cori Dymond and Krista McGuire</p>
+            </div>
+          </div>
+          <a href="#secondPage" class="arrow-down bounce">
+            <img alt="arrow-down" class="arrow" src="assets/icons/arrow-down.png" />
+          </a>
+        </div>
+      </div>
+
+      <div class="section video-padding secondPage_dot" id="section1">
+        <div class="intro container-video">
+          <figure>
+            <iframe src="https://player.vimeo.com/video/162579596" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Page 4: Text -->
+      <div class="section video-padding thirdPage_dot" id="section2">
+        <div class="intro container-text">
+          <figure class="story-image">
+            <img alt="chencho" src="media/stories/queen/LaReina_Photos_AnnaClareSpelman_009.jpg" />
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+
+          <p>A secluded expanse of white sand is peppered by sun-soaked tourists enjoying the glimmering aqua water of Bocas del Drago&rsquo;s Star Beach. Eager feet splash down into clear, salty water from the small boat that carried them there.</p>
+          <p> A gentle breeze wicks off of the gentle Caribbean Sea and rustles a cove of shady palm trees just steps from the shoreline. Ana&rsquo;s Restaurant is nestled in between them. </p>
+          <p>From a small window cut in the dark, distressed wood of her restaurant, Ana Palacios&rsquo; deeply tanned hands deliver a plate of food to a hungry patron. The thin paper plate is filled with the lightly fried body of a whole red snapper and a deep-yellow mountain of fried plantains, mashed into inch-wide disks, accompanied by a melting side of ketchup and mayonnaise.</p>
+
+          <figure class="story-image">
+            <img alt="chencho" src="media/stories/queen/LaReina_Photos_SophiaAllison_001.jpg" />
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+
+          <p>Star Beach itself is less than a mile long, lined with small, simple wooden structures that house local wares and food. An indigenous Kuna man weaves leaves he gathered from the rainforest to create baskets and small flowers for souvenir-seeking visitors. Other business owners share their tribal textiles and beaded ornaments to satiate their growing commercial demand. </p>
+          <p>The flood of visitors from the Global North, have largely driven the Panamanian economy, resulting in many indigenous lives shifting from sustenance to industry. </p>
+          <p>The toll of exploitation on the environment as a response to the demands for tourism is depreciating one of the region&rsquo;s greatest assets: its natural beauty. This harsh reality is not something tourists want to consider while enjoying their tropical vacations, but the truth is the delicate beauty surrounding them is at risk &mdash; the tranquil essence of Star Beach is only a semblance of its reality.</p>
+        </div>
+      </div>
+
+      <!-- Page 3: Video -->
+      <div class="section video-padding fourthPage_dot" id="section3">
+        <div class="intro">
+          <!-- <div id="pano">
+        	<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
+        	<script>
+        		embedpano({js:"/360/krpano.js", xml:"/360/krpano.xml", target:"pano", html5:"always", id:"krpanoPlayer", passQueryParameters:true});
+        	</script>
+        </div> -->
+        </div>
+      </div>
+
+      <!-- Page 4: Text -->
+      <div class="section video-padding fifthPage_dot" id="section4">
+        <div class="intro container-text">
+          <p class="article_subtitle">
+            The Ebb and Flow
+          </p>
+          <figure class="story-image">
+            <img alt="chencho" src="media/stories/queen/LaReina_Photos_AnnaClareSpelman_003.jpg" />
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+
+          <p>For decades, Ana Palacios&rsquo; life as a fisherwoman was closely tied to the sea. She woke with the sun and prepared her hollowed canoe to carry her, children in arm, into the blue abyss to fish for their food that day. But one morning when fish were nowhere to be found and her canoe returned empty, Palacios knew she had to make a change in order to feed her family. </p>
+          <p>Palacios exchanged her familiar way of living off the land for a new life of commerce and enterprise. She purchased a small structure on Star Beach, painted it a welcoming shade of emerald with her name inscribed in ivory lettering, purchased new cooking equipment and opened the doors to her restaurant&rsquo;s first customers. She worked tirelessly each day to meet the demands of her affluent patrons and eventually began to turn a profit. </p>
+          <p>&ldquo;I did what I had to do,&rdquo; Palacios recalls. Her departure from the old world to the new was out of necessity, but her tenacious spirit thrived in the challenge. She worked relentlessly, day in and day out, for many years. She is now able to rest in some of her success without the constant worry and strain of finances.</p>
+          <p>Palacios serves as a poignant example of a the necessity for many women to move out of their culturally traditional roles and into increased industry in an effort to support their families.</p>
+        </div>
+      </div>
+
+      <div class="section video-padding sixthPage_dot" id="section5">
+        <div class="intro container-graphic">
+
+          <div class="iframe-wrapper">
+            <div class="h_iframe">
+              <!-- a transparent image is preferable -->
+              <img class="ratio" src="http://placehold.it/1175x720/ffffff/ffffff" />
+              <iframe src="graphics/queen/index.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page 5: Text -->
+      <div class="section fp-auto-height seventhPage_dot" id="section6">
+        <div class="intro container-text">
+          <p class="article_subtitle">
+            Women in Panama
+          </p>
+
+          <figure class="story-image">
+            <img alt="chencho" src="media/stories/queen/LaReina_Photos_AnnaClareSpelman_005.jpg" />
+            <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+          </figure>
+
+          <p>Women in Panama have traditionally stayed at home to take care of children, only more recently beginning to infiltrate the job market. This stems from Panama&rsquo;s unique dichotomy of old and new. The old way of life in Panama was historically patriarchal and assumed men would take the responsibility of breadwinning and women would stay at home to take care of the children. More recently, the need for women to join men in the labor force has increased due to a need for the country to compete with North America and Europe and modernize. </p>
+          <p>Moving forward, educated women in the workforce are integral to the future of Panama. A 2012 census by the World Bank revealed that there are more educated women than men in Panama, but only 53 percent of the female working-age population is employed, compared to 86 percent of men. According to research from Lehigh University, utilizing the expertise and education within the female Panamanian population is paramount to the overall success and progress of the country as they move forward in modernization.</p>
+          <p>Women like Palacios represent a portion of the population on the threshold of a move toward modernization in Panama. Her role as a female business owner is a shift away from the historic status quo, but is integral to to long-term success of local industry in Panama. While the expectation of women producing less is challenging to overcome, women like Palacios are making small strides to change that perception moving forward.</p>
+        </div>
+
+        <a href="built-with-bananas.html">
+          <div id="previous-chapter">
+            <div class="row hidden-xs">
+              <div class="col-xs-3 arrow"><img alt="left arrow" src="assets/icons/left_arrow_white.png" class="img-responsive"></div>
+              <div class="col-xs-9">
+                <div class="chapter-label">Chapter 4</div>
+                <div class="chapter-title">Built with Bananas</div>
+              </div>
+            </div>
+          <div class="row visible-xs">
+            <div class="col-xs-12 arrow arrow-mobile"><img alt="left arrow" src="assets/icons/left_arrow_white.png" class="img-responsive"></div>
+          </div>
+        </div>
+      </a>
+
+
+        <!-- <a href="raising-up-wild.html">
+          <div id="next-chapter">
+            <div class="row hidden-xs">
+              <div class="col-xs-9">
+                <div class="chapter-label">Chapter 5</div>
+                <div class="chapter-title">The Queen</div>
+              </div>
+              <div class="col-xs-3 arrow"><img alt="right arrow" src="assets/icons/right_arrow_white.png" class="img-responsive"></div>
+            </div>
+            <div class="row visible-xs">
+              <div class="col-xs-12 arrow arrow-mobile"><img alt="right arrow" src="assets/icons/right_arrow_white.png" class="img-responsive"></div>
+            </div>
+          </div>
+        </a> -->
+
+      </div>
+    </div>
+  </div>
+
+  <nav id="c-menu--slide-bottom" class="c-menu c-menu--slide-bottom">
+    <div class="hidden-md hidden-lg hidden-xl">
+      <button class="c-menu__close"><img alt="x" src="assets/icons/x_white.png" class="x-button img-responsive"></button>
+      <div class="row oc__row">
+        <div class="col-xs-6 chpt__list chpt__list__one">
+          <ul class="c-menu__items chapter-menu">
+            <li class="c-menu__item chpt__item"><a href="the-watchman.html" class="c-menu__link">Chapter 1</a></li>
+            <li class="c-menu__item chpt__item"><a href="sea-for-my-children.html" class="c-menu__link">Chapter 2</a></li>
+            <li class="c-menu__item chpt__item"><a href="raising-up-wild.html" class="c-menu__link">Chapter 3</a></li>
+            <li class="c-menu__item chpt__item"><a href="built-with-bananas.html" class="c-menu__link">Chapter 4</a></li>
+            <li class="c-menu__item chpt__item"><a href="the-queen.html" class="c-menu__link">Chapter 5</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 chpt__list">
+          <ul class="c-menu__items">
+            <li class="c-menu__item"><a href="documentary.html" class="c-menu__link">Full Doc</a></li>
+            <li class="c-menu__item"><a href="overview.html" class="c-menu__link">The Issue</a></li>
+            <li class="c-menu__item"><a href="game.html" class="c-menu__link">Game</a></li>
+            <li class="c-menu__item"><a href="about.html" class="c-menu__link">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hidden-xs hidden-sm">
+      <div class="row">
+        <div class="col-xs-1 chpt-menu">
+          <!-- <button class="c-menu__close__lg"><strong>x</strong></button> -->
+          <button class="c-menu__close__lg"><img alt="x" src="assets/icons/x_white.png" class="x-button img-responsive"></button>
+        </div>
+        <div class="col-xs-11">
+          <div class="home_links">
+            <ul class="home_ul">
+              <div class="chapter_block">
+                <a href="the-watchman.html">
+                  <li class="chapter_one">
+                    <span class="chapters">Chapter 1</span>
+                  </li>
+                </a>
+              </div>
+              <div class="chapter_block">
+                <a href="sea-for-my-children.html">
+                  <li class="chapter_two">
+                    <span class="chapters">Chapter 2</span>
+                  </li>
+                </a>
+              </div>
+              <div class="chapter_block">
+                <a href="raising-up-wild.html">
+                  <li class="chapter_three">
+                    <span class="chapters">Chapter 3</span>
+                  </li>
+                </a>
+              </div>
+              <div class="chapter_block">
+                <a href="built-with-bananas.html">
+                  <li class="chapter_four">
+                    <span class="chapters">Chapter 4</span>
+                  </li>
+                </a>
+              </div>
+              <div class="chapter_block">
+                <a href="the-queen.html">
+                  <li class="chapter_five">
+                    <span class="chapters">Chapter 5</span>
+                  </li>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- /c-menu slide-bottom -->
+
+
+  <div id="c-mask" class="c-mask"></div>
+  <!-- /c-mask -->
+
+  <div id="footer">
+
+    <div class="footer-container">
+      <div class="row">
+        <div class="col-md-1 col-sm-1 col-xs-3 tabs menu-tab">
+          <div class="c-buttons">
+            <img id="c-button--slide-bottom" src="assets/icons/hamburger_menu_teal.png" class="img-menu" onmouseover="this.src='assets/icons/hamburger_menu_white.png';" onmouseout="this.src='assets/icons/hamburger_menu_teal.png';" />
+          </div>
+        </div>
+        <div class="col-md-7 col-sm-11 col-xs-9 tabs chaptertab">
+          <p class="chapter-info">
+            <span class="chapter-number">5</span>
+            <span class="chapter-name">The Queen</span>
+          </p>
+          <p id="cont" class="sm-menu-hidden hidden-xs">
+            <progress id="progress-bar" min="1" max="100" value="0"></progress>
+            <div id="progress_dots-mobile"></div>
+          </p>
+        </div>
+        <div class="hidden-xs hidden-sm">
+          <a href="overview.html" class="tabs-hover sm-menu-hidden">
+            <div class="col-md-1 col-sm-1 tabs tab-hover">
+              <p class="extra-nav">
+                Understand
+                <br />the issue
+              </p>
+            </div>
+          </a>
+          <a href="documentary.html" class="tabs-hover sm-menu-hidden">
+            <div class="col-md-1 col-sm-1 tabs tab-hover">
+              <p class="extra-nav">
+                View full
+                <br />Experience
+              </p>
+            </div>
+          </a>
+          <a href="game.html" class="tabs-hover sm-menu-hidden">
+            <div class="col-md-1 col-sm-1 tabs tab-hover">
+              <p class="extra-nav">
+                Play with
+                <br />Big Red
+              </p>
+            </div>
+          </a>
+          <a href="about.html" class="tabs-hover sm-menu-hidden">
+            <div class="col-md-1 col-sm-1 tabs tab-hover">
+              <p class="extra-nav">
+                Meet
+                <br />the team
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="js/fullPage_options.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/storyscripts.js"></script>
+  <script src="js/slide-menu.js"></script>
+
+</body>
+
+</html>

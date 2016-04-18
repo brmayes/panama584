@@ -252,7 +252,7 @@
 }
 
 .home_ul a .chapter_one:hover:after{
-  content: 'El Centinela';
+  content: 'The Watchman';
 }
 
 .home_ul a .chapter_two:hover:after{
@@ -268,7 +268,7 @@
 }
 
 .home_ul a .chapter_five:hover:after{
-  content: 'La Reina';
+  content: 'The Queen';
 }
 
 /*#fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -406,6 +406,10 @@
     border-left: none !important;
   }
 
+  .chaptertab {
+    padding-left: 0 !important;
+  }
+
   .arrow-mobile {
     padding-top: 0;
     margin-left: 10px;
@@ -454,4 +458,9 @@
     width: 360px;
     height: 240px;
   }
+}
+
+
+.ruw-arthead {
+  width: 40%;
 }

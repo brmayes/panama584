@@ -7,6 +7,7 @@
 #low_density:hover, #erosion:hover, #high_density:hover, #polyp_paths:hover {
   fill: #df7760;
   opacity: 1;
+  cursor: pointer;
 }
 
 #low_density:active, #erosion:active, #high_density:active, #polyp_paths:active {
@@ -18,7 +19,7 @@
 .contentDiv {
   margin: 0 auto;
   display: block;
-  width: 60%;
+  width: 75%;
   padding-top: 15px;
 }
 
@@ -37,8 +38,4 @@
 
 .intro {
   margin-bottom: 25px;
-}
-
-h3 {
-  color: #008B8F !important;
 }

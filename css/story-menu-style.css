@@ -396,6 +396,7 @@ img {
   padding: 0 16px;
   /*height: 160px;*/
   line-height: 40px;
+  height: 40px;
 }
 
 /**
@@ -667,6 +668,12 @@ body.has-active-menu {
 
   .c-menu__close__lg {
     line-height: 60px;
+    height: 60px;
+  }
+
+  .x-button {
+    width: 30px;
+    margin-left: 20%;
   }
 
   .home_links {

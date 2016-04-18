@@ -58,7 +58,7 @@ p.content{
 	width: 100%;
 	max-width: 70em;
 	margin: 0 auto;
-	padding: 0 1.875em 3.125em 1.875em;
+	padding: 0 1.875em 0em 1.875em;
 }
 
 .container > header {

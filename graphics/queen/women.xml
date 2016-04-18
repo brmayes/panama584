@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<years>
+  <year name="2002">
+    <females>33.7</females>
+    <males>27.2</males>
+    <females_urban>27.2</females_urban>
+    <males_urban>11.2 </males_urban>
+
+  </year>
+
+  <year name="2005">
+    <females>48.1</females>
+    <males>9.1</males>
+    <females_urban>31.4 </females_urban>
+    <males_urban>8.9</males_urban>
+  </year>
+
+  <year name="2008">
+    <females>42.7</females>
+    <males>8.8</males>
+    <females_urban>27.2</females_urban>
+    <males_urban>6.1</males_urban>
+  </year>
+
+  <year name="2010">
+    <females>36.3</females>
+    <males>8.3</males>
+    <females_urban>27.0 </females_urban>
+    <males_urban>6.9</males_urban>
+  </year>
+
+</years>

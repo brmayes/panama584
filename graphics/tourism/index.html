@@ -9,11 +9,13 @@
 		<meta name="keywords" content="responsive, content, slider, jquery, css3, fluid, template" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/graphics.css" />
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
 		 <!-- Bootstrap Core CSS -->
-		 <link href="css/bootstrap.min.css" rel="stylesheet">
+
 
 	</head>
 	<body>
@@ -30,11 +32,13 @@
 							<!-- <h3 class="icon-wolf">Wolf</h3> -->
 							<div class="slide row">
 
-								<div class="col-md-5">
-									<img src="images/tranquillo.JPG" class="main">
-								</div>
-								<div class="cont col-md-7 ">
+								<div class="col-xs-12 center">
 									<h3> Tourism in Panama </h3>
+									<img src="images/main_image.JPG" class="main">
+									<p class="photo-source">Photo by Tegan Johnson</p>
+								</div>
+								<div class="cont col-xs-12 center smaller">
+
 									<p>The tourism industry is an influential contibutor to the Panamanian economy. In 2015, the industry accounted for a 12.6% share of the country's GDP. This sector has the ability to transform the environmental and social landscape of the country. Increasing tourists arrivals and their shifting preferences are a potential catalyst for industry change. </p>
 
 
@@ -45,11 +49,11 @@
 						<li id="slide2">
 							<!-- <h3 class="icon-rabbit">Rabbit</h3> -->
 							<div class="slide row">
-								<div class="col-md-8">
+								<div class="col-xs-12">
 									<div id="chart1" style="width:100%; height:350px;"></div>
 								</div>
 
-								<div class="cont col-md-4">
+								<div class="cont col-xs-12">
 									<p>This graph displays the number of international inbound tourists, or overnight visitors to Panama, from 1996-2011. These tourists are defined by The World Bank as “visitors who travel to a country other than that in which they have their usual residence, but outside their usual environment for less than 12 months.” The amount of international inbound tourists to Panama has grown significantly since 1996.</p>
 
 								</div>
@@ -58,24 +62,31 @@
 						<li id="slide3">
 							<!-- <h3 class="icon-aligator">Aligator</h3> -->
 							<div class= "row">
-								<div class=" col-md-8">
+								<div class=" col-xs-12">
 									<div id="chart2" style="width:100%; height:300px;"></div>
 								</div>
-								<div class=" col-md-4">
-									<p class="content">Growth in the number of inbound tourists has contributed to a rise in the tourism industry's direct and total contributions to Panama's GDP. These variables are calcuted as follows: </p><br>
-									<p><span class="bold">Direct contribution of Travel and Tourism to GDP:</span><br> internal tourism consumption + purchases by tourism providers, including imported goods;<br>internal tourism consumption = visitor exports + domestic expenditure</p><br>
-
-									<p><span class= "bold">Total contribution of Travel and Tourism to GDP:</span> <br> direct contribution + domestic supply chain + capital investment + government collective spending + imported goods from indirect spending + induced</p>
+								<div class="cont col-xs-12">
+									<div class="row slide-three">
+										<div class="col-xs-12 col-sm-4">
+											<p>Growth in the number of inbound tourists has contributed to a rise in the tourism industry's direct and total contributions to Panama's GDP. These variables are calcuted as follows: </p><br>
+										</div>
+										<div class="col-xs-12 col-sm-4">
+											<p><span class="bolded">Direct contribution of Travel and Tourism to GDP:</span><br> internal tourism consumption + purchases by tourism providers, including imported goods;<br>internal tourism consumption = visitor exports + domestic expenditure</p><br>
+										</div>
+										<div class="col-xs-12 col-sm-4">
+											<p><span class= "bolded">Total contribution of Travel and Tourism to GDP:</span> <br> direct contribution + domestic supply chain + capital investment + government collective spending + imported goods from indirect spending + induced</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</li>
 						<li id="slide4">
 							<!-- <h3 class="icon-turtle">Turtle</h3> -->
 							<div class= "slide row">
-								<div class="col-md-8">
+								<div class="col-xs-12">
 									<div id="chart4" style="width:100%; height:350px;"></div>
 								</div>
-								<div class="cont col-md-4">
+								<div class="cont col-xs-12">
 									<p>Although Panama's national and tourist populations are low compared to the other countries listed, the income gained from each tourist is one of the highest amongst other conutries with more developed tourism industries.</p>
 								</div>
 							</div>
@@ -83,9 +94,10 @@
 						<li id="slide5">
 							<!-- <h3 class="icon-platypus">Platypus</h3> -->
 							<div class= "slide row">
-								<div class="col-md-6"><img src="images/SustainableTourism.png"></div>
-								<div class="cont col-md-6">
-									<h3>Demand Shift Toward Responsible Travel</h3>
+
+								<div class="cont col-xs-12">
+									<h4>Demand Shift Toward Responsible Travel</h4>
+									<img src="images/SustainableTourism.png" class="slide-five-img">
 									<p>Recent market studies have shown sustained consumer interest for travel options that are environmentally conscious and culuturally aware. This kind of travel falls under the category of ecotourism: Responsible travel to natural areas that conserves the environment and improves the welfare of local people. </p>
 									<p>According to a 2012 survey, the ‘green’ travel trend is gaining momentum among TripAdvisor members, as 71% said they plan to make more eco-friendly choices in the next 12 months compared to 65% that did so in the past 12 months.</p>
 									<p>93% of Conde Nast Traveler readers surveyed in 2011 said that travel companies should be responsible for protecting the environment, and 58% said their hotel choice is influenced by the support the hotel gives to the local community.</p>
@@ -97,11 +109,11 @@
 						</li>
 					</ul>
 					<nav>
-						<a href="#slide1" class=""><span>Intro</span></a>
-						<a href="#slide2" class=""><span>Tourism</span></a>
-						<a href="#slide3" class=""><span>Effect</span></a>
-						<a href="#slide4" class=""><span>Gains</span></a>
-						<a href="#slide5" class=""><span>Shift</span></a>
+						<a href="#slide1" class=""><span>Introduction</span></a>
+						<a href="#slide2" class=""><span>By the numbers</span></a>
+						<a href="#slide3" class=""><span>Effect on GDP</span></a>
+						<a href="#slide4" class=""><span>Income Gains</span></a>
+						<a href="#slide5" class=""><span>Travel Shift</span></a>
 						<!-- <a href="#slide1" class="icon-wolf rc-active"><span>Intro</span></a>
 						<a href="#slide2" class="icon-rabbit"><span>Tourism</span></a>
 						<a href="#slide3" class="icon-aligator"><span>Effect</span></a>

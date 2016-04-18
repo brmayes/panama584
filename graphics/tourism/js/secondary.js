@@ -59,7 +59,10 @@ function buildChart1(xml) {
     tooltip: {
         valueSuffix: ' arrivals',
         backgroundColor: '#E6E7E8',
-        borderColor: '#E6E7E8'
+        borderColor: '#E6E7E8',
+        shadow: false,
+        pointFormat: '<tr><td style="color:#a65c7a;padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>'
     },
     legend: {
         //layout: 'vertical',
@@ -89,7 +92,7 @@ function buildChart1(xml) {
     series: [{
         name: 'Arrivals',
         data: arrivals,
-        color: "#282423"
+        color: "#008b8f"
 
     }]
   });

@@ -53,7 +53,6 @@ jQuery(document).ready(function() {
           }];
 
           var elemID = jQuery(this).attr('id');
-          console.log(elemID);
           if (elemID === undefined) {
             //do nothing
           } else {
@@ -65,7 +64,7 @@ jQuery(document).ready(function() {
                   document.getElementById("info").innerHTML = contentInformation;
               }
             }
-          }
+          };
         });
       });
     });

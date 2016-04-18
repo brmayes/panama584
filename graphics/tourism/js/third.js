@@ -68,7 +68,9 @@ function buildchart3(xml) {
       tooltip: {
           valueSuffix: '%',
           backgroundColor: '#E6E7E8',
-          borderColor: '#E6E7E8'
+          borderColor: '#E6E7E8',
+          pointFormat: '<tr><td style="color:#a65c7a;padding:0">{series.name}: </td>' +
+              '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>'
       },
       plotOptions: {
         column: {

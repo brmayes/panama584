@@ -112,9 +112,6 @@
         background-color: #008B8F;
         color: white;
       }
-      &.menu-tab {
-        padding-left: 10px;
-      }
       &.about-tab {
         padding-right: 10px;
       }
@@ -353,7 +350,6 @@ iframe {
   font-size: 16pt;
   text-align: left;
   margin-top: 15px;
-  width: 65%;
   color: $teal;
   font-weight: 800;
 }
@@ -428,4 +424,16 @@ object.menu-icon {
 
 a:hover, a:focus {
   text-decoration: none;
+}
+
+x-button {
+  width: 20px;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .x-button {
+    width: 20px;
+    margin: 0 auto;
+  }
 }

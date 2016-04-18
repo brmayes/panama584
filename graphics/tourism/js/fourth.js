@@ -137,11 +137,12 @@ $(document).ready(function() {
         tooltip: {
             useHTML: true,
             headerFormat: '<table>',
-            pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3></th></tr>' +
+            pointFormat: '<tr><th colspan="2"><h5>{point.name}</h5></th></tr>' +
                 '<tr><th>Number of tourists</th><td>{point.x}</td></tr>' +
                 '<tr><th>Total population:</th><td>{point.y}</td></tr>' +
                 '<tr><th>Spending per tourist:</th><td>{point.z}$</td></tr>',
             footerFormat: '</table>',
+            shadow: false,
             followPointer: true
         },
 
@@ -171,7 +172,7 @@ $(document).ready(function() {
 
         series: [{
           data: bubbleInfo,
-          color: '#9D9994'
+          color: '#b5d9d5'
 
         }]
 

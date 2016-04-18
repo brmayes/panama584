@@ -1,0 +1,43 @@
+body {
+  font-family: "helvetica", sans-serif;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1pt; !important
+  color: #008b8F;
+}
+/*h3 {
+  color: #008b8F;
+}*/
+p {
+  margin:0 auto;
+
+}
+.text {
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 40px;
+}
+
+ul {margin: 0 auto; -webkit-padding-start: 0;}
+.tabs { list-style: none; margin: 0;}
+.tabs li { display: inline; margin: 0;}
+.tabs li a { color: white; float: left; display: block; padding: 9px 10px 4px;  margin-right: 4px; position: relative; left: 1px; background: #008b8F; border-radius: 0px;  text-decoration: none; text-transform: uppercase; font-family: 'CooperHewitt'; font-weight: 700;}
+.tabs li a:hover { background:lightgray; }
+.tabs li a:active { background: #e2dfdc; }
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+/*.box-wrap { position: relative; min-height: 250px; }*/
+.tabbed-area div {  padding: 20px; min-height: 250px; position: absolute; top: 10px; left: 0; width: 100%; }
+
+.group {
+  margin: 0 auto;
+
+
+
+}
+
+#box-one:target, #box-two:target, #box-three:target {
+  z-index: 1;
+}

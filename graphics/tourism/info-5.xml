@@ -18,49 +18,49 @@
     <population>102808590</population>
   </country> -->
 
-  <country name= "puertorico">
+  <country name= "Puerto Rico">
     <tourists>3341000</tourists>
     <spending>761</spending>
     <population>3810605</population>
   </country>
 
-  <country name="dominicanrepublic">
+  <country name="Dominican Republic">
     <tourists>2977000</tourists>
     <spending>980</spending>
     <population>8562623</population>
   </country>
 
-  <country name="cuba">
+  <country name="Cuba">
     <tourists>1700000</tourists>
     <spending>1032</spending>
     <population>11116787</population>
   </country>
 
-  <country name="jamaica">
+  <country name="Jamaica">
     <tourists>1323000</tourists>
     <spending>1008</spending>
     <population>2589389</population>
   </country>
 
-  <country name="costarica">
+  <country name="Costa Rica">
     <tourists>1088075</tourists>
     <spending>1130</spending>
     <population>3925450</population>
   </country>
 
-  <country name="guatemala">
+  <country name="Guatemala">
     <tourists>826000</tourists>
     <spending>647</spending>
     <population>11688660</population>
   </country>
 
-  <country name="panama">
+  <country name="Panama">
     <tourists>483599</tourists>
     <spending>1191</spending>
     <population>3028751</population>
   </country>
 
-  <country name ="elsalvador">
+  <country name ="El Salvador">
     <tourists>795000</tourists>
     <spending>391</spending>
     <population>5811836</population>

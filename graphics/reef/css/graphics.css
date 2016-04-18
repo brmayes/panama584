@@ -33,15 +33,25 @@
 */
 body {
   font-family: "Proxima Nova", sans-serif !important;
-  font-size: 12pt !important;
+  font-size: 10pt !important;
   color: #282423 !important;
   background-color: white;
 }
 
 body p {
-  letter-spacing: 1px;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "CooperHewitt-Medium", sans-serif !important;
+  font-family: "CooperHewitt", sans-serif !important;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+.bolded {
+  color: #008b8f;
+  font-weight: 700;
 }

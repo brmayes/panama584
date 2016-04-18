@@ -82,7 +82,10 @@ function buildchart2(xml) {
         tooltip: {
             valueSuffix: 'USD',
             backgroundColor: '#E6E7E8',
-            borderColor: '#E6E7E8'
+            borderColor: '#E6E7E8',
+            shadow: false,
+            pointFormat: '<tr><td style="color:#a65c7a;padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>'
 
         },
         legend: {
@@ -110,26 +113,26 @@ function buildchart2(xml) {
         series: [{
             name: "Direct contribution to GDP",
             data: DirectContributionToGDP,
-            color: '#282423'
+            color: '#008b8f'
 
           },
             {
             name: "Total contribution to GDP",
             data: TotalContributionToGDP,
-            color: '#57514f'
+            color: '#074442'
 
 
             },
-            {
-            name: "Direct contribution to employment",
-            data: DirectContributionToEmployment,
-            color: '#938d8a'
-
-            },
+            // {
+            // name: "Direct contribution to employment",
+            // data: DirectContributionToEmployment,
+            // color: '#b5d9d5'
+            //
+            // },
             {
               name: 'Total contribution to employment',
               data: TotalContributionToEmployment,
-              color: '#E2DFDC'
+              color: '#b5d9d5'
 
         }]
     });
