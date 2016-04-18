@@ -5,11 +5,22 @@
   margin-bottom: 0px;
 }
 
+.bio-name {
+  font-size: 10pt;
+  letter-spacing: .5px !important;
+}
+
 
 .bio-role {
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   text-align: center;
-  font-size: 10pt;
+  font-size: 8pt;
+  letter-spacing: .5px !important;
+  /*display: inline-block;*/
+}
+
+.bio-role a {
+  color: #282423;
 }
 
 /*----DIVS ON TOP OF OVERLAY---*/
@@ -24,26 +35,28 @@
 
 
 .bio-twitter {
-  margin: 0 0 0 90px;
+  color: #282423;
+  /*margin: 0 0 0 90px;*/
   font-size: 8pt;
-  position: absolute;
+  /*position: absolute;*/
 }
 
 .bio-instagram {
+  color: #282423;
   font-size: 8pt;
-  position: absolute;
+  /*position: absolute;*/
 }
 
 .bio-instagram a {
-  color: #fff;
-  position: absolute;
-  z-index: 100;
+  color: #282423;
+  /*position: absolute;*/
+  /*z-index: 100;*/
 }
 
 .bio-twitter a {
-  color: #fff;
-  position: absolute;
-  z-index: 100;
+  color: #282423;
+  /*position: absolute;*/
+  /*z-index: 100;*/
 }
 
 .bio-headshot {
@@ -53,15 +66,16 @@
 
 .bio-body {
   margin-bottom: 8px;
-  font-size: 8.5pt;
+  font-size: 12px;
+  line-height: 115%;
 }
 
 .bio-website, .bio-website a:hover, .bio-website a {
-  color: white;
+  color: #282423;
   font-size: 8pt;
-  position: absolute;
-  z-index: 100;
-  margin: 5px 0 0 30px;
+  /*position: absolute;*/
+  /*z-index: 100;*/
+  /*margin: 5px 0 0 30px;*/
 }
 
 .bio-pic {
@@ -73,9 +87,10 @@
 .bio-pic__image { display: block; }
 
 .bio-pic__body {
-  background: rgba(0, 139, 143, 0.7);
+  /*background: rgba(7, 66, 68, 0.8);*/
+  background: rgba(255,255,255,.8);
   bottom: 0;
-  color: white;
+  color: black;
   font-size: 12px;
   left: 0;
   opacity: 0;
@@ -134,11 +149,11 @@
 
 
 /*---MEDIA QUERY---*/
-@media screen and (max-width: 1214px) {
+/*@media screen and (max-width: 1214px) {
 .bio-body, .bio-instagram, .bio-twitter, .bio-website {
-  font-size: 7pt;
+  font-size: 8pt;
   padding: 0;
 
 }
 
-}
+}*/

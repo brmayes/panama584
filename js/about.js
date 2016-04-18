@@ -19,29 +19,44 @@ jQuery(document).ready(function() {
         bio += '<div class="row">';
       }
 
-      bio += '<div class="col-md-4">';
+      bio += '<div class="col-md-4 col-lg-4">';
         bio += '<div class="bio-pic">'; //start of overlay
 
           bio += '<img class="bio-headshot bio-pic__image" src="assets/about/portraits/' + firstname.toLowerCase() + '_' + teamMember.last.toLowerCase() + '.JPG" alt="teamImg" />';
           bio += '<div class="bio-pic__body hidden-xs">';
             bio += '<div class="bio"><p class="bio-body">' + teamMember.bio + '</p></div>';
 
-            if (teamMember.twitter !== 0) {
-              // console.log teamMember.twitter
-              bio += '<div class="social"><p class="bio-twitter"><a target="_blank" href="http://www.twitter.com/' + teamMember.twitter + '">@' + teamMember.twitter + '</a></p></div>';
-            }else if (teamMember.instagram !== 0){
-              bio += '<div class="social"><p class="bio-instagram"><a target="_blank" href="http://www.instagram.com/' + teamMember.instagram + '">@' + teamMember.instagram + '</a></p></div>';
-            } else {}
-
-            if (teamMember.website !== 0) {
-              bio += '<div class="social"><p class="bio-website"><a target="_blank" href="http://www.' + teamMember.website + '">' + teamMember.website + '</a></p></div>';
-            }
+            // if (teamMember.twitter !== 0) {
+            //   // console.log teamMember.twitter
+            //   bio += '<div class="social"><p class="bio-twitter"><a target="_blank" href="http://www.twitter.com/' + teamMember.twitter + '">@' + teamMember.twitter + '</a></p></div>';
+            // }else if (teamMember.instagram !== 0){
+            //   bio += '<div class="social"><p class="bio-instagram"><a target="_blank" href="http://www.instagram.com/' + teamMember.instagram + '">@' + teamMember.instagram + '</a></p></div>';
+            // } else {}
+            //
+            // if (teamMember.website !== 0) {
+            //   bio += '<div class="social"><p class="bio-website"><a target="_blank" href="http://www.' + teamMember.website + '">' + teamMember.website + '</a></p></div>';
+            // }
 
           bio += '</div>'; //end of body of content
         bio += '</div>'; //end of overlay
-        bio += '<p class="bio-name hidden-xs">' + teamMember.first + ' ' + teamMember.last + '</p>';
-        bio += '<p class="bio-role hidden-xs">' + teamMember.role + '</p>';
-        bio += '<p class="bio-name visible-xs">' + teamMember.first + ' ' + teamMember.last + ', ' + teamMember.role + '</p>';//bio info for mobile
+        bio += '<p class="bio-name">' + teamMember.first + ' ' + teamMember.last + ', ' + teamMember.role + '</p>';
+
+        if (teamMember.twitter !== 0) {
+          // console.log teamMember.twitter
+          bio += '<p class="bio-role hidden-xs"><a target="_blank" class="bio-twitter" href="http://www.twitter.com/' + teamMember.twitter + '">@' + teamMember.twitter + '</a>';
+        }else if (teamMember.instagram !== 0){
+          bio += '<p class="bio-role hidden-xs"><a target="_blank" class="bio-instagram" href="http://www.instagram.com/' + teamMember.instagram + '">@' + teamMember.instagram + '</a>';
+        } else {}
+
+        if (teamMember.website !== 0) {
+          bio += ' | ' + '<a target="_blank" class="bio-website" href="http://www.' + teamMember.website + '">' + teamMember.website + '</a></p>';
+        }
+
+
+
+        // bio += '<p class="bio-role hidden-xs">' + teamMember.role + ': ' + teamMember.story + '</p>';
+
+        // bio += '<p class="bio-name visible-xs">' + teamMember.first + ' ' + teamMember.last + ', ' + teamMember.role + ', ' + teamMember.story + '</p>';//bio info for mobile
 
         //mobile social media
         if (teamMember.twitter !== 0) {

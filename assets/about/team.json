@@ -1,86 +1,50 @@
 [
   {
-    "Timestamp": "4/10/2016 12:26:03",
-    "first": "Aleah",
-    "last": "Howell",
-    "role": "Designer",
-    "bio": "Aleah is a first-year masters student in visual journalism from Willow Spring, NC. She is interested in how new media creates an intersection between journalism and activism.",
-    "twitter": 0,
-    "instagram": "amhowell",
-    "website": "aleahhowell.com"
-  },
-  {
-    "Timestamp": "4/9/2016 19:12:37",
-    "first": "Alexis",
-    "last": "Barnes",
-    "role": "Developer",
-    "bio": "Alexis Barnes, aka the 360 Stitch Master, is a junior, studying multimedia journalism, media production, and history. Alexis is a developer for the Old Man At Sea story and works with post-production of the 360 videos. At any time she can be spotted sitting at a computer listening to music.",
-    "twitter": "LexiNicole06",
-    "instagram": 0,
-    "website": "alexisbarnes.com"
-  },
-  {
-    "Timestamp": "4/11/2016 17:38:43",
-    "first": "Andrea",
-    "last": "Roberson",
-    "role": "Developer",
-    "bio": "Andy Roberson is from Iron Station, NC. She is majoring in Multimedia and minoring in computer science. When she’s not coding, she enjoys eating jelly beans and imagining a world where George R.R. Martin actually publishes a book when he says he will.",
-    "twitter": "andyroberson22",
-    "instagram": 0,
-    "website": "andrearoberson.com"
-  },
-  {
-    "Timestamp": "4/11/2016 10:14:39",
-    "first": "Anna Clare",
-    "last": "Spelman",
+    "first": "Alissa",
+    "last": "Alba",
     "role": "Videographer",
-    "bio": "Anna is a first year MA student studying visual journalism. Prior to coming to UNC, she spent three years freelancing in Cambodia, where she learned to love homemade noodles, extremely hot weather, street dogs, and long bike rides. Anna is passionate about telling empowering stories about women.",
-    "twitter": 0,
-    "instagram": "annaclarespelman",
-    "website": "annaclarespelman.com"
-  },
-  {
-    "Timestamp": "4/10/2016 0:06:29",
-    "first": "Anne Marie",
-    "last": "Hagerty",
-    "role": "Reporter",
-    "bio": "Anne Marie Hagerty is a Broadcast Journalism major with a History and Music minor at the UNC-Chapel Hill and works as an Assignment Editor for NBC-affiliate, WRAL-TV News, on the weekends. Anne Marie is pursuing a career as an international political news reporter with a focus on humanitarian issues. Anne Marie likes to play anything by Chopin on the piano, pretend she is good at running, indulge with coffee ice cream and watch New Girl in her free time.",
-    "twitter": "annemarieh2106",
+    "bio": "Alissa is a photojournalism and anthropology major from Cary, N.C. She dreams of and aspires to help create a world where chickens can cross the road without being questioned. Her camera is her tool to spark conversations about the seemingly insignificant.",
+    "twitter": "alissalalba",
     "instagram": 0,
     "website": 0
   },
   {
-    "Timestamp": "4/10/2016 13:55:31",
-    "first": "Caroline",
-    "last": "McKinley",
-    "role": "Developer",
-    "bio": "Caroline is a Multimedia major and Studio Art minor who loves to create. She appreciates life's beauty and hopes use her skills to share that beauty with the world.",
-    "twitter": "carolmckinleyy",
-    "instagram": 0,
-    "website": "9ine5ive.com"
+    "first": "Sophia Nahli",
+    "last": "Allison",
+    "role": "Videographer",
+    "bio": "Sophia Nahli is a graduate student studying visual journalism. She is from Los Angeles, CA. Sophia is a black kween and believes Jimi Hendrix is her spirit animal.",
+    "twitter": 0,
+    "instagram": "yagurlsophia",
+    "website": "sophianahliallison.com"
   },
   {
-    "Timestamp": "4/11/2016 19:10:25",
+    "first": "Paris",
+    "last": "Alston",
+    "role": "Videographer",
+    "bio": "A senior double majoring in broadcast journalism and global studies, Paris aspires to help people of all cultures and ages tell their own stories via citizen journalism. In addition to work in Panama, she has used her writing and video production skills to tell stories across North Carolina, as well as in Philadelphia, PA., Singapore, Malaysia, Thailand and Morocco. Paris loves telling and being told stories that touch on race, culture and lived experience.",
+    "twitter": "bonjourparis_",
+    "instagram": 0,
+    "website": "parisalston.wordpress.com"
+  },
+  {
     "first": "Carolyn",
     "last": "Bahar",
     "role": "Designer",
-    "bio": "Carolyn Bahar is a freelance designer and illustrator. She likes to draw food and tinker with type. She is very interested in the intersection between products (physical or digital) and branding.",
+    "bio": "Carolyn is a freelance designer and illustrator. She likes to draw food and tinker with type. She is very interested in the intersection between physical and digital products and the branding behind them.",
     "twitter": 0,
     "instagram": "CarolynBahar",
-    "website": "carolynbahar.com"
+    "website": "www.carolynbahar.com"
   },
   {
-    "Timestamp": "4/10/2016 18:57:59",
-    "first": "Casey",
-    "last": "Toth",
-    "role": "Videographer",
-    "bio": "Casey Toth is a visual journalist, native to North Carolina, with a consistent hankering for good food and open spaces. She loves telling stories about our food production system, big or small, and the resulting environmental impacts, good or bad. Working on \"Built with Bananas\" was a dream come true for her.",
-    "twitter": 0,
-    "instagram": "casey_toth",
-    "website": "caseytoth.com"
+    "first": "Alexis",
+    "last": "Barnes",
+    "role": "Developer/360 Stitcher",
+    "bio": "Alexis, aka the 360 Stitch Master, is a junior studying multimedia journalism, media production, and history. Alexis is a developer for �The Watchman� on this site and works with post-production of the 360 videos. At any time she can be spotted sitting at a computer listening to music.",
+    "twitter": "LexiNicole06",
+    "instagram": 0,
+    "website": "www.alexisbarnes.com"
   },
   {
-    "Timestamp": "4/11/2016 19:04:25",
     "first": "Claire",
     "last": "Collins",
     "role": "Videographer",
@@ -90,67 +54,186 @@
     "website": "clairehannahcollins.com"
   },
   {
-    "Timestamp": "4/11/2016 10:52:29",
-    "first": "Clare",
-    "last": "Fieseler",
+    "first": "Nacho",
+    "last": "Corbella",
     "role": "Coach",
-    "bio": "Clare Fieseler is a PhD Candidate in Ecology. Her research focus on coral reef ecology and conservation. Her photography is represented by National Geographic Creative. Her career bridge science and media but she's really in it for the love of maniacally off-roading in far off places.",
-    "twitter": "clarefieseler",
+    "bio": "Be it in the field chasing wild bulls with gauchos in Patagonia or behind the desk editing the lives behind the making of a t-shirt, Nacho�s passion is using storytelling to portray human nature. His work has been published by National Geographic, NPR, The New York Times, The Washington Post, Time magazine and Univision. �Additionally, some of his most rewarding assignments have come through UNHCR, where he works �with internally displaced communities as well as refugees around the world.",
+    "twitter": "nachocorbella",
     "instagram": 0,
-    "website": "cfieseler.com"
+    "website": "nachocorbella.com"
   },
   {
-    "Timestamp": "4/11/2016 19:28:03",
-    "first": "Cori",
-    "last": "Dymond",
-    "role": "Developer",
-    "bio": "Cori is a senior graphic design and interactive multimedia major who loves being artistic and creative and hates writing team bios. She was born and raised in Winter Park, Florida and has loved art and design since she was a little girl. She has hated writing bios since the past 3-4 minutes, but she anticipates that the feeling will last.",
-    "twitter": "coridymond",
-    "instagram": 0,
-    "website": "coridymond.com"
-  },
-  {
-    "Timestamp": "4/11/2016 13:23:16",
-    "first": "Janell",
-    "last": "Smith",
-    "role": "Reporter",
-    "bio": "Poems and prose and creating pathos. This is what Janell is made of. A senior majoring in journalism and global studies, Janell has used her writing and reporting to promote public service, social justice and participation in local government. She plans to combine her passion for writing and the community as she pursues her juris doctor in immigration law.",
-    "twitter": "JayKae_",
-    "instagram": 0,
-    "website": "janellksmith.com"
-  },
-  {
-    "Timestamp": "4/9/2016 22:38:44",
-    "first": "Justina",
-    "last": "Vasquez",
-    "role": "Reporter",
-    "bio": "Justina is a writer on the project and a junior at UNC-Chapel Hill majoring in business journalism with an ~unofficial~ minor in data journalism & visualization. She enjoys being part of innovation in the media industry and prefers jazz music and \"Grey's Anatomy\" to many other pastimes.",
-    "twitter": "helloimjustina",
-    "instagram": 0,
-    "website": "https://justinavasquez.me"
-  },
-  {
-    "Timestamp": "4/11/2016 13:01:41",
     "first": "Kira",
     "last": "Dalman",
     "role": "Videographer",
-    "bio": "Kira Dalman is a junior at UNC Chapel Hill. She is a photojournalist major from Asheville, NC. Kira enjoys hiking, reading, traveling and spending time with her family.",
+    "bio": "Kira is a junior at UNC-Chapel Hill. She is a photojournalism major from Asheville, N.C. Kira enjoys hiking, reading, traveling and spending time with her family.",
     "twitter": 0,
     "instagram": "kddalman",
     "website": "kiradalman.com"
   },
   {
-    "Timestamp": "4/11/2016 2:39:00",
-    "first": "Kristi",
-    "last": "Walker",
-    "role": "Developer",
-    "bio": "Kristi is an senior from Albemarle, NC studying design and interactive storytelling at UNC-Chapel Hill. She hopes to pursue a career as a developer in visual journalism. If she's not at her computer, she's likely in the yoga studio or out hiking.",
-    "twitter": "kristi_walker",
-    "instagram": 0,
-    "website": "kristiwalker.com"
+    "first": "Pat",
+    "last": "Davison",
+    "role": "Coach",
+    "bio": "Pat has been teaching photo, video and documentary multimedia storytelling at UNC since 2001. During that time, he has produced more than 25 team multimedia projects from North Carolina to Buenos Aires and the Galapagos Islands to Thailand. These projects have been recognized by the Webby Awards, SXSW Interactive, Pictures of the Year International, The Best of Photojournalism, and others.",
+    "twitter": 0,
+    "instagram": "patdavison",
+    "website": "patdavison.com"
   },
   {
-    "Timestamp": "4/11/2016 18:55:29",
+    "first": "Dillon",
+    "last": "Deaton",
+    "role": "Videographer",
+    "bio": "Dillon is a senior photojournalism student at UNC. He strives to satisfy his journalistic curiosity and explore the world around him through human-interest stories. Dillon likes to travel, go on long road trips and explore life outside of the city.",
+    "twitter": 0,
+    "instagram": "Dillondeaton",
+    "website": "dillondeaton.com"
+  },
+  {
+    "first": "Cori",
+    "last": "Dymond",
+    "role": "Developer",
+    "bio": "Cori is a senior graphic design and interactive multimedia major who loves being artistic and creative and hates writing team bios. She was born and raised in Winter Park, Florida, and has loved art and design since she was a little girl. She has hated writing bios since the past 3-4 minutes, but she anticipates that the feeling will last.",
+    "twitter": "coridymond",
+    "instagram": 0,
+    "website": "coridymond.com"
+  },
+  {
+    "first": "Clare",
+    "last": "Fieseler",
+    "role": "Coach/Token Scientist",
+    "bio": "Clare is a Ph.D. candidate in Ecology at UNC. Her research focuses on coral reef ecology and conservation, and her photography is represented by National Geographic Creative. Her career bridges science and media, but she's really in it for the wild off-roading in far off places.",
+    "twitter": "clarefieseler",
+    "instagram": 0,
+    "website": "cfieseler.com"
+  },
+  {
+    "first": "Anne Marie",
+    "last": "Hagerty",
+    "role": "Reporter",
+    "bio": "Anne Marie is a broadcast journalism major with a history and music minor at UNC-Chapel Hill and works as an assignment editor for NBC-affiliate WRAL-TV News on the weekends. Anne Marie is pursuing a career as an international political news reporter with a focus on humanitarian issues. Anne Marie likes to play anything by Chopin on the piano, pretend she is good at running, indulge with coffee ice cream and watch New Girl in her free time.",
+    "twitter": "annemarieh2106",
+    "instagram": 0,
+    "website": 0
+  },
+  {
+    "first": "Aleah",
+    "last": "Howell",
+    "role": "Designer",
+    "bio": "Aleah is a first-year master�s student in visual journalism from Willow Spring, N.C. She is interested in how new media creates an intersection between journalism and activism.",
+    "twitter": 0,
+    "instagram": "amhowell",
+    "website": "www.aleahhowell.com"
+  },
+  {
+    "first": "Steve",
+    "last": "Johnson",
+    "role": "Coach",
+    "bio": "Steve is a communications strategist and producer based in Washington, D.C. His work focuses on using storytelling to help people by working with nonprofits, NGOs, foundations and news organizations. His work has been featured in The New York Times, the Miami Herald, Reuters, ESPN and The Weather Channel. �",
+    "twitter": 0,
+    "instagram": "Journo2Go",
+    "website": "Journo2Go.com"
+  },
+  {
+    "first": "Tegan",
+    "last": "Johnston",
+    "role": "Videographer",
+    "bio": "Tegan is a senior photojournalism major from Raleigh, N.C. Her friends know her as the \"Sloth Whisperer.",
+    "twitter": 0,
+    "instagram": "teganjo",
+    "website": "teganjohnston.com"
+  },
+  {
+    "first": "Steven",
+    "last": "King",
+    "role": "Coach/Quadcopter Pilot",
+    "bio": "Steven is a professor to Tar Heels and a former muckraker for The Washington Post. As a master of computer science, he works with various technologies, such as virtual reality, to tell stories.",
+    "twitter": "steven_king",
+    "instagram": 0,
+    "website": "steventking.com"
+  },
+  {
+    "first": "Michelle",
+    "last": "Lotker",
+    "role": "Videographer",
+    "bio": "Michelle is a visual storyteller with photo, video and graphic storytelling chops. She loves listening to people's stories, learning new things, discovering the unexpected and uses her camera as an excuse to be nosy... in a good way.",
+    "twitter": 0,
+    "instagram": "sheli1014",
+    "website": "michellelotker.com"
+  },
+  {
+    "first": "Brittany Renee",
+    "last": "Mayes",
+    "role": "Project Manager/Developer",
+    "bio": "Brittany is an awkward human who has a passion for spinning visual stories from simple lines of code. She claims she is of above average height, has an above average interest in Sassy CSS and has an above average knack for making something from nothing. Brittany is easily amused, and (when she has time) enjoys watching Hulu/Netflix, cooking new recipes and telling fantastic jokes about deer.",
+    "twitter": "BritRenee_",
+    "instagram": 0,
+    "website": "brmayes.com"
+  },
+  {
+    "first": "Krista",
+    "last": "McGuire",
+    "role": "Designer",
+    "bio": "Krista is a 2016 graduate of UNC's School of Media and Journalism with a specialization in editing and graphic design. She's currently trying to reconcile her passion for design and youth ministry with a longing to go back to Australia, where she studied abroad. She's grateful for everything UNC has given her the chance to experience, including getting to know and learn from some of the Ng�be indigenous people of Panama.",
+    "twitter": "kayceeehm",
+    "instagram": 0,
+    "website": "kristacherrelle.com"
+  },
+  {
+    "first": "Caroline",
+    "last": "McKinley",
+    "role": "Developer",
+    "bio": "Caroline is a multimedia major and studio art minor who loves to create. She appreciates life�s beauty and hopes to use her skills to share that beauty with the world.",
+    "twitter": "carolmckinleyy",
+    "instagram": 0,
+    "website": "9ine5ive.com"
+  },
+  {
+    "first": "Andrea",
+    "last": "Roberson",
+    "role": "Developer",
+    "bio": "Andrea is from Iron Station, N.C. She is majoring in multimedia and minoring in computer science. When she�s not coding, she enjoys eating jelly beans and imagining a world where George R.R. Martin actually publishes a book when he says he will.",
+    "twitter": "andyroberson22",
+    "instagram": 0,
+    "website": "andrearoberson.com"
+  },
+  {
+    "first": "Laura",
+    "last": "Ruel",
+    "role": "Coach",
+    "bio": "Laura put aside her duties as director of the MATC program to travel to the beautiful island of Bocas del Toro to coach students in design, usability and storytelling while sipping drinks poolside. She might also be the first person to suggest a usability and eye-tracking study while producing in the field. Prior to this project, she led �Powering a Nation� to numerous awards.",
+    "twitter": "lauraruel",
+    "instagram": "lauraruel",
+    "website": "lauraruel.com"
+  },
+  {
+    "first": "Kiersten",
+    "last": "Schmidt",
+    "role": "Designer/Developer",
+    "bio": "Kiersten is a first-year graduate student and interactive designer focused on data visualization and graphic storytelling. She prefers to code with her cat, Sebastian, curled up on her lap.",
+    "twitter": "SchmidtKiersten",
+    "instagram": 0,
+    "website": "kierstenschmidt.com"
+  },
+  {
+    "first": "Patrick",
+    "last": "Seelinger",
+    "role": "Developer",
+    "bio": "Patrick is a media and journalism major from Raleigh, N.C. In addition to web development, he enjoys writing music and hiking.",
+    "twitter": "wcard_seelinger",
+    "instagram": 0,
+    "website": "patseelinger.com"
+  },
+  {
+    "first": "Janell",
+    "last": "Smith",
+    "role": "Reporter/Translator",
+    "bio": "Poems and prose and creating pathos. This is what Janell is made of. A senior majoring in journalism and global studies, Janell has used her writing and reporting to promote public service, social justice and participation in local government. She plans to combine her passion for writing and community as she pursues her juris doctor in immigration law.",
+    "twitter": "JayKae_",
+    "instagram": 0,
+    "website": "janellksmith.com"
+  },
+  {
     "first": "Mac",
     "last": "Snyder",
     "role": "Videographer",
@@ -160,73 +243,30 @@
     "website": "mac-snyder.com"
   },
   {
-    "Timestamp": "4/10/2016 15:53:37",
-    "first": "Michelle",
-    "last": "Lotker",
+    "first": "Anna Clare",
+    "last": "Spelman",
     "role": "Videographer",
-    "bio": "Michelle is a visual storyteller with photo, video and graphic story telling chops. She loves listening to people's stories, learning new things and discovering the unexpected and uses her camera as an excuse to be nosy...in a good way.",
+    "bio": "Anna is a first year M.A. student studying visual journalism. Prior to coming to UNC, she spent three years freelancing in Cambodia, where she learned to love homemade noodles, extremely hot weather, street dogs, and long bike rides. Anna is passionate about telling empowering stories about women.",
     "twitter": 0,
-    "instagram": "sheli1014",
-    "website": "michellelotker.com"
+    "instagram": "annaclarespelman",
+    "website": "annaclarespelman.com"
   },
   {
-    "Timestamp": "4/10/2016 9:46:36",
-    "first": "Paris",
-    "last": "Alston",
+    "first": "Casey",
+    "last": "Toth",
     "role": "Videographer",
-    "bio": "A senior double majoring in Broadcast Journalism and Global Studies, Paris aspires to help people of all cultures and ages tell their own stories via citizen journalism. In addition to Panama, she has used her writing and video production skills to tell stories across North Carolina, as well as in Philadelphia, PA, Singapore, Malaysia, Thailand, and Morocco. Paris loves telling and being told stories that touch on race, culture, and lived experience.",
-    "twitter": "bonjourparis_",
-    "instagram": 0,
-    "website": "parisalston.wordpress.com"
-  },
-  {
-    "Timestamp": "4/11/2016 8:40:45",
-    "first": "Patrick",
-    "last": "Seelinger",
-    "role": "Developer",
-    "bio": "Patrick Seelinger is a media and journalism major from Raleigh, NC. In addition to web development, he enjoys writing music and hiking.",
-    "twitter": "wcard_seelinger",
-    "instagram": 0,
-    "website": "patseelinger.com"
-  },
-  {
-    "Timestamp": "4/11/2016 11:19:10",
-    "first": "Sophia Nahli",
-    "last": "Allison",
-    "role": "Videographer",
-    "bio": "Sophia Nahli Allison is a graduate student studying visual journalism.  She is from Los Angeles, CA. Sophia is a black kween and believes Jimi Hendrix is her spirit animal.",
+    "bio": "Casey is a visual journalist native to North Carolina with a consistent hankering for good food and open spaces. She loves telling stories about our food production system, big or small, and the resulting environmental impacts, good or bad. Working on \"Built with Bananas\" was a dream come true for her.",
     "twitter": 0,
-    "instagram": "yagurlsophia",
-    "website": "sophianahliallison.com"
+    "instagram": "casey_toth",
+    "website": "caseytoth.com"
   },
   {
-    "Timestamp": "4/11/2016 18:57:43",
-    "first": "Tegan",
-    "last": "Johnston",
-    "role": "Videographer",
-    "bio": "Tegan Johnston is senior photojournalism major from Raleigh, NC. Her friends know her as the \"Sloth Whisperer.",
-    "twitter": 0,
-    "instagram": "teganjo",
-    "website": "teganjohnston.com"
-  },
-  {
-    "Timestamp": "4/11/2016 21:24:52",
-    "first": "Alissa",
-    "last": "Alba",
-    "role": "Videographer",
-    "bio": "Alissa is a Photojournalism and Anthropology major from Cary, NC. She dreams of and aspires to help create a world where chickens can cross the road without being questioned. Her camera is her tool to spark conversations about the seemingly insignificant.",
-    "twitter": "alissalalba",
+    "first": "Justina",
+    "last": "Vasquez",
+    "role": "Reporter",
+    "bio": "Justina is a writer on the project and a junior at UNC-Chapel Hill majoring in business journalism with an ~unofficial~ minor in data journalism & visualization. She enjoys being part of innovation in the media industry and prefers jazz music and Wes Anderson-esque films to many other pastimes.",
+    "twitter": "helloimjustina",
     "instagram": 0,
-    "website": 0
-  },
-  {
-    "Timestamp": "4/11/2016 21:29:52",
-    "first": "Steven",
-    "last": "King",
-    "role": "Coach",
-    "bio": "Steven King is a professor to tarheels and a former muckraker for the Washington Post. As a master of computer science he works with various technologies such as virtual reality to tell stories.",
-    "twitter": "steven_king",
-    "instagram": 0,
-    "website": "steventking.com"
+    "website": "justinavasquez.me"
   }
 ]
