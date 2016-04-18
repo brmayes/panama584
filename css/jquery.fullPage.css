@@ -132,7 +132,7 @@ html.fp-enabled,
 .fp-slidesNav ul li {
     display: block;
     width: 14px;
-    height: 14px;
+    height: 10px;
     margin: 7px -3px;
     position:relative;
 }
@@ -234,7 +234,7 @@ html.fp-enabled,
   border-style: solid;
   border-color: #DE7769 transparent transparent transparent;
   left: 16px;
-  top:15px;
+  top:25px;
   z-index: 50;
 }
 #fp-nav ul li:hover .fp-tooltip,
@@ -245,7 +245,7 @@ html.fp-enabled,
     opacity: 1;
     color: white;
     padding: 2px;
-    top: -12px;
+    top: -25px;
     left: 32px;
     text-align: center;
 }
