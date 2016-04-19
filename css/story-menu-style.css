@@ -548,6 +548,7 @@ body.has-active-menu {
 .c-buttons {
   margin-bottom: 48px;
   text-align: center;
+  margin-top: 2px;
 }
 
 .c-button {
@@ -673,7 +674,7 @@ body.has-active-menu {
 
   .x-button {
     width: 30px;
-    margin-left: 20%;
+    margin: 0 auto;
   }
 
   .home_links {

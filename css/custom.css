@@ -91,7 +91,7 @@
   text-align: center;
   float: left;
   position: relative;
-  top: -4px;
+  top: -5px;
   margin-right: 10px;
 }
 
@@ -388,6 +388,7 @@
   display: block;
   text-align: center;
   padding-top: 10px;
+  max-width: 45px;
 }
 
 .bounce {

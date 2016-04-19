@@ -49,6 +49,14 @@ h1 {
   color: #9D9994;
 }
 
+a {
+  color: #008B8F;
+}
+
+a:hover {
+  color: #DF7760;
+}
+
 /* Bottom Nav (footer) */
 #footer {
   position: fixed;
@@ -117,6 +125,14 @@ h1 {
 
 .container-video, .container-graphic {
   width: 70%;
+}
+
+.container-graphic .tourism {
+  height: 100%;
+}
+
+.h_iframe {
+  height: 100%;
 }
 
 .video-padding {
@@ -307,6 +323,13 @@ iframe {
   display: block;
   margin: 0 auto;
   width: 55%;
+  margin-top: 5%;
+}
+
+.arthead-chapter {
+  text-align: center;
+  color: #DF7760;
+  text-transform: uppercase;
 }
 
 .article_subhead {
@@ -317,6 +340,7 @@ iframe {
   width: 65%;
   margin: 15px auto;
   line-height: 22pt;
+  max-width: 825px;
 }
 
 .article_subtitle {
