@@ -100,7 +100,8 @@ h1 {
 }
 
 #footer .tabs .extra-nav {
-  line-height: 20px;
+  line-height: 17px;
+  padding-top: 4px;
 }
 
 .container-text, .container-video, .container-graphic {
@@ -310,11 +311,12 @@ iframe {
 
 .article_subhead {
   font-family: "CooperHewitt-Light", sans-serif;
-  font-size: 18pt;
+  font-size: 16pt;
   text-align: center;
   margin-top: 15px;
   width: 65%;
   margin: 15px auto;
+  line-height: 22pt;
 }
 
 .article_subtitle {
@@ -328,6 +330,9 @@ iframe {
 
 .article_credits {
   text-align: center;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 18pt;
 }
 
 .article_credits .article_by {
@@ -402,4 +407,38 @@ x-button {
     width: 20px;
     margin: 0 auto;
   }
+}
+
+.next-row, .previous-row {
+  margin-right: -40px;
+  padding-right: 15px;
+}
+
+.next-row .next-chapt-div, .previous-row .next-chapt-div {
+  padding-right: 0;
+}
+
+.next-row .prev-chapt-div, .previous-row .prev-chapt-div {
+  padding-left: 0;
+}
+
+.next-row .arrow-right, .previous-row .arrow-right {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.next-row .arrow-right img, .previous-row .arrow-right img {
+  width: 45%;
+  margin-right: 5px;
+}
+
+.next-row .arrow-left, .previous-row .arrow-left {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.next-row .arrow-left img, .previous-row .arrow-left img {
+  width: 45%;
+  margin-left: 5px;
+  float: right;
 }

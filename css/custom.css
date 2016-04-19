@@ -1,5 +1,17 @@
 /* General */
 
+/* Medium */
+@font-face {
+  font-family: 'CooperHewitt-Medium';
+  src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      //  url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../assets/fonts/Cooper-Hewitt/CooperHewitt-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
 #logo {
   width: 120px;
   top: 25px;
@@ -57,10 +69,10 @@
 #footer .chaptertab {
   text-align: left;
   padding-left: 55px;
-  padding-top: 6px;
-  color: #9C9994;
+  padding-top: 10px;
+  color: #DF7760;
   text-transform: none;
-  font-family: 'CooperHewitt';
+  font-family: 'CooperHewitt-Medium';
   font-size: 16pt;
   display: inline-block;
 }
@@ -126,7 +138,7 @@
 
 .chapter-label {
   font-family: 'Cooper Hewitt', sans-serif;
-  font-size: 16pt;
+  font-size: 14pt;
   font-weight: 500;
   border-bottom: 3px solid white;
   text-align: center;
@@ -135,12 +147,14 @@
 }
 
 .chapter-title {
-  font-family: 'Cooper Hewitt', sans-serif;
-  font-size: 12pt;
+  font-family: 'CooperHewitt-Medium', sans-serif;
+  font-size: 10pt;
   font-weight: 700;
   text-align: center;
-  padding: 10px 0 0;
+  padding: 8px 0 0;
 }
+
+
 
 .arrow {
   padding-top: 18px;
@@ -245,7 +259,7 @@
 
 .home_ul a .chapter_one:hover:after, .home_ul a .chapter_two:hover:after, .home_ul a .chapter_three:hover:after, .home_ul a .chapter_four:hover:after, .home_ul a .chapter_five:hover:after {
   font-size: 12.5pt;
-  font-family: 'CooperHewitt';
+  font-family: 'CooperHewitt-Medium';
   text-decoration: none;
   border-bottom: 2px solid white;
   padding-bottom: 5px;
@@ -373,7 +387,7 @@
   margin: 10px auto;
   display: block;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 
 .bounce {
